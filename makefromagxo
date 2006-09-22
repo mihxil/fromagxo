@@ -1,7 +1,7 @@
 echo Kreante iksan version...
 espilo iso px < fromagxo.tks > fromtks.fun 
 echo latex2html
-latex2html -split 4 -no_subdir -address '<a href="mailto:mihxil@esperanto.nu">Michiel Meeuwissen &lt;mihxil@esperanto.nu&gt;</a>' fromagxo.tex
+latex2html -split 4 -no_subdir -address '<a href="mailto:mihxil@gmail.com">Michiel Meeuwissen &lt;mihxil@gmail.com&gt;</a>' fromagxo.tex
 rm fromtks.fun
 rm index.html
 latehx
