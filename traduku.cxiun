@@ -1,0 +1,4 @@
+for dosiero in *html 
+do 
+  ./traduku $dosiero
+done

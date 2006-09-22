@@ -1,0 +1,3427 @@
+% -*-latex-*- 
+%  $Id$	
+%  FROMAØO,
+%  de Willem ELSSCHOT
+%  tradukis Michiel MEEUWISSEN
+%  Æi tio estas la teksto, en LaTeXa formato. Øi uzatas de `fromtex.tex',
+%  kiun  oni povas LaTeXigi, kaj `fromagxo.tex' kiu estas celita por la
+%  programo LaTeX2html por krei HTML-version. Eble estontece, kiam mi scias
+%  kiel fari tion, ekzistos nur unu dokumento.
+%
+%  Bv. sendi al mi æiun vian komentarion, pri æi tiu teksto.
+%  Michiel Meeuwissen
+%  Warande 39
+%  NL-3705 ZC  ZEIST
+%  +31/30/6952370
+%  mihxil@esperanto.nu
+%
+%  versio: 25a de aýgusto 1999
+
+\rim{Æi tiaj rimarkoj kutime estas nur tradukaj, kaj kaþeblas}
+
+%--------------------------------------------------------------------
+                   \cxapitro{Antaýparolo}
+\a{A.1}\noindent La flandro Willem Elsschot (1882-1960) -- pseýdonimo de
+Alfons de Ridder -- estas unu el la plej konataj Nederlandlingvaj
+antaýmilitaj verkistoj. Lia verkista stilo estas renoma pro sia koncizeco kaj
+observemo. Sed tamen øi estas ofte emocia, kortuþa aý cinika.
+
+\a{A.2}Por lerni esperanton kaj eble enkonduki Elsschot-on al esperantistoj, mi
+komencis provi traduki lian novelon `Kaas' (Fromaøo) kiun li verkis en la jaro
+1933. `Kaas' estis la libro per kiu li akiris konategecon, precipe en
+Nederlando. Aliaj bonkonataj noveloj de Elsschot estas ekz. `Villa des Roses'
+(1913) kaj `Lijmen/Het been' (1924/1938). Krome, li verkis sep aliajn novelojn
+kaj ankaý poemojn.
+
+\a{A.3}Verdire, `Kaas' ekzistas el tri partoj: Unue la dediæo kiu estas poemo
+pri la Nederlanda kritikisto kaj poeto Jan Greshoff, kiu kaýzis ke Elsschot
+skribis æi tiun libron. Due la enkonduko kiu verdire estas eseo pri stilo.  Kaj
+trie la vera rakonto kiu pli malpli estas verkita kiel leteroj de Frans
+Laarmans, kiu ne nur en cxi tiu novelo estas æefpersono kaj `alter ego' de la
+aýtoro. Tiuj leteroj estas kvazaý direktitaj al la leganto kaj temas pri la
+traviva¼oj de Frans Laarmans kiel fromaøkomercisto.
+
+\a{A.4}Pri la traduko mi volas rimarkigi ke mi nur estas komencanta esperantisto
+kaj pro tio øi certe estas plibonigebla. Tio veras ne nur pri la tradukado
+sed ankaý pri la esperanta lingvouzo mem.
+%Mi ne esperantigis la plej multajn nomojn nek akuzativigis ilin. Se franca
+%esprimo ne estas Nederlanda laý mi (ekz. `journal parl\'e' kaj  `participe
+%pass\'e'), mi ne tradukis øin.  Kaj se Elsschot emfazigis per  supersigno
+%(precipe en la enkonduko), mi tiel faris en la traduko.\rim{eble ne  tre bona
+%solvo}
+\\[2ex]
+Michiel Meeuwissen $<$mihxil@esperanto.nu$>$
+\cleardoublepage
+%-------------------------------------------------------------------------
+                   \cxapitro{Dediæo}
+\begin{center}
+AL JAN GRESHOFF\\[3ex]
+\rim{Jan Greshoff (1888-1971) estis Nederlanda poeto kaj kritikisto kiu
+ stimulis Elsschot-on por skribi æi tiun novelon.}
+\rim{La traduko de æi tiu poemo estas ankoraý duba.}
+\begin{minipage}{8cm}
+\begin{verse}
+%??????????????????????????????????????????????????????????????????????
+\a{D.1} 
+Mi tiun voæon silente aýskultas\\                         %  .-.-..-..-.
+kiu emfaze, sed raýke singultas, \\                       %  -..-..-..-.
+kiu malbenas kantante minore \\                           %  -..-..-..-.
+pri la homaro banala senglore.\\[2ex]                     %  ...-..-..-.
+ % Ik luister zwijgend naar die stem            % .-.-.-.-
+ % die hijgt en hees is, maar vol klem,         % .-.-.-.-
+ % die in mineur zingt bij 't verwensen         % .-.-...-.
+ % van 't alledaagse in de mensen.              % .-.-...-.
+%\html{}
+\a{D.2}
+Min altiras la buþ' dum sekund'\\                         %   ..-..-..-
+kaj malbone fermkreskis æi vund';\\                       %   ..-..-..-
+% fermkreskis : ne klare.
+li, per tiu, esprimas ridante,\\                          %   ..-..-..-.
+kion vortigis li tiel kredante.\\[2ex]                    %  -..-..-..-.
+%konstante          ADASISMO
+ % Ik volg de hoeken van die mond,              % .-.-.-.-
+ % een kwalijk toegegroeide wond                % .-.-.-.-
+ % die alles uitdrukt, als hij lacht,           % .-.-...-
+ % wat hij zo fel in woorden bracht.            % .-.-.-.-
+%\html{}
+\a{D.3}
+Li havas edzinon, idaron, gefratojn,\\                    %  .-..-..-..-.
+%konatojn         ADASISMO
+li havas karegajn kaj multajn amatojn\\                   %  .-..-..-..-.
+pro kiuj  plezuras li kiel neniu.\\                       %  .-..-..-..-.
+Sed tamen Jan Greshoff apartas de æiu.\\[2ex]             %  .-..-..-..-.
+% apartas??
+ % Hij heeft een vrouw en kroost en vrinden,    % .-.-.-.-.
+ % hij heeft een hele hoop beminden             % .-.-.-.-.
+ % waar hij plezier aan heeft als geen.         % .-.-.-.-
+ % Toch staat Jan Greshoff heel alleen.         % .-.-.-.-
+%\html{}
+\a{D.4}
+Dum æiu tago li seræas, esperas,\\                 % .-.-..-..-.
+atendas æiam kaj æiam suferas.\\                   % .-.-..-..-.
+Li ion aýdas, leviøas rapide:\\                    % .-.-..-..-.
+Li sian finon atendas mucide.\\[2ex]               % .-.-..-..-.
+ % Hij zoekt en kijkt, hij hoopt en wacht       % .-.-.-.-
+ % van d'ene nacht tot d'andere nacht.          % .-.-.-..-
+ % Hij hoort iets en komt overeind:             % .-.....-
+ % Hij wacht in Brussel op zijn eind.           % .-.-...-
+%\html{}
+\a{D.5}
+Hop do Jan kara, nu prenu rimenon,\\                     %    -..-..-..-.
+kaj kaýzu vipante teruran gehenon!\\                     %   .-..-..-..-.
+De via irejo forviþu la brutojn\\                        %   .-..-..-..-.
+øis travivas kor' via la lastajn minutojn.               %  ..-..-..-..-.
+ % Vooruit Janlief, hanteer de riem,            % .-.-.-.-
+ % en geef die rotzooi striem op striem!        % .-.-.-.-
+ % Vaag al dat vee van uwe baan                 % .-.-.-.-
+ % zo lang uw hart nog mee wil gaan.            % .-.-.-.-
+\end{verse}
+\end{minipage}
+\end{center}
+
+\cleardoublepage
+%-----------------------------------------------------------------------
+\pagestyle{plain}
+              \cxapitro{Enkonduko}
+
+\a{E.1}\noindent Buffon diris ke la stilo estas la homo mem. Pli koncize kaj
+pli øuste ne eblas diri. Sed sentemulon malmulte helpas tiu slogano, kiu tie
+staras kiel modelo eternigota de þtonhakisto. Æu tamen oni entute per vortoj
+povas iom komprenigi tion, kio stilo fakte estas?
+
+\a{E.2}El la plej alta stilstreæiøo la tragika¼o naskiøas. En la destino de
+homoj mem æio estas tragika. Pensu pri la vortoj de Ijob\rim{Mi ne trovis æi
+tion en la Biblio}. `Æi tie la koleruloj æesigis la ¼etiøadon, æi tie li, kiu
+senfortiøis, trovas ripozon,' kaj vi vidas apud viaj piedoj la svarmantan,
+sekskuniøantan, manøantan, preøantan homaron kaj apude þutlokon por tiuj kies
+lasta kramfo senmoviøis.  Stilo intense rilatas al la muziko, kiu kreskis el la
+homa voæo, per kiu oni øojkriis kaj plendis {\em antaý} ol tio ekzistis skribite. Kaj
+la tragika¼o rilatas al intenseco, al mezuro kaj harmonio, al haltopunktoj,
+variado de øojkrioj kun lantoj kaj gongobatoj, de simpleco kaj sincereco kun
+mokmalica rikanado.
+
+\a{E.3}Jen vi havas maron kaj super tiu, æielon. Unue, la bluan firmamenton
+tute plenigas kolosa rava¼o. Tiu, kiu foriras de blua æielo, kapablu krei
+æielon tiel blua kiel neniam iu reala æielo estis. La rigardanto estu tuj
+trafita de la rimarkinda bluo\rim{algemeen het blauw: la bluo, het blauwe: la
+blua¼o} de tiu firmamento, sen tio, ke oni diris al li `tiu æielo estas tre,
+{\em tre} blua'.  Li mem ja havas animon, kiu diras tion al li, æar stilon
+povas kompreni nur tiuj, kiuj havas animon.
+
+\a{E.4}Tiu æielo restu blua kaj netuþita tiel longe, øis la blua¼o komplete
+penetris lian animon. Sed ne {\em tro} longe, alimaniere li pensas
+`Jes\rim{Ja}, tiu æielo estas blua, tion oni ne povas nei, tion mi nun
+scias'. Kaj li turnas la dorson al via æielo por ekkonsiderado
+\rim{enkonsideriøi na analogie van: enpensiøo: in gedachte verzinken} sur
+nivelon individuan.
+%Kaj tuj kiam li
+%estas ekster viaj ungegoj, tiam vi ne persvadas lin je dua fojo sur la lokon de
+%el kie li alrigardu aý alsentu, almenaý ne per dua blua æielo.
+Kaj tuj kiam li estas ekster viaj ungegoj, tiam vi ne povas duafoje venigi lin
+al la loko, sur kiu li alrigardu aux alsentu, almenaux ne per dua blua cxielo.
+Ju pli intensa la bluo estas, des pli bone, æar des pli baldaý li estas tute
+okupata de tio. Kaj se vi komencas per nigra æielo, tiam la nigro tuj
+tinkturmakulu lian tutan haýton.
+
+\a{E.5}Kiam la blua rava¼o daýris sufiæe longe, tiam venas la unua nubeto per
+kiu li rimarkas ke li tie ne staras por fikse rigardi tiun bluan æielon øis la
+fino de siaj tagoj. Kaj iom post iom la blua¼o þrumpas øis æionkovra ¶aoso de
+nubograndega¼oj.
+
+\a{E.6}Gongobato anoncas la unuan nubeton kaj nova bato æiufoje procesion da
+novaj monstroj.
+
+\a{E.7}La unua gongobato ludas direktantan rolon, kiel la unua naskiøo en
+familio. La aliuloj naskiøas sammaniere, sed oni kutimiøas al æio, ankaý
+al akuþo, kaj la suprizo laýgrade malplifortiøas.
+
+\a{E.8}Tiu unua gongobato venu kiam æio estas pura kaj blua, amo kaj feliæo,
+kiam oni atendas æion escepte gongobaton. Øi avertu, øi øenu, sed ne
+ektimigu. Io kiel la `frato, vi devas morti' de tiuj mona¶oj\rim{mi ne konas
+tiujn mona¶ojn, kiuj ili estas?}, je iu somera posttagmezo. Øi estu donita, ho,
+tiel mallaýte. La viro demandu sin, kio tio estis? Se \'ankaý tio estis
+jubilado, tiam øi estis strangmaniera faro. Li, post tiu unua gongobato,
+ekmalfidu la bluan æielon kiel iu kiu subite gustumas ion en la manøo aý en la
+paca herbo subite vidas ion movi æe absoluta senvento. Li devas demandi sin æu
+li aýdis ion suspektan kaj æu tio tiea malproksima estas nubo. Estas dezirinde
+ke iom post tio li konkludu ke tio ne estis gongobato, sed ke io ne estas en
+ordo en la gorøo de la jubilantoj. Tio atingeblas nur se la unua bato estas
+farita mallaýte kaj ne daýras tro longe.
+
+\a{E.9}Vespere, vi sidas legante libron en forlasita domo. Kaj subite þajnas
+al vi ke povas esti ke vi eble aýdis ion. \rim{ebleble, eble ajn} Ne, la
+silento daýras kaj via koro ree iras sian apatian vojon.
+
+\a{E.10}Se la unua gongobato estas tro laýta, tiam nenio povas veni kio
+impresas. Tiam li pensas `nu, æu tion øi alcelas? Bone, okazu do'. Kaj tuj
+li þtopas siajn orelojn. Aý li batalas kontraý via kermesbruego per propra
+energio kaj mal\-ferm\-ad\-as siajn orelojn vaste, sciante ke li baldaý ne aýdos ion.
+Æar konstanta forta sono egalas perfektan silenton. Kaj la viro, kiu tiel
+subite ekgongobatadas, vere\rrim{wel} þajnas freneza mem.
+
+\a{E.11}Nu kiam tiu stranga blua æielo daýris ankoraý tempeton, tiam dua
+bato sekvas.
+
+\a{E.12}Tiu via viro nun vidas nubon kaj pensas `Mi do aýdis bone. Ne \'estis
+tio jubilado'. Kaj por esti certa, æar ankoraý li ne scias kion fari per tiu
+bluo, li seræas la unuan gongobaton en tio, kio jam estas pasinta. Se li
+klopodus tion, tiam li trovas øin kaj pensos `Kion mi diris, tio ne eskapis de
+mi'. Tamen li ne havas tutan certecon ke tiu unua estis donita antaýpripensite,
+{\em tiel} malforta øi estis, kaj {\em tiel} neatendita.
+
+\a{E.13}La viro en sia forlasita domo ekstaras kaj aýskultas. Kaj post tio,
+ili ekaldrivas. Laýgrade, plirapidiøante, la bluo forpremiøas kaj la
+grandega¼oj amasiøas. La gongobatoj sekvas unu la alian pli rapide kaj via
+viro jam antaývidas la venontajn batojn. Li mem volas preni la kondukadon,
+æar li pensas ke li navigas kaj ne konscias ke li estas navigata. Kiam li diras
+`N\'un la bato venas kiu disfaligos la turon, mi volas tion,' øuste tiam la
+gongo silentas kaj tra la nuboj blua makuleto iøas videbla.
+
+\a{E.14}Li pensas `nu, tio superas mian atendon. Eblis esti pli serioza\rim{'t
+Had erger kunnen zijn}. {\em Mi} estus disfaliginta la amason, tiukaze estus
+fino.' Li ne scias ke tiu bato nun ne povis veni, æar la bluo estas forgesita,
+æar la premmarko de la bluo viþiøis el lia animo. Kaj la bato en si mem ne
+estas la celo. La celo estas la bluo {\em kaj} la bato, la bluo se la bato
+estas atendata kaj la bato se oni denove eksuæas la bluon.
+
+\a{E.15}La viro en la malplena domo denove eksidas.
+
+\a{E.16}Kaj kiam dekafoje la spektanto vidis la bluon, æiun venontan fojon dum
+pli mallonga tempo, kaj pensas `jes\rim{ja}, nun mi scias, alceliøas la senæesa
+alternado de bluo kaj nubograndega¼oj', {\em tiam} la bato venas. Øi
+travibrosonas\rim{kobajo ne þatas tiajn a¼ojn} lian korpon kaj punktas lian
+haýton. La viro en la silenta domo volas ekstari, sed ne kapablas. Li ne estas
+tima, sed paralizita de la majesto de tiu unu gongobato. Li pensas `per tio vi
+ne regalu min denove' kaj preparas sin por kontraýstari la sekvan baton tiel,
+kiel en la cirko oni atendadas pistolpafojn æar unu pafiøis.
+
+\a{E.17}Li eraras, tio estis {\em la} bato.
+
+\a{E.18}Se vi volas fini per blua æielo, tiam povas ankoraý veni kelkaj
+batoj, sed tiuj estas nur formortado, ordigo, la fina flugilklakado de birdo.
+Se tamen vi mem estas tedata de tiu blua æielo, tiam estas fino, Amen kaj
+fino.
+
+\a{E.19}Li ankoraý sidas tie kiam nenio plu estas, nek gongobatoj nek
+nubograndega¼oj. Eæ ne blua æielo.
+
+\a{E.20}Li fermas vian libron kaj foriras, forgesinte sian æapelon.
+
+\a{E.21}Dumvoje li haltas momenton kaj murmuras: `Jen, kia afero.'\rim{was
+me dat een geschiedenis} Li turnas sin lastafoje, poste iras plue kaj
+malaperas el la horizonto. La necerteco de la tragikeco tuþis lian animon.
+
+\a{E.22}En la naturo, la tragikeco estas en la okazinta¼o mem. En la arto øi
+pli estas en la stilo ol en tio kio okazas. Oni povas pentri haringon tragika,
+kvankam pri tia besto nenio estas kio estas tragika per si mem. Kontraýe, ne
+estas sufiæe diri `Mia povra patro estas morta' por atingi tragikan efikon.
+
+\a{E.23}En la muziko, la abstrakteco de la tragikeco estas pli klara. La
+tragikecon de {\em Erlk\"onig} de Schubert ne plialtigas la vortoj de Goethe,
+%http://www.best.com/~donh/Esperanto/Literaturo/Poezio/elfrego.html
+kvankam infano estas strangolata en tiu. Male, tiu strangolado fortiras
+la atenton for de la tragika ritmo.
+
+\a{E.24}Samtiel en la literaturo, en kiu oni ne disponas gamojn kaj devas
+kontentigi sin per mizeraj vortoj. Kaj pro tio ke æiu vorto ja vekas bildon,
+per la sinsekvo de vortoj per si mem skeleto formiøas sur kiu stilo povas esti
+þmirata. Oni ne povas pentri sen iu surfaco.
+
+\a{E.25}Sed la skeleto mem estas akcesora¼o, æar la plej alta stilstreæiøo
+atingeblas æe la plej minimuma okazaro. Tuta Rodin estas tiel same kompleta en
+unu el tiuj manoj, kiel en la ensemblo de tiuj sep urbanoj de Kalezo kaj estas
+miraklo ke li persistis tiun streæon en æiuj tiuj dum urbanoj. Bonþance ne
+estis sepdek. Sama norma skeleto per malsamaj temperamentoj do surþmiriøos tiel
+tute alimaniere ke neniu, sub tiuj unu al la alia tutaj fremdaj produktoj,
+supozos saman ostaron. 
+%Estas æefafero ke oni akiras ion por manumi al kio oni
+%povas lasi liberon kuron kun memkontenteco per sia stilkolero.
+Æefafero estas ke oni ekhavu ion manipulotan, pri kio oni povas liberkure
+stilkoleri.  Pro tio oni devus liberlasi lernejanojn je la elekto de la temo
+kaj ne devigi tiujn kvindek sep tiel malsamajn kompatindulojn, en sama
+posttagmezo, priskribi la Printempon aý la Entombigon de Patrino. Kaj se unu al
+sia instruisto sendus leteron en kiu li diras kial li hodiaý rifuzas fari iun
+verka¼on, pri kio ajn, tiam tiu letero estu lia verka¼o.
+
+\a{E.26}La efekto, kiun oni volas atingi, estu konforma al ies propra
+animstato. Kiu mem estas en sincera bona humoro, ne provu generi tragikan
+impreson, alimaniere falsaj sonoj naskiøas kiuj aæigas la tuton. Se ne la
+gajeco estas uzata por enkadrigi seriozan streæon. Sed tiukaze tiu gajeco
+montru iun aparta¼on, tiel kiel la bluo de tiu æielo. Ekde la ekkanto, æar
+libro estas kanto, oni observadu la finakordon, de kiu io estu teksita tra la
+tuta rakonto, kiel la gvida ideo tra simfonio. La leganto laýgrade eksentu
+malkvieton, tiel ke li levas sian kolumon kaj pensas pri sia pluvombrelo dum
+la suno ankoraý staras en sia plena gloro.
+
+\a{E.27}Kiu ne æesas observadi la finon, per si mem evitos æiun
+tromultvortecon, æar li æiufoje demandos sin æu æiuj el liaj detaloj
+efektive\rrim{wel} kunhelpas atingi lian celon. Kaj jam baldaý li malkovras ke
+æiu paøo, æiu frazo, æiu vorto, æiu punkto, æiu komo proksimigas la celon aý
+tenas øin je distanco. Ja neýtraleco ne ekzistas en la arto.
+
+\a{E.28}Kio ne necesas, estu forpuþita kaj tie kie eblas per unu persono,
+amaso estas superflua.
+
+\a{E.29}En la arto oni ne rajtas provi. Ne provu insulti se vi ne estas
+kolera, ne plori se via animo estas drenita, ne øojkrii\rim{øenerale:
+juichen: øojkrii jubelen: jubili} tiel longe kiel\rim{(M)} vi ne estas plena
+de øojo. Oni povas provi baki panon, sed oni ne provas kreita¼on. Ankaý oni
+ne provas naski. Tie kie gravedeco ekzistas, sekvas la naskado\rim{naski?} per
+si mem, je konvena tempo\rim{siatempe?}.
+
+\cleardoublepage
+%-------------------------------------------------------------------------
+                \cxapitro{Personoj}
+
+Frans Laarmans, {\em skribisto æe la General Marine and Shipbuilding Company,
+poste negocisto, poste denove skribisto.} \rim{øenerale: ?  negocisto: koopman
+komercisto: koopman, zakenman aferisto: zakenman }
+
+La patrino de Laarmans {\em (spiritkaduka kaj mortanta)}.
+
+Kuracisto Laarmans, {\em frato de Frans.}
+
+Sinjoro Van Schoonbeke, {\em amiko de la kuracisto kaj la kulpo de æio.}
+
+Hornstra, {\em fromaønegocisto en Amsterdamo.}
+
+Fine, {\em edzino de Laarmans.}
+
+Jan kaj Ida, {\em iliaj infanoj.}
+
+Sinjorino Peeters, {\em najbarino kiu estas galfebrulo.}
+
+Anna van der Tak
+
+Tuil
+
+Erfurt
+
+Bartherotte
+
+{\em Skribistoj æe la General Marine.}
+
+Boorman, {\em konsilanto por komercistoj.}
+
+La maljuna Piet, {\em maþinisto æe la General Marine.}
+
+La juna Van der Zijpen, {kiu volas asocii sin.}
+
+Amikoj de Van Schoonbeke.
+
+\cleardoublepage
+%-----------------------------------------------------------------------
+                \cxapitro{Elementoj}
+
+Fromaøo. {\em Fromaørevo. Fromaøfilmo. Fromaøentrepreno.
+Fromaøtagiøo. Fromaøkampanjo. Fromaømino. Fromaømondo. Fromaøþipo.
+Fromaønegoco. Fromaøfako. Fromaøromano. Fromaømanøantoj. Fromaøhomo.
+Fromaøbulo. Fromaøisto. Fromaøtrusto. Fromaødrako. Fromaømizero.
+Fromaøtestamento. Fromaøfantazio. Fromaømuro. Fromaødemando.
+Fromaøveturilo. Fromaøaflikto. Fromaøturo. Fromaøvundo.}
+
+{\sc g.a.f.p.a.} {\em General Antwerp Feeding Products Association.}
+
+Kelo de l' staplokompanio Bluæapeloj.
+
+Oficejo de Laarmans {\em kun telefono, skribotablo kaj skribmaþino.}
+
+Triktrakskatolo.
+
+Korbovalizo.
+
+Granda fromaøbutiko.
+
+Tombejo.
+
+\cleardoublepage
+
+%---------------------------------------------------------------------------
+                   \cxapitro{I}
+
+\ax{Patrino}{1.1}Fine mi ree skribas al vi, æar grandaj aferoj estas okazontaj,
+estante per la agado de sinjoro Van Schoonbeke.
+
+\a{1.2}Sciu ke mia patrino mortis.
+
+\a{1.3}Estis kompreneble malagrabla afero, ne nur por þi sed ankaý por miaj
+fratinoj, kiuj preskaý øis propra morto lacigis sin por gardi þin.
+
+\a{1.4}Þi estis maljuna, tre maljuna. Mi ne scias þian aøon pli precize
+ol per kelkaj jaroj. Vere malsana þi ne estis, sed øisfunde eluzita.
+
+%Op een paar jaar na weet ik niet precies hoe oud zij was.
+
+\a{1.5}Mia plej maljuna fratino, æe kiu þi loøis, estis bona por þi. Þi
+trasorbigis þian panon, zorgis pri fekado kaj donis al þi terpomojn
+senþeligotajn\rim{por senþeligi?} por teni þin okupata. Þi senþeligis,
+senþeligis, kvazaý por armeo. Ni æiuj portis niajn terpomojn al mia
+fratino kaj þi ankaý ricevis tiujn de la superetaøa sinjorino kaj de kelkaj
+najbaroj, æar kiam oni provis igi þin ankoraý unu fojon resenþeligi sitelon
+da jam senþeligitaj terpomoj, pro manko de provizo, tiam þi rimarkis kaj
+efektive diris `tiuj estas jam senþeligitaj'.
+
+\a{1.6}Kiam þi ne plu kapablis senþeligi, æar manoj kaj okuloj ne plu bone
+kunlaboris, tiam mia fratino donis al þi por disfibrigi\rim{disfibrigotan}
+lanon kaj kapokon, kiun surdormado degenerigis en malmolajn floketojn. Tio
+kaýzis multan polvon kaj patrino estis tute flokkovrita, de la kapo øis la
+piedoj.
+
+\a{1.7}Tiele, daýradis æiam, kaj dumnokte kaj dumtage: duondormi, disfibrigi,
+duondormi, disfibrigi. Kaj de tempo al tempo rideto interrompis tion. Dio scias
+al kiu.
+
+\a{1.8}Pri mia patro, kiu estis morta nur proksimume kvin jarojn, þi nenion plu
+sciis. Tiu neniam estis ekzistinta, kvankam ili havintis naý infanojn.
+
+\a{1.9}Kiam mi vizitis þin, mi kelkfoje parolis pri li por tiel provi
+rekonsciigi þin.
+
+\a{1.10}Mi tiaokaze demandis þin, æu þi vere ne plu konas Krist-on, æar tiel li
+estis nomita.
+
+\a{1.11}Þi terure uzis æiujn fortojn por kompreni min.
+
+\a{1.12}Þi þajnis kompreni ke þi komprenu ion, þi venis antaýen en sia
+seøo kaj rigardis min kun streæita vizaøo kaj þvelantaj dormvejnoj:
+estingiøanta lampo kiu riskas eksplodon kiel adiaýon.
+
+\a{1.13}Post mallonga tempo la sparko reestingiøis kaj tiam þi donis tiun
+nervoþiran rideton\rim{kiu iris øis la osta medolo}. Se mi insistis tro
+longtempe, þi ektimis.
+
+\a{1.14}Ne, la pasinteco ne plu ekzistis por þi.  Ne Krist, ne infanoj, nur
+ankoraý ka\-pok\-dis\-fibrigado.
+
+\a{1.15}Unu afero ankoraý fantomis en þia kapo, nome ke lasta malgranda
+hipoteko de unu el þiaj domoj ne estis finpagita. Æu þi volis ankoraý unue
+kolekti tiun lastan monsumeton?
+
+\a{1.16}Mia virta fratino parolis pri þi, kie þi æesidis, kiel pri iu kiu
+forestas: `Þi bone manøis. Þi estis tre øena hodiaý.'
+
+\a{1.17}Kiam þi ne plu kapablis kapokdisfibrigi, þi sidis ankoraý iomtempe kun
+siaj bluaj artikaj manoj paralelaj sur sia sino aý gratis sian seøon dum multaj
+horoj, kvazaý la disfibrigado ankoraý postefikis. Þi ne plu distingis hieraý de
+morgaý. Ambaý nur signifis: `ne nun'.  Æu tion kaýzis ke þia vido malfortiøis
+aý æu ke æiutempe fispiritoj rajdis sur þi? Æiel, þi ne sciis æu estas tago aý
+nokto, ellitiøis kiam þi devis kuþi kaj dormis kiam þi devus paroli\rim{..had
+moeten praten..}.
+
+\a{1.18}Se þi kroæis murojn kaj meblojn, tiam þi ankoraý povis iom
+paþi. Dumnokte, kiam æiuj dormis, þi ellitiøis, mallerte iris en sian seøon kaj
+komencis disfibrigi kapokon kiu ne estis, aý seræis tiom longe øis þi kaptis la
+kafmuelilon, kvazaý þi intencis pretigi kafon por iu samideulo.
+
+\a{1.19}Kaj æiamas tiu nigra æapelo sur þia griza kapo, ankaý dumnokte,
+kvazaý þi pretus por eliri. Æu vi kredas je soræado?
+
+\a{1.20}Fine þi kuþiøis kaj kiam þi senkontraýstare lasis forpreni tiun
+æapelon, mi sciis ke þi ne plu ellitiøos.
+
+%--------------------------------------------------------------------------
+                   \cxapitro{II}
+
+\ax{La morto de patrino}{2.1}Tiun vesperon mi kartludis øis noktomezo en la Tri
+Reøoj kaj trinkis kvar glasojn da pala elo, tiel ke mi estis en plej bona
+kondiæo por tre facile tradormadi la tutan nokton.
+
+\a{2.2}Mi provis plejeble silente senvestigi min, æar mia edzino dormis jam
+longtempe kaj mi ne þatas tiun riproæadon.\rim{M: tedan ripetadon. mi ne
+tre þatas tiun esprimon. Mi þanøis al 'riproæadon'.}
+
+\a{2.3}Tamen kiam mi ekstaris sur unu kruro por demeti mian unuan þtrumpon,
+mi falis kontraý la noktotablon kaj þi subite vekiøis.
+
+\a{2.4}`Hontu,' komenciøis.
+
+\a{2.5}Kaj post tio la sonorilo sonis tra nia silenta domo, kaj tial mia edzino
+eksidis rekte.
+
+\a{2.6}Dumnokte, tia sonorilsono estas solena.
+
+\a{2.7}Ni ambaý atendis øis la resonado en la þtuparejo estis formortinta,
+mi kun batanta koro kaj kun mia dekstra piedo en miaj manoj.
+
+\a{2.8}`Kio tio povas esti?' flustris þi. `Rigardu tra la fenestro, vi ja
+estas nur duone senvestiøinta.'
+
+\a{2.9}Kutime ne æi tiel finiøis, sed tiu sonorilo silentigis þin.
+
+\a{2.10}`Se vi ne tuj iras rigardi, tiam mi iros mem,' minacis þi.
+
+\a{2.11}Sed mi sciis kio tio estas. Kio alia povis esti?
+
+\a{2.12}Mi vidis ombron stari antaý nia pordo, kaj øi kriis ke øi estas Oscar
+kaj petis min tuj kuniri al patrino. Oscar estas unu el miaj bofratoj, viro
+nemalhavebla æe æi tiaj okazoj.
+
+\a{2.13}Mi diris al mia edzino pri kio temas, vestigis min kaj iris malfermi
+la pordon.
+
+\a{2.14}`Okazos æi-nokte,' garantiis mia bofrato. `La agonio komenciøis. Kaj
+sur¼etu þalon, æar malvarmas.'
+
+\a{2.15}Mi obeis kaj iris kun li.
+
+\a{2.16}Ekstere, silentis kaj serenis, kaj ni vigle paþadis, kiel duo kiu
+rapidas al iu nokto\-laboro.
+
+\a{2.17}Veninte apud la domon, mi maþine etendis la manon al la sonorilo, sed
+Oscar retenis min, demandis æu mi freneziøis kaj igis la leterkeston
+mallaýte klaki.
+
+\a{2.18}Nin envenigis mia nevino, filino de Oscar. Neaýdeble þi fermis la
+pordon malantaý ni kaj diris, ke mi ja supreniru, kion mi ankaý faris, sekvante
+Oscar-on. Mi forprenis mian æapelon, kio alie hejme æe patrino ne kutimis.
+
+\a{2.19}Mia frato, miaj tri fratinoj kaj la superetaøa sinjorino sidis en la
+kuirejo, flanke de la æambro kie þi supozeble ankoraý kuþis. Kie þi
+kuþus alikaze.
+
+\a{2.20}Maljuna mona¶ino, cetere kuzino de ni, neaýdeble glitis al la kuirejo
+kaj tiam do returnis.
+
+\a{2.21}Æiuj rigardis min kvazaý ili povis riproæi min pro io kaj unu el
+ili lispante bonvenigis min.
+
+\a{2.22}Æu mi devis stari aý sidi?
+
+\a{2.23}Stari, tiel þajnus ke mi tenas min preta por tuj foriri. Kaj sidi,
+kvazaý mi kontentiøis pri la tuta situacio, ankaý pri tiu de patrino. Sed tial
+ke ili æiuj estis sidantaj, ankaý mi prenis seøon kaj iom izolite eksidis,
+ekster la lumo de la lampo. Neordinara streæo regis. Æu eble pro tio ke la
+horloøo estis haltigita?
+
+\a{2.24}Estis diable varme en tiu kuirejo. Kaj aldone, tiu virinaro kun
+þvelintaj okuloj, kvazaý ili senþeligis cepojn.
+
+\a{2.25}Mi ne sciis kion mi povus diri.
+
+\a{2.26}Demandi kiel patrino fartas, ne eblis, æar æiu sciis ke nun la
+kabloj estas malligataj.\rim{Mi ne scias la esprimon `de kabels losgooien'. Mi
+konkludis ke øi estas inventa¼o de Elsschot. Pro tio mi tradukis øin
+laývorte.}
+
+\a{2.27}Plori estintus\rim{zou beste geweest zijn.. estinta} plej bone, sed
+kiel komenci? Subite aýdigi plorsingulton? Aý preni mian naztukon kaj viþi
+miajn okulojn, æu malsekajn aý ne malsekajn?
+
+\a{2.28}Tiu mizera pala elo ekefikis nur nun, supozeble kaýzite de la varmego
+en tiu malgranda kuirejo, tiel ke mi ekþvitis.
+
+\a{2.29}Por fari ion, mi ekstaris. `Nu, iru do rigardi,' diris mia frato, kiu
+estis kuracisto.
+
+\a{2.30}Li tre normale parolis, ne tro laýte, sed tamen t\'{\i}el laýtvoæe ke
+mi nun certe sciis ke mia vesperpromenado ne maltrafos sian celon. Mi obeis
+lian konsilon, æar mi timis naýziøi pro tiu biero, pro la varmego kaj pro la
+etoso en tiu kuirejo. Ili atribuus tion al la emocio, sed imagu ke mi
+ekvomadus.
+
+\a{2.31}Æi tie malpli varmis kaj preskaý mallumis. Ankaý tio superis mian
+atendon.
+
+\a{2.32}Sur la noktotablo brulis soleca kandelo, kiu ne lumigis patrinon, altan
+sur þia lito, do þia mortbatalo ne øenis min. Nia kuzino, la mona¶ino, preøante
+sidis.
+
+\a{2.33}Kiam mi longtempe staris, tiam mia frato eniris, prenis la kandelon,
+tenis øin alta kvazaý en kuntoræa procesio, kaj lumigis patrinon.
+
+\a{2.34}Sendube, li vidis ion, æar li iris al la pordo kaj petis la kunularon
+enviciøi.
+
+\a{2.35}Mi aýdis ke seøoj estas forþovataj kaj jen ili estis.
+
+\a{2.36}Post momento, mia plej maljuna fratino diris ke estas finita, sed la
+mona¶ino kontraýdiris tion, dirante ke la du larmoj ne jam falis. Æu tiuj
+eble falu el patrino?
+
+\a{2.37} Do, æi æio prenis pli ol horon, dum kiu min daýre øenis tiu biero, sed
+tiam estis deklarita ke þi estas morta.
+
+\a{2.38}Kaj ili pravis, æar kiel ajn mi interne komandis þin rekte eksidi kaj
+dispeli la tutan bandon per þia terura rideto, tute ne efikis. Þi kuþis tiel
+senmove, kiel nur mortinto povas kuþi.
+
+\a{2.39}Do rapide okazis kaj malmulte mankis ke \rim{tiel diras M, mi ne tute
+kontentas} mi ne æeestis la aferon.
+
+\a{2.40}Mi tute malvarmiøis kiam la virina ¶oro ekploris kaj mi ne povis
+konsenti.
+
+\a{2.41}Kie do ili trovis æiujn tiujn larmojn, æar tiuj ne estis la unuaj, tion
+mi ja rimarkis laý iliaj vizaøoj. Bonþance ankaý mia frato ne ploris.  Sed li
+estas kuracisto kaj ili æiuj scias ke li kutimas al samspecaj scenoj, tiel ke
+mi do tamen embarasiøis.
+
+\a{2.42}Mi klopodis ripari æion. Mi æirkaýbrakis la virinojn kaj firme
+manpremis ilin. Mi opiniis ke estas senekzemple ke þi ¼us ankoraý vivis kaj nun
+ne plu.
+
+\a{2.43}Kaj subite miaj fratinoj æesigis \rim{aý æesis} la ploradon, iris preni
+akvon, sapon kaj mantukojn kaj komencis lavi þin.
+
+\a{2.44}La efiko de la biero estis nun tute pasinta, kio vere\rrim{wel} pruvas
+ke mi sentis minimume tiom da emocio kiom la aliuloj.
+
+\a{2.45}Mi denove sidigis min en la kuirejo øis oni pretis pri þia ornama¼o kaj
+tiam ni estis vokitaj ankoraý unufoje apud la liton.
+
+\a{2.46}En tiu mallonga tempo ili efektivigis multon kaj la kara kadavro
+verdire aspektis nun pli bone ol kiam øi vivis kaj ridis antaýen, senþeligante
+aý disfibrigante. `Onklino estas vere bela,' diris nia kuzino la mona¶ino,
+rigardante kun kontento la liton kaj patrinon.
+
+\a{2.47}Kaj þi devas scii, æar þi estas nigrafratino en Lier, speco kiu
+ekde sia juneco øis sia lasta tago estas sendata al unu malsanulo post la
+alia kaj sekve tre ofte æesidas kadavron.
+
+\a{2.48}Post tio, mia nevino pretigis kafon, kiun la virinoj tre\rrim{wel}
+meritis kaj Oscar estis permesita konfidi la entombigon al unu el siaj amikoj,
+kiu estas minimume same bona kaj malmultekosta kiel æiuj aliuloj. `Estas bone,
+Oscar,' diris mia plej maljuna fratino kun laca gesto, kvazaý þi eæ ne iomete
+interesiøis pri tiu prezodemando.
+
+\a{2.49}Mi vidis ke la kunesto baldaý finiøos, sed mi ne bone kuraøis doni
+ekzemplon\rim{het voorbeeld geven}, æar mi estis veninta laste.
+
+\a{2.50}Unu el miaj fratinoj oscedis dum þi ankoraý faligis kelkajn larmojn kaj
+tiam mia frato surmetis sian æapelon, ankoraýfoje manpremis æiun kaj iris.
+
+\a{2.51}`Mi do iros kun Karel,' nun diris mi. Tiuj estis, mi kredas, la unuaj
+vortoj, kiujn mi eligis. Ili povis impresi ke mi kuniras intence por Karel, æar
+ja eæ kuracisto povas bezoni konsolanton?
+
+\a{2.52}Kaj tiel mi eldomiøis.
+
+\a{2.53}Estis la tria kiam mi denove staris en nia dormoæambro kun mia piedo en
+la manoj, demetante mian þtrumpon.
+
+\a{2.54}Mi estis dormemega kaj por ne devi rakonti æion mi diris ke la situacio
+ne þanøiøis.
+
+\a{2.55}Pri la entombigo malmulto direblas. Tiu pasis normale kaj mi ne mencius
+øin, ne pli ol la tutan morton, se ne estus ke tiel mi rilatiøis kun sinjoro
+Van Schoonbeke.
+
+\a{2.56}Kiel kutime, mia frato, mi mem, mia bofrato kaj kvar kuzoj staris en
+duona luna ciklo æirkaý la æerko antaý ol øi estis forprenita. Malpli proksimaj
+parencoj, amikoj kaj konatoj nun envenis kaj rondiris, manprenante æiujn el ni,
+flustrante vorton de kompato aý fikse rigardante, rekte en miajn okulojn.
+Multaj venis, verdire multe tro multaj, mi opiniis, æar daýradis.
+
+\a{2.57}Mia edzino metis funebran brakbanton\rim{(M)} æirkaý mian brakon, æar
+mi interkonsentis kun mia frato ne igi fari funebran kostumon, æar tiu tiom
+malmulte utilus post la entombigo. Kaj la mizera banto certe estis tro larøa,
+æar øi daýre malsuprenglitis. Po tri aý kvar manprenoj, mi æiufoje devis
+suprenþovi øin. Kaj tiam ankaý venis sinjoro Van Schoonbeke, amiko kaj samtempe
+kliento de mia frato. Li faris kiel la aliuloj estis farintaj, sed pli þike kaj
+kun pli da modesteco.  Mondumano, tion mi ja vidis.
+
+\a{2.58}Li kuniris al la preøejo kaj al la tombejo kaj kiam æio estis aranøita
+li enpaþis kun mia frato en unu el la kaleþoj. Tie mi estis prezentita al li
+kaj li invitis min foje viziti lin. Kaj tion mi faris.
+
+%---------------------------------------------------------------------------
+                   \cxapitro{III}
+\ax{Van Schoonbeke}{3.1}Tiu sinjoro Van Schoonbeke apartenas al maljuna riæa
+familio. Li estas fraýlo kaj loøas sole en granda domo en unu el niaj plej
+belaj stratoj.
+
+\a{3.2}Monon li havas abunde kaj monon ankaý æiuj liaj amikoj havas. Plej ofte
+ili estas juøistoj, advokatoj, negocistoj, aý eksnegocistoj. Æiu membro de tiu
+societo posedas minimume unu aýton, escepte sinjoro Van Schoonbeke mem, mia
+frato kaj mi. Sed {\em kapablas} sinjoro Van Schoonbeke havi aýton, se li
+volus, kaj neniu scias tion pli bone ol liaj amikoj mem. Ili do opinias tion
+stranga kaj fojfoje diras `tiu diabla Albert'.
+
+\a{3.3}Estas io alia pri mia frato kaj mi.
+
+\a{3.4}Estante kuracisto, li ne havas bonan ekskuzon por ne havi aýton, des
+pli pro tio ke li biciklas kaj tiel evidentigas ke li ja povus uzi unu. Sed por
+ni, barbaroj, kuracisto estas sankta kaj staras apud la pastro. Sekve nur pro
+sia kuracisteco mia frato estas pli malpli prezentebla, ankaý sen aýto. Æar
+en sia medio sinjoro Van Schoonbeke øustadire ne rajtas havi amikojn sen mono
+aý titoloj.
+
+\a{3.5}Se ili eniras kaj suprizas lin kun fremdulo, tiam li prezentas la
+novulon tiel ke æiu pensas ke la viro estas minimume cent procentojn pli grava
+ol li estas. Æefon de distrikto, li nomas direktoro kaj kolonelo en civilaj
+vestoj prezentiøas kiel generalo.
+
+\a{3.6}Estis tamen malfacila kazo pri mi.
+
+\a{3.7}Vi scias ke mi estas skribisto æe la General Marine and Shipbuilding
+Company, tiel ke li havas nenion al kio eblas alkroæi. Neniu sankteco 
+estas en skribisto.
+
+\a{3.8}Li estas tute nuda sur la mondo.
+
+\a{3.9}Du sekundojn li pensis, ne pli, kaj prezentis min kiel `sinjoro
+Laarmans de la Æarpentaj Þipkonstruejoj'.
+
+\a{3.10}Li opinias nian anglan firmanomon tro longa por memori kaj ankaý tro
+preciza. Æar li scias ke en la tuta urbo ne estas granda firmao de kiu ne unu
+el liaj amikoj konas iun de la direkcio kiu senprokraste povus informi pri mia
+sociala sensignifeco. `Skribisto' neniam enkapiøus en lin, æar tio estus mia
+mortverdikto.\rim{kun - laý (M), mortverdikto?} Kaj plue mi do mem devas elþiri
+min el la batalo. Li donis tiun maþkirason al mi, sed pli li ne povis fari.
+
+\a{3.11}`Do, la sinjoro estas inøeniero,' demandis viro kun oraj dentoj kiu
+sidis apud mi.
+
+\a{3.12}`Inspektoro,' tuj diris mia amiko Van Schoonbeke, kiu scias ke
+inøeniero ian teknikan altlernejon, diplomon kaj tro multajn sciojn
+inkluzivas por, æe la unua konversacio, ne embarasi min.
+
+\a{3.13}Mi mem ridis, por kredigi ilin ke tio krome ankaý inkludas iom da
+sekreto kiu eble malkaþiøos je konvena tempo.
+
+\a{3.14}Ili þtele rigardis mian kostumon kiu estis bonþance preskaý nova
+kaj  povus esti akceptebla, kvankam øi havas malmultan fasonon, kaj
+post tio ili ignoris min.
+
+\a{3.15}Unue ili parolis pri Italio, kie mi neniam estis, kaj mi travojaøis kun
+ili la tutan landon de Mignon: Venecio, Milano, Florenco, Romo, Napolo, Vezuvio
+kaj Pompeo. Mi ja\rrim{wel} foje legis pri tio, sed por mi Italio restas nur
+supra¼o sur la mapo, do mi silentis. Pri la arttrezoroj neniom estis dirata,
+sed la Italaj virinoj estas belegaj kaj plenaj de pasio.
+
+\a{3.16}Kiam ilin tedis tio, ili priparolis la malfacilan situacion
+de propruloj. Multaj domoj estis neloøataj kaj æiuj deklaris ke iliaj
+luantoj pagas neregule. Mi volis protesti, ne nome de miaj luantoj, æar tiujn
+mi ne havas, sed tial ke øis nun mi mem pagis æiam øustatempe, sed temis
+jam pri iliaj aýtoj: kvar- kaj sescilindraj, garaøtarifoj, benzino kaj
+lubrikoleo, aferoj pri kiuj mi kompreneble ne povas kanti kanton.
+
+\a{3.17}Kaj nun oni donis resumon pri tio, kio okazis dum la pasinta semajno
+en la familioj kiuj estas menciindaj.
+
+\a{3.18}`Do la filo de Gevers edzinigis la filinon de Legrell,' diras unu.
+
+\a{3.19}Tio ne estas sciigita kiel nova¼o, æar æiuj jam scias tion escepte min,
+kiu neniam sciiøis pri la novedzino nek pri la novedzo, sed pli øuste kiel
+punkto de proklamo pri kiu oni devas voædoni. Ili donas sian aprobon aý
+malaprobon laý tio æu ambaý partioj kunportis egalpezan riæa¼on aý ne.
+
+\a{3.20}Æiuj samopinias, tiel ke tempo ne estas malþparata per diskuti. 
+Æiu el ili nur eldiras komunajn opiniojn.
+
+\a{3.21}`Do Delafaille eksiøis\rim{eksiøi esti...?} kiel prezidanto de la
+Komerca Æambro.'
+
+\a{3.22}Mi neniam sciiøis pri tiu viro, sed ili scias ne nur ke li ekzistas kaj
+eksiøis, sed plej ofte ili scias la veran motivon: oficiala malfavoro kaýze de
+bankroto, iu sekreta malsano, skandalo kun edzino aý filino, aý kelkfoje motivo
+estas ke li simple tediøas.
+
+\a{3.23}Tiu `journal parl\'e' okupas la plej grandan parton de la vespero kaj
+estas la plej embarasa periodo por mi, æar mi devas limigi min per kapjesi,
+ridi aý levi brovojn.
+
+\a{3.24}Jes\rim{Ja}, mi tie timegas daýre kaj mi tie pli þvitas ol æe la
+mortado de patrino.  Vi nun scias kiel mi suferis tiam sed tio almenaý haltis
+post unu nokto, kaj æe Van Schoonbeke rekomenciøas æiun semajnon kaj la jam
+þvitigita¼o ne malpliigas tion, kion mi ankoraý devos travivi.\rim{??}
+
+\a{3.25}Æar ili, ekster la domo de mia amiko, ne interrilatas kun mi\rim{omgang
+hebben met=interrilati kun (M)}, ili ne povas memori mian nomon kaj en la
+komenco nomis min laý æiuspecaj nomoj nur similaj al mia. Kaj æar mi ja ne æiam
+povas admoni, per æiam rediri `pardonu, Laarmans', ili finfine decidis unue
+rigardi mian amikon Van Schoonbeke kaj al li, kie mi æesidas, diri `via amiko
+asertas ke la liberaluloj'. Kaj nur post tio ili rigardas en mia direkto. Tiel
+la menciado de mia nomo superfluas. Kaj `via amiko' ankaý signifas ke tiu Van
+Schoonbeke komencas havi strangajn amikojn.
+
+\a{3.26}Verdire ili eæ opinias ke estus pli bone se mi tute silentus, æar kiam
+mi parolas æiam por unu el ili estas malfacila laboro. Pro øentileco al la
+gastiganto unu deviøas doni al mi resumon pri la naskiøo, la juneco, la studoj,
+la edziøo kaj la kariero de iu regiona famulo pri kiu ili nur volis diskuti la
+entombigon.
+
+\a{3.27}Mi ankaý abomenas restoraciojn.
+
+\a{3.28}`La pasintan semajnon mi kun mia edzino manøis skolopon en la Trois
+Perdix en Di¼ono.' \rim{snep? houtsnip: skolopo, watersnip: galinago, poelsnip:
+maræa skolopo}
+
+\a{3.29}Kial li diras\rim{zegt, niet zei} ke lia edzino kunmanøis, mi ne
+komprenas.
+
+\a{3.30}`Do eskapo kun via laýleøa edzino, virego,' diras aliulo.
+
+\a{3.31}Kaj post tio ili eknomas restoraciojn, la unu kontraý la alia, ne nur
+en Belgujo sed øis malproksime en la eksterlando.
+
+\a{3.32}La unuan fojon, tiam kiam mi ne jam estis tiel timema, mi opiniis ke
+ankaý mi citu unu, kiu estas en Dunkirko. Antaý jaroj lerneja kamarado diris al
+mi ke li tagmanøis tie, je sia postedziøa vojaøo. Kaj mi memoris, æar øi havas
+la nomon de fama kaperisto.
+
+\a{3.33}Mi havis mian restoracion preta kaj atendis favoran okazon.
+
+\a{3.34}Sed æifoje ili priparolis pri Saulieu, Di¼ono, Grenoblo, Digne, Grasse
+kaj evidente estis survoje al Nico kaj Montekarlo tiel ke mi do øene povis
+nomi Dunkirkon. Tio impresus kiel iu kiu subite nomas Tilburgon kiam la
+restoracioj de la Riviero estas nomataj.
+
+\a{3.35}`Kredu aý ne, sed la pasintan semajnon mi manøis en Rueno, en la
+Vieille Horloge, kontraý tridek frankoj, diferencajn antaýmanøa¼ojn, omaron,
+duonan kokinon kun trufoj, fromaøon kaj deserton,' subite estis deklarita.
+
+\a{3.36}`Æu tiu omaro ne estis enladigita japana krabo?' demandis iu.
+
+\a{3.37}`Kaj æu viaj trufoj hakita prostato?'
+
+\a{3.38}Rueno ne estas malproksima de Dunkirko kaj tio estis unika eblo, kiu
+estu uzita. Tial mi uzis la unuan silenton kaj subite diris `Ankaý la Jean-Bart
+en Dunkirko estas bonega'.
+
+\a{3.39}Malgraux tio, ke mi tiom preparis min, mi ektimis pro mia propra
+voæo.
+
+\a{3.40}Mi mallevis la okulojn kaj atendis la efikon.
+
+\a{3.41}Bonþance mi ne deklaris ke mi estis tie en la lastaj semajnoj, æar tuj
+unu diris ke tiu Jean-Bart ne plu ekzistas jam proksimume tri jarojn kaj ke øi
+nun estas kinejo.
+
+\a{3.42}Jes, ju pli mi diras, des pli bone ili komprenas ke mi ne nur ne havas
+aýton, sed ankaý neniam havos unu. Silentado do estas necesa, æar ili komencas
+atenti min kaj supozeble demandas sin kiel Van Schoonbeke decidis ekgastigi
+min. Se ne estus por mia frato, kiu pro Van Schoonbeke kelkfoje ekhavas
+pacientojn, mi jam antaýlongtempe estus sendinta diablen la tutan kunularon.
+
+\a{3.43}Æiun semajnon mi pli bone komprenis ke mi estas por mia amiko øena
+protektato kaj ke tiel æi ne plu eblas, kiam li demandis al mi la pasintan
+merkredon æu mi þatus fariøi reprezentanto de granda Nederlanda firmao.  Estas
+tre entreprenemaj homoj, por kiuj li ¼us gajnis\rim{?, maar `gajninto' is
+`winnaar', dus zal wel goed zijn. Venki=overwinnen.} grandan proceson. Mi povus
+ekhavi la agentecon tuj. Sufiæus ke li rekomendus min, kaj por tio li volonte
+estis preta. Mono ne necesus.
+
+\a{3.44}`Pensu pri tio,' konsilis li. `Multo estas gajnebla kaj vi estas la
+øusta viro.'
+
+\a{3.45}Tio estis ja iomete impertinenta de li, æar mi opinias ke neniu
+opiniu min konvena antaý ol mi opiniis min konvena. Sed tamen æarme estas
+ke li sen ajna kondiæo donis al mi okazon por demeti mian simplan
+vestaron de skribisto æe la General Marine and Shipbuilding Company kaj
+nenial fariøi negocisto. Tiel liaj amikoj probable\rrim{wel} per si mem
+forigos kvindek procentojn da sia aroganteco. Kun ilia iometa mono!
+
+\a{3.46}Mi ankaý demandis pri kio liaj amikoj negocas.
+
+\a{3.47}`Pri fromaøo,' diris mia amiko. `Kaj tio æiam
+marþas\rim{marcheren?: bonvendiøi, prosperi. Kiel marþas la aferoj? (M)},
+æar æiel la homoj devas manøi'.
+
+%---------------------------------------------------------------------------
+                   \cxapitro{IV}
+\ax{Fromaøo}{4.1}En la tramo, veturante hejmen, mi sentis min jam tre alia
+homo.
+
+\a{4.2}Vi scias ke mi estas preskaý kvindekjara kaj mia tridekjara servuteco
+kompreneble stampis min.
+
+\a{4.3}Skribistoj estas humilaj, multe pli humilaj ol laboristoj kiuj, per
+ribelemeco kaj unueco, eldevigis iom da respekto. Oni eæ diras ke en Rusujo ili
+estiøis la mastroj. Se tio veras tiam ili meritas, mi opinias.  Cetere þajnas
+ke ili aæetis tion per sia sango. Sed skribistoj kutime estas malmulte
+specialitaj kaj harmonias tiel bone ke eæ viro kun longa sperto estas
+piedbatata al sia kvindekjara lojala pugo kaj anstataýata per iu alia kiu estas
+same bona kaj pli malmultekosta.
+
+\a{4.4}Pro tio ke mi havas infanojn, mi zorge evitas ekhavi disputon kun
+fremduloj, æar ili povas esti amikoj de mia patrono. Do en la tramo mi iom
+lasas forpremi min kaj ne faras tro indigne kiam iu tretas miajn piedfingrojn.
+
+\a{4.5}Sed tiun vesperon, æio æi estis indiferenta al mi. Tiu fromaørevo ja
+realiøos, æu ne?
+
+\a{4.6}Mi sentis ke miaj okuloj jam disvastigas pli firman rigardon kaj
+enpoþigis miajn manojn kun tia senøeneco, kian mi tute ne konis antaý duona
+horo.
+
+\a{4.7}Veninte hejmen, mi tre kutimmaniere eksidis apud la tablo, supeis sen iu
+vorto pri la nova ebleco kiu haviøis al mi kaj ne povis ne interne ridi kiam mi
+vidis kiel mia edzino kun sia kutima þparemo þmiris la buteron kaj tranæis la
+panon. Nu, þi ja ne povis supozi ke eble morgaý þi estos edzino de negocisto.
+
+\a{4.8}Mi manøis kiel æiam, ne pli multe aý\rim{?} ne malpli multe, ne pli
+haste aý ne pli malrapide. Unuvorte, mi manøis kiel iu kiu rezignacias pri tio
+ke li devas kompletigi sian multjaran servistecon æe la General Marine and
+Shipbuilding Company per nesciata nombro da jaroj.
+
+\a{4.9}Tamen mia edzino demandis kio okupas min.
+
+\a{4.10}`Kio {\em okupus} min?' redemandis mi.
+
+\a{4.11}Kaj post tio mi komencis korekti la lernejajn taskojn de miaj du
+infanoj.
+
+\a{4.12}Mi malkovris grandegan eraron en participe pass\'e kaj korektis
+tiun tiel elegante ke mia fileto mirigite suprenvidis.
+
+\a{4.13}`Kial vi tiel rigardas, Jan?' demandis mi.
+
+\a{4.14}`Mi ne scias,' ridis la knabo, kun interrilata rigardo en la direkto
+al\rim{PIV} mia edzino.
+
+\a{4.15}Ankaý li do þajnis rimarki ion en mi. Jen mi, kiu æiam pensis povi
+majstre kaþi siajn sentojn. Tamen mi penu\rim{M} lerni tion, æar en la komerco
+tiu certe povos bone servi al mi. Kaj se mia vizaøo estas tiel simple legebla,
+tiam dum la `journal parl\'e' øi devas ofte legigi murdon kaj mortigon. \rim{?}
+
+\a{4.16}La geedzan liton mi opinias la plej oportuna loko por diskuti pri
+seriozaj aferoj. Tie almenaý oni estas sola kun sia edzino. La litkovriloj
+mallaýtigas la voæojn, la mallumo akcelas la pripenson kaj pro tio ke oni ne
+povas vidi unu la alian, neniun el ambaý influas la emocio de la
+kontraýpartio. Tie æio estas sciigata, kion oni ne bone kuraøas diri
+malfermviziere kaj do tie estis ke mi, kiam mi kuþis bone sur mia dekstra
+flanko, post enkonduka silento, diris al mia edzino ke mi iøos negocisto.
+
+\a{4.17}Pro tio ke dum multaj jaroj þi nur aýdis trivialajn konfidencojn,
+þi igis min rediri tion kaj atendis pli detalan eksplikon kiun mi al þi
+donis per trankvilaj, klaraj, mi do jam diras `aferecaj' terminoj. En kvin
+minutoj þi akiris resumon pri la amikaro de Van Schoonbeke, pri ilia
+senafekta, nevolata malestimigo, kaj pri la propono kun kiu li sendis min
+hejmen tiel neatendite.
+
+\a{4.18}Mia edzino aýskultas atente, æar þi kuþadis tiel kviete kiel muso,
+sen tuseti aý sin turni. Kaj pro tio ke mi silentis, þi demandis kion mi
+intencas kaj æu do mi rezignos mian oficon æe la General Marine and
+Shipbuilding Company.
+
+\a{4.19}`Jes,' diris mi malzorge, `Tio efektive\rrim{wel} estas necesa. Estante
+skribisto ie kaj krome fari negocon por si mem, tio ja ne eblas? Æi tie indas
+kuraøa decidado.'
+
+\a{4.20}`Kaj vespere?' estis demandita, post nova silento.
+
+\a{4.21}`Vespere malhelas,' diris mi.
+
+\a{4.22}Tio estis trafo, æar la lito knaris kaj mia edzino turnis sin kvazaý
+þi decidis ke þi lasos per mia negocisteco min sufoki. Mi do devas
+malrigidiøi per mi mem.
+
+\a{4.23}`Kion vespere?' diris mi krude\rim{maar snauwen is krude paroli}.
+
+\a{4.24}`Vespere negoci,' persistis þi. `Kiaj negocoj estas?'
+
+\a{4.25}Mi nun devis konfesi ke estas pri fromaøo. Estas strange, sed mi
+opiniis tiun artiklon iom naýza kaj iom ridinda. Mi preferus povi
+negocisti pri io alia, ekzemple florbulboj kaj elektraj ampoloj, kiuj do
+ankaý estas karakterize Holandaj. Eæ haringon, sed prefere sekigitan, mi
+vendus kun pli da diligenteco ol fromaøon. Sed tiu nordNederlanda
+firmao\rim{`Trans la Moerdijk': norda Nederlando.} ne povis, pro mi, þanøi
+sian metion, tion mi ja komprenis.
+
+\a{4.26}`Stranga artiklo, æu vi ne tiel opinias?' demandis mi.
+
+\a{4.27}Sed tiel mia edzino ja ne opiniis.
+
+\a{4.28}`Tio æiam marþas,' kredis þi, precize tiel, kiel Van Schoonbeke
+diris.
+
+\a{4.29}Tiu kuraøigo min bonigis kaj mi diris ke mi irigos al la diablo la
+General Marine and Shipbuilding Company jam la sekvan matenon. Mi
+æiaokaze\rim{nepre?} volis iri al oficejo por adiaýi miajn kolegojn.
+
+\a{4.30}`Sed komencu do peti tiun agentecon,' opiniis mia edzino. `Post tio
+æiam vi povos decidi kion vi faru. Vi þajnas ja freneza.'
+
+\a{4.31}Tiu lasta estas tre senrespekta al\rim{tegenover} komercisto, sed la
+konsilo estis bona. Cetere, kvankam mi \rrim{wel} diris tion, mi ja ne farus.
+Se oni havas edzinon kaj infanojn tiam oni devas esti duoble singarda.
+
+\a{4.32}La sekvantan tagon mi iris al mia amiko Van Schoonbeke por demandi la
+nomon kaj la adreson, krom tio ankaý rekomendvorteton kaj ankoraý tiun saman
+vesperon mi skribis bravan aferecan leteron al Amsterdamo, unu el la plej bonaj
+leteroj, kiujn mi iam skribis. Mi iris enpoþtigi øin mem, æar ion tian oni ne
+povas konfidi al nekoncernuloj, ankaý ne al siaj propraj infanoj.
+
+\a{4.33}La respondo ne forrestis. Øi venis tiel baldaý ke min ektimigis øi,
+estis telegramforme: `Atendas vin je la dekunua morgaý centra oficejo
+Amsterdamo. Vojaøkostoj kompensotaj.'
+
+\a{4.34}Mi nun devis trovi ion por ne devi iri al oficejo la sekvan tagon kaj
+mia edzino sugestis entombigon. Sed tio al mi ne plaæis tial ke mi tiel ¼us,
+pro la entombigo de mia patrino, restis hejme unu tutan tagon. Pro ajna kuzo
+oni malfacile forrestas de oficejo, almenaý ne unu tutan tagon.
+
+\a{4.35}`Tiukaze diru ke vi estas malsana,' diris mia edzino. `Vi povas jam
+prepari tion hodiaý. Estas sufiæe da gripo en la urbo.'
+
+\a{4.36}En oficejo mi do sidis kun mia kapo en miaj manoj kaj morgaý mi iros
+al Amsterdamo por konatiøi kun la firmao Hornstra.
+
+%---------------------------------------------------------------------------
+                   \cxapitro{V}
+\ax{Hornstra - Fromaøbutiko }{5.1}La fromaøfilmo komencas malvolvi sin antaý
+mi. Hornstra enoficigis min kiel øeneralan reprezentanton por Belgujo kaj la
+Grandduklando Luksemburgio. `{\em Oficiala} reprezentanto,' diras li, eæ se mi
+ne bone komprenas tion. Tiun Grandduklandon li nenial kundonis kvazaý io mankas
+al la graveco. Øi vere\rrim{wel} estas malproksima de Antverpeno, sed tiam mi
+ankaý do\rim{toch} foje vidos tiun montaran landon.  Kaj je la unua okazo mi
+nun, je mia vico, prezentos al tiuj viregoj de Van Schoonbeke iujn restoraciojn
+en Echternach, Diekirch kaj Vianden.
+
+\a{5.2}Estis agrabla vojaøo\rim{tocht veturo?}. Æar Hornstra do estis
+kompensonta la kostojn, mi vojaøis duaklase anstataý triaklase. Poste al mi
+evidentiøis ke ili atendis ke mi vojaøis unuaklase. Ankaý mi elpensis nur tro
+malfrue ke mi povus elekti la trian kaj havi la prezdiferencon. Sed tio ne
+estus korekta, nepre ne je la unua interkonatiøo.
+
+\a{5.3}Mi estis tiel entuziasma ke mi ne povas resti sur mia loko dum kvin
+minutoj kaj kiam la dogano demandis al mi æu mi havas nenion por deklari, mi
+diris elkore `Jes, tute ne!'  Post tio tamen la limgardisto diris ke `Jes, tute
+ne' ne estas respondo kaj ke mi devas diri jes aý ne. Mi do rimarkis jam tuj ke
+oni atentu tiujn holandanojn. Kaj æe Hornstra tio praviøis, æar tiu tro multe
+diris neniun vorton kaj en duonhora tempospaco, mi estis inspektita kaj pagita
+kaj reestis sur la strato kun mia kontrakto en mia poþo. La letero de mia amiko
+Van Schoonbeke decidis la aferon, æar kiel ajn mi rakontis pri miaj
+denaskaj\rim{aangeboren} kvalitoj, Hornstra eæ ne aýskultis, sed formetinte la
+leteron, li demandis kiom da tunoj mi atendas povi debiti.
+
+\a{5.4}Tio estis malfacila demando. Po kiom da Holanda fromaøo formanøegiøas en
+Belgujo æiujare kaj sur kiun elcenton de tiu tuto mi povus meti la ungegon?  Mi
+eæ ne havis la plej etan supozon. Æu tiu `debitado' kiel li nomas tion,
+rapidas?
+
+\a{5.5}Mia multjara servisteco æe la General Marine and Shipbuilding ne
+havigis respondon al mi. Mi sentis ke mencii ciferon ne estas konsilinde.
+
+\a{5.6}`Komenci malgrande estas singarde,' subite diris Hornstra kiu certe
+opiniis ke mi pripensis sufiæe longe. `En la sekva semajno, mi sendos al vi
+dudek tunojn da krema Edama fromaøo en nia nova patentita pakumo. Kaj laýmezure
+de via kvitigado\rim{(M): verrekenen} de tiuj, mi kompletigos vian stokon.'
+
+\a{5.7}Post tio li antaýmetis al mi kontrakton por subskribi, kiu resumiøas
+jene: mi estas lia reprezentanto kontraý kvin procentoj sur la vendoprezo,
+fiksa salajro de tricent guldenoj kaj pagataj vojaøkostoj.
+
+\a{5.8}Kiam mi estis subskribinta, li tintigis, ekstaris, manprenis min kaj
+eæ an\-taý mi estas tute ekster lia kontoro jam alia vizitanto sidis en mia
+seøo.
+
+\a{5.9}Venante eksteren mi estis kvazaý freneza kaj devis uzi æiujn fortojn
+por ne, kiel Faýsto, kanti `\`a moi les d\'esirs, \`a moi les
+ma\^{\i}tresses'.
+
+\a{5.10}Po tricent guldenoj monate, tio estis pli ol duobla mia salajro æe la
+General Marine and Shipbuilding kaj tie mi delonge atingis mian maksimumon,
+tiel ke mi jam dum kelkaj jaroj atendis mian unuan malplialtigon de la
+salajro. Æar sur nia þipkonstruejo oni iras de nul øis cent kaj tiam denove
+returnas al nul.
+
+\a{5.11}Kaj krome tiuj pagataj vojaøkostoj! Mi ne jam estis ekster la strato,
+kiam mi komprenis ke estonte nia feria vojaøo estos por konto de Hornstra. En
+Dinant aý La Roche vespere mi do rapide eniros fromaøbutikon.
+
+\a{5.12}Pri Amsterdamo mi memoras preskaý nenion, æar la nuron, kiun mi vidis,
+mi vidis kvazaý en ebrieco. Poste mi devis aýdi de nekoncernuloj\rim{derden} ke
+tie estas tiel multe da biciklantoj kaj tiel multe da cigarbutikoj kaj ke la
+Kalverstrato estas tiel longa, mallarøa kaj homplena\rim{aý trafikplena?}.  Mi
+apenaý prenis la tempon por tagmanøi surloke kaj prenis la unuan trajnon al
+Belgujo, tiel mi hastis por konfidi mian prosperon al sinjoro Van Schoonbeke
+kaj al mia edzino.
+
+\a{5.13}La hejmenvojaøo þajnis senfina. Inter miaj kunvojaøantoj evidente estis
+ankaý kelkaj aferistoj, æar du el ili sidis enprofundiøante en dosieroj. Unu eæ
+komentis en la marøeno, per ora fontoplumo. Tian fontoplumon mi nun ankaý havu,
+æar æiufoje peti plumon kaj inkon el siaj aæetantoj, tio ne eblas.
+
+\a{5.14}Ne estis neeble ke tiu viro ankaý komercas pri fromaøo. Mi momente
+rigardis liajn valizojn, super en la rako, sed tio ne utilis.
+
+\a{5.15}Estis bele vestita viro, neta pri tolo, kun silkaj þtrumpoj kaj ora
+nazumo. Æu fromaøo aý ne fromaøo?
+
+\a{5.16}Silenti øis Antverpeno, tio estas neeble por mi. Mi estus
+krevinta. Mi devis paroli, aý kanti. Kaj pro tio ke kanti ne eblas en
+trajno, mi uzis la haltadon en Roterdamo por diri ke la ekonomia situacio en
+Belgujo þajnas iom pliboniøi.
+
+\a{5.17}Li fikse rigardis min, kvazaý li profitis mian vizaøon por
+multipliki ion sur øi kaj eligis mallongan sonon en nekonata lingvo. Tiuj
+aferistoj do!
+
+\a{5.18}Hazarde, estis merkredo kaj mi alvenis æirkaý la kvina horo. Kaj pro
+tio ke la æiusemajna klaæfesto æe Van Schoonbeke komenciøis merkrede æirkaý la
+kvina kaj duono, mi venis al lia domo por doni al li la okazon informi siajn
+amikojn pri mia sociala promocio.
+
+\a{5.19}Kiel domaøe ke mia patrino ne atendis øis þi ankoraý spertis tion æi.
+
+\a{5.20}Van Schoonbeke nepre senpeziøus ke tiu skribisto æe la General
+Marine and Shipbuilding apertenas al la pasinteco.
+
+\a{5.21}Dumvoje mi haltis antaý fromaøbutiko kaj admiris la montrofenestron.
+En la hela lumo de svarmo da elektraj ampoloj tie fromaøoj kaj fromaøetoj
+kuþis, æiuspece formaj kaj de cxiuj originoj, unu apud kaj unu sur la alia. El æiuj
+niaj naj\-bar\-þtatoj ili æi tie amasiøis.
+
+\a{5.22}Gigantaj grujeroj, kiel muelþtonoj, servis kiel fundamento kaj sur tio
+kuþis Æesteraj, Gaýdaj, Edamaj kaj granda nombro da fromaøspecoj, kiujn mi tute
+ne konis, kelkaj el la plej grandaj kun malfermegita ventro kaj nekovritaj
+intestoj. La Rokfortoj kaj Gorgonzoloj diboæe paradis sian verdan þimon kaj
+eskadrono da Kamembertoj libere fluigis sian puson.
+
+\a{5.23}El la butiko putra spiro venis, kiu tamen malpliiøis kiam mi staris tie
+iomtempe.
+
+\a{5.24}Mi volis ne cedi pro tiu malbonodoro kaj nur forirus se mi opinius ke
+estas tempo. Aferisto estu hardita kiel polusvojaøisto.
+
+\a{5.25}`Fetoru do!' diris mi provoke.
+
+\a{5.26}Se mi havus vipon, mi atakus ilin. `Jes, sinjoro, ne eblas elteni,'
+respondis sinjorino kiu staris apud mi kaj kiun mi ne vidis veni.
+
+\a{5.27}Tiun laýtvoæan pensadon sur publika vojo mi iel malkutimiøu, æar mi
+jam pli ofte teruris homojn. Tio ne gravas por anonima skribisto, sed por
+aferisto estas io alia.
+
+\a{5.28}Mi nun rapidis al mia amiko Van Schoonbeke, kiu gratulis min pro mia
+sukceso kaj denove prezentis min al siaj amikoj kvazaý ili vidis min
+unuafoje.
+
+\a{5.29}`Sinjoro Laarmans, pograndisto pri nutraj varoj.' Kaj post tio li
+plenigis la glasojn.
+
+\a{5.30}Kial li diris `nutraj varoj' anstataý fromaøo? Ankaý do li þajnis iom
+senti naýzon pro fromaøo, kiel mi mem.
+
+\a{5.31}Koncerne min, mi plejeble rapide forgesu pri tio, æar aferisto bone
+konu sian artiklon kaj estu kuniøinta kun øi. Li kunvivu kun øi. Li penegadu
+en øi. Li odoru kiel øi. Tio lasta ne estus malfacile kun fromaøo, sed mi
+celas pli metafore.
+
+\a{5.32}Bone konsiderante æion, fromaøo estas, escepte efektive la odoron,
+nobla artiklo, æu ne? Øi estas produktata jarcentojn kaj øi estas unu el la
+plej gravaj riæecrimedoj de la Holandanoj, kiuj estas fratpopolo de ni. Øi
+servas kiel nutra¼o de granduloj kaj malgranduloj, de junuloj kaj
+maljunuloj. Io manøata de homoj, per si mem akiras iun noblecon. Mi kredas ke
+la Judoj benas ilian manøa¼on kaj æu ne Kristano devas preøi antaý manøo de
+fromaøo?
+
+\a{5.33}Kontraýe, miaj kolegoj en la sterkmaterioj havas multe pli da motivoj
+por plendi. Kaj resta¼o de fiþo, intestoj de mamuloj, kadavroj kaj tiaj
+plu. Ankaý tiuj estas vendataj øis ili venas sur la lokon kie ili faras sian
+lastan servon al la homaro.
+
+\a{5.34}Inter la regulaj manøogastoj de Van Schoonbeke estis kelkaj
+komercistoj, anticipe du pri grenoj, æar pri tio ili jam parolis. Kial fromaøo
+estu malpreferata al greno? Mi forsoræos de ili tiun antaýjuøon. Tiu, kiu
+perlaboras plejmulte, ja estras, la estonteco alireblas por mi kaj mi firme
+decidis meti mian tutan animon en tiun fromaøon.
+
+\a{5.35}`Jen bona loko, sinjoro Laarmans,' diris la vizitanto kies konduto æiam
+pleje malplaæis al mi. Ne tiu kun siaj dentoj, sed þika kalva ulo, kiu parolis
+bone kaj povis esti sprita, eæ dum la `journal parl\'e', kiu jam tiel staris al
+mi en la gorøo.
+
+\a{5.36}Kaj tuj li cedis lokon, tiel ke æifoje mi, unuafoje, vere sidis en la
+rondo. Antaýe, mi æiam okupis angulon, al fino de la longa tablo, tiel ke ili
+ne povis rigardi min sen preskaý tute turne sin, æar pro øentileco ili sidis
+oblikve, turniøinte al la gastiganto.
+
+\a{5.37}Ankaý unuafoje mi enigis miajn poleksojn en mian vestan poþeton kaj
+frapetis\rim{tokkelen} per miaj fingroj marþrapidon sur mia ventro, kiel iu,
+kiu silente scias pli\rim{Het zijne er van weten}. Van Schoonbeke vidis tion
+kaj ridis agrable al mi.
+
+\a{5.38}Ke ili tuj direktis la konversacion al la kampo de aferoj  pruvis ke
+ili ekkonsideris min.
+
+\a{5.39}Mi ne diris multe, sed nun tamen diris ion, interalie `nutraj varoj
+æiam marþas', kaj ili æiuj pravigis min.
+
+\a{5.40}Ripetfoje, mi estis rigardata, kvazaý iu petis mian aprobon, kiun mi
+æiufoje tuj donis, per cedema kapsigno. Oni estu konsentema al la homoj,
+precipe se oni estas komercisto. Sed por ne æiufoje aprobi ilian klaæon, mi
+do diris unufoje `Tio estas ankoraý necerta'. Post kio la koncerna virego, iu
+kiu alimaniere ne povas suferi kontraýdiron, respondis tre cedeme
+`kompreneble', øoje ke li saviøis æi tiel.
+
+\a{5.41}Tiam, kiam mi opiniis ke mia sukceso sufiæas por unu tago, mi subite diris:
+`Kaj la restoracioj, sinjoroj? Kiajn franda¼ojn oni manøis æi semajnon?'
+
+\a{5.42}Tio estis la kulmino. La tuta kunularo danke rigardis min, tiom ili
+øojis ke mi sendis ilin per vere reøa gesto al ilia preferata
+kampo.\rim{de weg wijzen}
+
+\a{5.43}Øis nun mi æiam foriris laste æar mi neniam kuraøis entrepreni unue
+ekstari kaj tiel rompi la harmonion de tiu sidanta kunularo. Se ili æiuj
+forestis mi plue havis okazon por malþarøi mian koron kaj al Van Schoonbeke,
+duope, ekskuzi min kaj pro la malmulto, kiun mi faris aý diris en la daýro de
+la vespero, kaj pro æio, kion mi preterlasis fari aý diri. Sed æifoje mi
+rigardis mian brakhorloøon, laýte diris: `Diable, la sepa kaj kvarono.  Adiaý,
+sinjoroj, kaj krome multan plezuron,' saltetis æirkaý la tablo kiel iu kiu
+estas tre okupata, ankoraý manprenetis ilin kaj lasis ilin sidantaj, kio estas
+sufiæe bona por ili.\rim{waar zij goed voor waren, solventa?}
+
+\a{5.44}Van Schoonbeke elakompanis min, malsevere frapis mian dorson kaj diris
+ke belegis.
+
+\a{5.45}`Vi imponegis,' certigis li. `Kaj multan sukceson pri via fromaøo.'
+
+\a{5.46}Nun ni sole estis en la koridoro, li nomis fromaøon simple fromaøo.
+Supere, øi estis nutraj varoj.
+
+\a{5.47}Nu jes\rim{ja}, fromaøo estas fromaøo. Kaj se mi estus kavaliro, mi
+ portus tri ruøajn fromaøojn sur nigra\rim{sabel=zibela} kampo.
+
+
+%---------------------------------------------------------------------------
+                   \cxapitro{VI}
+\ax{La kontrakto}{6.1}Mia edzino ne tuj akiris la nova¼on kvazaý surtabligata,
+sed þi devis pacienci øis mi estis supeinta. Æar ekde nun mi ne plu manøas, sed
+lunæas\rim{kontraýe de tagmanøi}, varmtagmanøas aý supeas.\rim{dejeuneer,
+dineer of soupeer} Mi cetere havas karan edzinon, kiu krom tio estas imitinda
+patrino. Sed mi opinias ke æi tiaj aferoj ne apertenas al þia aýtoritato. Mi
+ankaý devas konfesi ke de tempo al tempo mi ne povas rezisti la tenton inciti
+þin øis mi ekvidas larmojn. Tiuj larmoj tiam bonigas min. Mi uzis þin por lasi
+liberan kuron al miaj furiozaj atakoj pri mia sociala malaltvaloreco. Kaj mi
+profitas miajn lastajn horojn de servisteco æe la General Marine and
+Shipbuilding por ankoraý unufoje kolere riproæi þin.
+
+\a{6.2}Tial mi manøis silentante øis finfine þi maldelikatiøis, ne al mi,
+sed al la kuirilaro. Kaj post lasta paýzo mi vidis ke larmoj nebuligas þian
+okulojn, post kio þi foriris al la kuirejo. De tempo al tempo tian dramecan
+animstaton en la domo mi opinias\rim{vind ik iets heerlijks} io rava.
+
+\a{6.3}Mi nun ankaý promenis en la kuirejon, kiel virkoko malantaý kokino,
+kaj seræante miajn pantoflojn mi subite diris: `Vi sciu ke estas aranøita
+pri tiu fromaøo\rim{? Weet je dat...}.'
+
+\a{6.4}Nome, mi opinias ke þi {\em devis} scii tion.
+
+\a{6.5}Þi ne respondis, sed komencis lavpurigi la manøilaron, muzikante per
+teleraro kaj feraj potoj, dum mi finfine, plenigante mian pipon, raportis pri
+miaj traviva¼oj en Amsterdamo.
+
+\a{6.6}Mi eæ mensogete plibonigis, dirante ke mi ruztrompis Hornstra-n pri tiu
+kontrakto.
+
+\a{6.7}`Legu, jen estas la akto,' finis mi mian rakonton.
+
+\a{6.8}Kaj mi metis øin en þian manon, antaýsciante ke þi nur duone
+komprenos tiun formalan\rim{hoog nederlands} nederlandan kaj ke æiuj tiuj
+komercaj terminoj dancos antaý þiaj okuloj.
+
+\a{6.9}Þi sekigis siajn manojn, ricevis la paperon kaj kun øi iris
+por sidi en la loøoæambro.
+
+\a{6.10}Por mi, kiu tajpis milojn da leteroj æe la General Marine and
+Shipbuilding, la tuta a¼o kompreneble estas bagatelo. Sed mi intence
+diversnegocadis en la kuirejo, æar þi devis nu do unufoje sperti je sia
+malprofito ke redakti tian kontrakton estas io tre alia ol granda dompurigado.
+
+\a{6.11}`Æu mi bele faris\rim{fijn gelapt}?' demandis mi post kelkaj minutoj
+el la kuirejo.
+
+\a{6.12}Kaj æar mi ne ricevis respondon, mi kaþobservis en la loøoæambron, por
+vidi æu eble þi ne ekdormis sur mia kontrakto.
+
+\a{6.13}Sed þi ne dormis. Mi vidis ke þi sidas streæe legante, þia nazo
+ne malproksima de l' papero kaj sekvante per montra fingro por ne transsalti
+liniojn. Nun þi haltis ie.
+
+\a{6.14}Ne tiom rimarkinda la akto estis, ke þi enprofundiøu en øin kvazaý en
+la traktaton de Versajlo. Fromaøo, kvin procentoj, tricent guldenoj kaj jen
+æio\rim{en daarmee uit}.
+
+\a{6.15}Mi paþis al la radio, þaltis kaj trafis Belgan
+popolkanton\rim{Braban\c{c}onne}. Estis kvazaý øi ludiøis por honori min.
+
+\a{6.16}`Momenton ja æesigu tion, alie mi tute ne plu komprenas ion ajn,'
+diris mia edzino.
+
+\a{6.17}Kaj momenton post tio þi demandis, kial mi metis en la kontrakto ke
+ili æiutempe `povas el¼eti min'.\rim{aan de deur konden smijten}
+
+\a{6.18}Mia edzino kutimas tiel. Tiu nomas fromaøon almenaý fromaøo.
+
+\a{6.19}`Kial, el¼eti,' demandis mi ofendetite.
+
+\a{6.20}Þi metis sian fingron sur paragrafon la naýan, kiu estas la lasta
+kaj mi legis: `Se estos ke la okupoj de sinjoro Laarmans, por konto de
+sinjoro Hornstra, finiøas, æu laý deziro de sinjoro Laarmans mem, æu
+iniciate de sinjoro Hornstra, tiuokaze la unuemenciito ne havos rajton je ia
+kompensa¼o, nek je pliaj pomonataj pagoj, æar æi tiuj lastaj ne kiel
+salajro, sed ja\rrim{wel} kiel antaýpago de la eventuela kurtaøo, kun kiu
+ili regulos la kontojn, intenciøas.'
+
+\a{6.21}Diable, tio ne estis tiom facila. Kaj mi nun komprenis kial þi haltis
+tie tiom longtempe.
+
+\a{6.22}En Amsterdamo, kaj poste en la trajno, mi ja\rrim{wel} legis
+tiun klaýzon sed mi ne estis, en mia entuziasmo, enprofundiøinta en la
+øustan signifon.
+
+\a{6.23}`Kion signifas ``iniciate de sinjoro Hornstra'',' demandis þi nun,
+ankoraý kun tiu fingro sur la vundo.
+
+\a{6.24}Iniciate estas unu el tiuj vortoj kiujn mia edzino ne komprenas.
+Iniciate, plagiate, kaj  kalumniate\rim{Initiatief, constructief, objectief,
+moeilijke woorden als Iniciate:  sciate, plagiate (plagierend),
+menciate(genoemd zijnde), kalumniate(belasterd zijnde), komisiate(belast
+zijnde met), kopiate(gekopieerd zijnd), adiciate(opgeteld zijnd),
+defiate(getrotseerd zijnd), deklinaciate(verbogen zijnd), enviate(benijd
+zijnde)} estas por þi la preciza samo. Kaj nun ekspliku kion tia vorto
+signifas.
+
+\a{6.25}Mi do ja diris `nu, iniciate signifas iniciate,' kaj dume mi ankoraý
+unufoje laývorte tralegis la paragrafon, tiel de super þia þultro, kaj mi devis
+konfesi ke þi pravas. Ankaý Hornstra cetere pravas, æar tiu ne povas ligi sin
+øis la jaro dumil, se mi dume ne povas liberigi min de tiu fromaøo. Tamen mi
+hontis.
+
+\a{6.26}`Iniciate signifas komenci ion, Panjo,' kriis Jan, ne levante la
+okulojn de siaj lernolibroj. Æu ne estas skandalo ke tia dek-kvinjara
+nazmukulo kuraøas uzi sian buþegon kiam temas pri tiaj seriozaj aferoj?
+
+\a{6.27}`Vi ja komprenas ke mi ne dum nelimigita tempo povas akcepti tian
+altan salajron, sen devo por vendi la konsignitajn varojn en normala tempo,'
+deklaris mi. `Tio estus malmorala'.
+
+\a{6.28}Konsignita kaj malmorala þi ne komprenas, tion mi certe scias.
+Superblufos mi þin.
+
+\a{6.29}`Cetere,' diris mi, `nenio estas por timi. Se la vendo marþas, tiam
+Hornstra ne pli demandas ol ke tiel restu øis la eterneco. Kaj reciprokeco
+pri la el¼etado ankaý por mi havas profitodonan flankon, æar oni neniam povas
+scii æu unu el la konkurantoj de Hornstra ne venos sonorigi æi tie kun eæ
+multe pli belaj kondiæoj, tuj kiam ili ekrimarkos min en la merkato.
+
+\a{6.30}Nun tiu simia knabo ja\rim{nog maar eens} klarigu, kion signifas
+konsignita, malmorala kaj reciprokeco.
+
+\a{6.31}Mia edzino nun redonis al mi la paperon.
+
+\a{6.32}`Kompreneble ne estas iu kialo kial øi ne marþus,' konsolis þi. `Vi
+ja laboru senlace. Sed tamen mi estus singarda. Æe la þipkonstruejo vi estas
+trankvila, kun certa salajro.'
+
+\a{6.33}Tion mi nomas banala¼o.
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{VII}
+
+\ax{La atesto}{7.1}La konkludo de nia lasta litkoncilio estis ke estu
+persistata la fromaøentrepreno sen eksiøi æe la þipkonstruejo. Mia edzino diras
+ke mia frato, la kuracisto, povas aranøi tion. Tiu organizu\rim{zorgen} ateston
+per kiu mi akiras tri monatojn da forpermeso por satripozi kaj rebonfartiøi de
+iu ajn malsano, kiun mia frato trovos. Þi mem elpenis æi tiun solvon.
+
+\a{7.2}Persone, mi opinias ke tio estas nedecidema solvo kaj ke oni pri tiaj
+aferoj faru la unu aý la alian.
+
+\a{7.3}Mil tondroj, oni partoprenas en la fromaøkampanjo aý oni ne partoprenas
+en øi. Se unue oni fosas tranæeojn en kiujn oni povas retiriøi, tiam oni
+ankaý ne pluiras. Ek\rim{Er op los}, mi diras!
+
+\a{7.4}Sed kion mi povis fari? Þi venigis la infanojn kaj tiuj pravigas þin.
+Kaj krom havi æiujn zorgetojn de la maltrankvila biznis-vigleco, kiun mi
+spertos, ankaý senæese familimiliti, tion mi rifuzas.
+
+\a{7.5}Mi alparolis mian fraton pri la afero.
+
+\a{7.6}Li estas dek-du jarojn pli aøa ol mi kaj anstataýas kaj patron kaj
+patrinon, de kiam tiuj estas mortaj.
+
+\a{7.7}Tiu dek-du-jara diferenco estas netranspontebla. Kiam mi ankoraý estis
+petolulo, tiam li jam estis viro kaj la rilato el tiu periodo restis. Li
+protektas min, mallaýdas min, kuraøigas min kaj konsilas min kvazaý mi ankoraý
+globetludas sur la strato. Mi diru ke li estas laborema kaj entuziasma
+simpatiulo, plena de kuraøo kaj devokonscio kaj kontenta pri sia sorto. Æu li
+fakte de matene øis vespere vizitas malsanulojn, tion mi ne scias.  Sed
+æiaokaze li flugas la tutan tagon sur sia biciklo tra la urbo kaj rapide eniras
+je æiu posttagmezo momenton en mia domo. Vibrosonante li marþas en la kuirejon,
+en kiu mia edzino estas kuiranta, levas la kovrilojn por momenton vidi kaj
+flari, brue salutas miajn du infanojn, kiuj amegas lin, demandas pri nia sano,
+donas al ni specimenojn de medikamentoj por æiuspecaj afekcioj, eltrinkas sian
+glason kaj ree rapide eliras, æio en unu spiro.
+
+\a{7.8}Postulis penon igi lin aýskulti la unuan parton de la
+fromaølegendo, æar li estas senpacienca, daýre interrompas kaj nur volas
+scii, kiajn servojn li povas servi pri æi æio.
+
+\a{7.9}Kiam li aýdis, ke mia ofico æe la General Marine and Shipbuilding
+eble viktimiøos, tiam severa trajto aperis sur lia malkaþa vizaøo.
+
+\a{7.10}`Tio estas serioza afero, virego, diable serioza afero.'
+
+\a{7.11}Kaj subite li lasis min staranta kaj iris en la kuirejon.
+
+\a{7.12}`Æu li ja havas talenton por la komerco?' aýdis mi lin demandi.
+
+\a{7.13}`Nu,' diris mia edzino, `tion li ja mem devas scii.'
+
+\a{7.14}`Serioza afero,' ripetas li.
+
+\a{7.15}`Tion ankaý mi diris al li.'
+
+\a{7.16}Tion ankaý þi diris! Þi! Æu vi ne ¼etegus þin tra la fenestraj
+vitroj?
+
+\a{7.17}Kaj dume mi tie staras, kiel granda nululo.
+
+\a{7.18}Mi havis apenaý sufiæan  tempon por kiel proteston ekfunkciigi la radion,
+æar jen li ree iris en la verandon.
+
+\a{7.19}`En via situacio mi unue profunde pripensus, kara fraæjo.'
+
+\a{7.20}Mi finfine sukcesas rakonti al li ke mi volas klopodi akiri forpermeson
+de tri monatoj, æar tiomli ne lasis min progresi pri mia rakonto, eæ se mi
+estus provinta kvarfoje.
+
+\a{7.21}Li igis min elekti inter serio da konvenaj afekcioj. Persone li opinias
+ke nervomalsano estas plej bona, æar tiuokaze mi povas veni ekstere, sen ke mia
+mastro havas ion kion li povas kritiki. Kaj nervomalsano neniun fortimigas, li
+diras. Se mi parolus pri pulmoj, kaj vi iros denove al la Þipkonstruejo, tiam
+vi estos timata kiel la pesto. Li certe kredas ke la ekspluatado de tiu
+fromaømino estas por mi nur amuza¼o kaj ke mi poste efektive reiros al oficejo.
+
+\a{7.22}Kaj post tio li donis al mi ateston.
+
+\a{7.23}`Vi mem sciu, fraæjo,' diris li ankoraý unufoje kapskue\rim{(M)}.
+
+\a{7.24}Kia alia homo mi jam estas!
+
+\a{7.25}Sur la þipkonstruejo mi ne plu sentas hejme kaj tajpante miajn
+leterojn, kiuj temas pri maþin- kaj þipkonstruado, antaý la spirito
+fantomas tiuj kremaj Edamaj, kiuj ruliøos\rim{afrollen?} post kelkaj tagoj
+kaj do ja estos æi tie baldaý. Mi timas tajpi en niaj mendleteroj fromaøojn
+anstataý akrigajn þtonojn aý platferon.
+
+\a{7.26}Tamen la unuan tagon mi ne enæambriøis æe sinjoro Henri, æar mi ne
+havis la kuraøon, tiel ke mi reprenis mian ateston hejmen. Sed devas okazi, æar
+tiuj minacantaj fromaøoj æaspelas min kiel hundon kiu devas naøi, æu øi volas
+aý ne.
+
+\a{7.27}Æi matenon mi turnis min al Hamer\rim{aý eble Martelo estus pli
+bona}. Oficiale li estas nia æeflibrotenisto, sed realece vera æiofaranto
+kiu tre\rim{duoble dubbel en dwars} meritas la konfidon de sinjoro Henri.
+Honeste\rim{Eerlijk gezegd}, viro kun kiu oni povas paroli. Li ekkuþas sur
+sian kubuton, kondukas la manon al sia dekstra orelo, aýskultas sen rigardi
+onin kaj komencas kapskuadi.
+
+\a{7.28}Mi montris mian ateston kaj poste demandis konsilon, æar mi scias ke li
+faras nenion pli volonte ol konsili. Æiutage li havas sian konsultan
+kvaronhoron, kiel kuracisto, kaj en æiu tiu konsultado li sentas agnoskon de
+sia supereco, kiun neniu pridubas.
+
+\a{7.29}Li inversis la paperon, kvazaý iam sur la dorsa flanko de tia atesto
+estas io skribita, profunde pensis kaj post tio diris ke malviglas sur la
+þipkonstruejo, kaj tio veras. Kaj se ili rimarkos ke dum tri monatoj marþis kun
+unu homo malpli, tiam povus ekdanøeri por mi. Ankaý la pagado al iu kiu estas
+malsana, baldaý ekmalplaæas. Sed, li diras, se vi konsentas ekhavi promalsanan
+forpermeson sen salajro tiam vi eæ ne parolu kun sinjoro Henri pri tio, æar tiu
+verþajne dirus, ke la General Marine and Shipbuilding ne estas malsanulejo kaj
+eæ malpli pensikaso. Sed Hamer kuraøas preni øin sur sin nepagata, sen eæ
+mencii interne.
+
+\a{7.30}`Interne' estas la privata oficejo de sinjoro Henri, kie neniu krom
+Hamer kaj la æefinøeniero venas. Se ordinara komizo estas venigata tie, tiam
+li revenas kun ruøa kapo. Post proksime tri vizitoj kutime li estas
+maldungota.
+
+\a{7.31}`Verþajne sinjoro Henri eæ ne rimarkos ke vi ne plu estas,' diras
+Hamer.
+
+\a{7.32}Tio bone eblas. Æar kiam lastan jaron Hamer feriis, mi devis,
+estante la plej maljuna korespondisto, anstataýante lin, veni internen por
+registri\rim{opnemen} la leterojn. Kaj tiam mi rimarkis, ke sinjoro Henri ne
+scias kiel mi nomiøas. Unue li nomis min Hamer, certe pro kutimo, kaj poste
+tute ne plu.
+
+\a{7.33}Mi kun mia edzino pripensis la proponon de Hamer kaj ni opinias, ke øi
+estas æiurilate bonega solvo. Kaj per akcepti øin, mi refoje pruvas ke mi ne
+volas malpurigi miajn manojn per nemeritita salajro.
+
+\a{7.34}Hamer enfermis mian ateston por kapabli pravigi sin se tamen sinjoro
+Henri aýdus øin kaj tiel mi eæ ne devis adiaýi miajn kolegojn, æar mi
+ja estas reatendota? Hamer efektive kredas ke mi revenos, se almenaý mi
+saniøos. La bona viro ne komprenas ke li estas aktiva en la konstruado de
+mia riæa¼o. Mi anticipe decidis poste kompensi tion per bela donaco.
+
+\a{7.35}Kaj nun la fromaømondo alireblas por mi.
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{VIII}
+
+\ax{La aranøado de la oficejo}{8.1}La aranøado de sia oficejo estas por
+aferisto tio, kio la pretigado de la vindujo\rim{M} estas por estonta juna
+patrino.
+
+\a{8.2}Mi ankoraý bone rememoras la naskiøon de mia unua infano kaj eæ nun mi
+revidas mian edzinon, kiel þi tiam, post plenumita æiutaga laboro, øis
+malfrue en la vespero estis kudranta æe la lampo, de tempo al tempo ripozante
+øis la doloro en þiaj lumboj iom æesis. Estis io solena en þi, kiel iu
+kiu estas sola sur la mondo kaj iras sian propran vojon sen vidi aý aýdi.
+Tia sento ankaý venis en min je mia unua fromaøtagiøo.
+
+\a{8.3}Mi estis ellitiøinta frue, tiom frue ke mia edzino diris ke mi
+frenezas.
+
+\a{8.4}`Nova balailo bone balaas,' diras þi.
+
+\a{8.5}Unue mi devis decidi æu mi aranøu mian oficejon hejme aý en la
+urbo.
+
+\a{8.6}Mia edzino opinias ke hejme, pro tio ke estas pli malmultekosta, æar
+tiukaze mi ne devos pagi ekstran luprezon kaj aldone mia familio povos uzi la
+telefonon.
+
+\a{8.7}Ni inspektis la domon kaj ni elektis la æambreton super la kuirejo,
+apud la banæambro. Por bani sin oni devas iri tra mia oficejo, eble
+surhavante pi¼amon, sed tio plej ofte okazas sabate posttagmeze aý dimanæe
+kaj tiam mia oficejo perdas sian oficialan karakteron. Øi tiam estas
+neýtrala tereno kaj rilate al mi oni tie rajtas brodi aý kartludi, kondiæe
+ke miaj dosieroj ne estu tuþataj, æar tion mi ne toleros.
+
+\a{8.8}La æambreton tapetis pejzaøoj, kiuj figuras æas- kaj fiþkaptfestojn
+kaj unue mi intencis gluigi novan paperon. Rigora unutona fundo, sen floroj
+aý io ajn, kaj tiam pendigi nenion krom blokkalendaron kaj ekzemple mapon de
+la nederlanda fromaøregiono. Mi antaýnelonge vidis rimarkinde koloritan
+mapon de la vinregiono æirkaý Bordozo. Eble io tia ekzistas por la
+fromaøproduktado. Sed mia edzino opinias ke la tapetado povas atendi øis
+miaj aferoj plivastiøas. `Øis bone iras,' diris þi øustadire. Kaj tial do
+mi konservis mian malnovan murpaperon.
+
+\a{8.9}Tamen mi estu persistinta, æar kiu direktas la fromaøþipon, æu mia
+edzino aý mi?
+
+\a{8.10}Tamen poste tiu tapeto devos foresti, æar en la fundo de mia animo
+øi estas kondamnita al la morto. Kaj aferisto devas sekvi sian kapon eæ se
+la plej suba þtono plej suprus\rim{al stond de onderste steen boven. Een
+soortgelijke uitdrukking in het Eo is er geloof ik niet.???}.
+
+\a{8.11}Endas zorgi pri letera papero, pri skribotablo, pri skribmaþino, pri
+telegramadreso, pri leterpinæiloj kaj pri amaso da aliaj a¼oj, tiel ke mi estas
+terure tre okupata. Æar æio devas rapide okazi, æar la dudek tunoj da
+Edama fromaøo post proksime tri tagoj komencos vojaøi al la Sudo. Kaj je ilia
+alveno æio devas esti deplojita. La telefono devas sonori, la skribmaþino
+knari, la pinæiloj fermiøi kaj malfermiøi. Kaj mi sidas en la mezo, æar mi
+estas la cerbo.
+
+\a{8.12}Pri la demando de la letera papero mi duonan tagon cerbumis. Mi nome
+opinias ke moderna firmanomo devas esti sur øi kaj ne senaldone Frans
+Laarmans. Ankaý mi opinias tion pli bona ke pri mia fromaøentrepreno ne
+aýdu sinjoro Henri, antaý ol mi certas ke mi neniam plu venos en la General
+Marine, se ne do por liveri fromaøon al la kantino.
+
+\a{8.13}Mi neniam supozis ke la elektado de firmanomo estas tiom malfacila.
+Tamen milionoj da homoj kun malpli da inteligenteco ol mi postlasis tiun
+malfacila¼on.
+
+\a{8.14}Se mi vidas la nomon de ekzistanta firmao, tiam øi æiam þajnas al mi
+tre kutima, mi preskaý dirus konata. Tiuj homoj ne povis nomiøi alie ol ili
+nomiøas. Sed de kie mi akiru novan nomon? Mi devis fari æion malfacilan de la
+kreado, æar el nenio mi devis soræi ion.
+
+\a{8.15}Mi komencis per la simpla {\sc kaashandel} (fromaønegoco).
+
+\a{8.16}Sed se mia nomo ne estas sub tio, tiam tio estas tro nedifinita.
+Kaashandel, Verdussenstraat 170, Antverpeno, aspektas suspekte, kvazaý io
+estas kaþita, kvazaý estas vermoj en la fromaøo.
+
+\a{8.17}Tiam mi kaptis {\sc algemene kaashandel} (øenerala fromaønegoco).
+
+\a{8.18}Tio jam estis pli bone. Sed mi opinias tian flandran\rim{eble estus
+pli klare uzi 'nederlanda' aý nederlandlingva} nomon tiel nuda, tiel
+troigite klara, tiel senflora. Kaj mi ne þatas la vorton kaas, tion mi jam
+diris.
+
+\a{8.19}Post tio mi provis {\sc commerce g\'en\'eral de fromage}.
+
+\a{8.20}Sonas pli bone kaj fromage estas malpli kaasa ol kaas. {\sc commerce
+g\'en\'eral de fromage hollandais} estas denove paþo antaýen. Pro tio mi
+certe tenas amason da homoj je distanco kiuj bezonas Grujeron aý Chesteran,
+dum mi nur debitas Edaman. Sed Commerce ankoraý ne estas tre bona.
+
+\a{8.21}{\sc entreprise g\'en\'erale de fromage hollandais}. Tio enhavas
+sonoron. Sed Entreprise signifas entrepreni\rim{deze uitleg kan in Eo
+misschien wel weg} kaj øustadire mi nenion entreprenas.  Mi simple
+enmagazenigas fromaøon kaj vendas tiun.
+
+\a{8.22}Sekve {\sc entrep\^{o}ts g\'en\'eraux de fromage hollandais.}
+
+\a{8.23}Sed la enmagazenigado estas flankafero. Tion cetere mi eæ ne faras
+mem, æar mi ne volas ke æiu tiu fromaøo estu en mia domo. La najbaroj
+protestus kaj por tio la staplokompanioj ekzistas. La vendo estas æefafero
+kaj karakteriza por mia firmao. La debitado, kiel Hornstra diras.
+
+\a{8.24}Kion la angloj nomas `trading'. Tio ja estas vorto!
+
+\a{8.25}Kial ajn ne angla firmanomo, kiel la General Marine and Shipbuilding
+Company mortinta? Anglujo havas merititan mondfamon sur komerca kampo.
+
+\a{8.26}{\sc general cheese trading company}? Mi komencas aperi\rim{M}. Mi
+sentas ke mi atingos mian celon.
+
+\a{8.27}{\sc antwerp cheese trading company}? Aý eble {\sc general edam
+cheese trading company}? Tiel longe kiel tiu kaas enestas ne eblas. Tiun devas
+anstataýi io alia: nutraj varoj, laktoproduktoj aý io tia.
+
+\a{8.28}{\sc general antwerp feeding products association}?
+
+\a{8.29}Heýreka! La komencaj literoj konsistigas {\sc gafpa}, veran sloganon.
+Prefere aæetu vian fromaøon æe la Gafpa, sinjoro. Mi ja rimarkas ke vi ne
+kutimas veran Gafpafromaøon, sinjorino. Gafpafromaøo ne estas fromaøo,
+estas mielo, sinjoro. Urøu vin, æar nia lasta senda¼o da Gafpafromaøo
+estas preskaý elæerpita. Poste fromaøo per si mem foriøos, æar Gafpa
+baldaý fariøos sinonimo por krema Edama fromaøo. Mi lunæis per nur unu
+bulko kaj parto da Gafpa. Tiel progresinta mi devas fariøi.
+
+\a{8.30}Kaj neniu scias ke Franæjo Laarmans kaþiøas sub tio, escepte mia
+familio, mia frato kaj mia amiko Van Schoonbeke al kiu mi tuj sciigis mian
+firmanomon per telefono, æar mia telefono estas aranøita kaj kompreneble estas
+sukcesplena.
+
+\a{8.31}Mia filo Jan telefonas al æiuj siaj lernejaj amikoj, nur por sia
+plezuro, kaj mi devas øisatendi mian vicon. La unuan tagon mi indulgas ion, æar
+mi ne volas esti etspirita\rim{malgrandanima}. Sed Van Schoonbeke ne komprenis
+min. Li pensis ke mi diras Gaspard, æar tiel lia amiko kun tiuj oraj dentoj
+nomiøas. Nu, mi ja rakontos tion al li merkrede. Mi tiam do diris al li ke mia
+telefono estas aranøita kaj mian numeron\rim{zeggen/opgeven}. Li gratulis min,
+æar tion li æiam faras, kaj diris ke nun iam mi devas kunporti\rim{?}
+specimenon da mia Edama. Kompreneble li ricevos tion. Kaj ankaý donacon, tuj
+kiam mi havos tempon.
+
+\a{8.32}Mi domaøas ke Gafpa ne povas esti ankaý mia telegramadreso, sed tiu
+estas jam registrita nome de la firmao Gaffels kaj Parels. Mi tiam dubis inter
+fromaøviro, fromaøbulo, fromaøisto\rim{kaastrader}, fromaøtrusto,
+Laarmafromaø kaj froma\-øo\-frans, æar dek du leteroj estas la maksimumo, sed
+tiuj æiuj al mi ne plaæis.  Finfine mi simple turnis Gafpa-n kaj elektis
+Apfag. Kaj malmulte mankis æu tio ankaý ne eblis æar Afpa, sen G, jam
+ekzistas. Tiun havas la Association Professionnelle des Fabricants
+d'Automobiles kaj do neniel rilatas al fromaøo.
+
+\a{8.33}Nun mia letera papero povas esti presata kaj tuj kiam tio estos preta,
+mi skribos letereton al Hornstra. Ne por ke li akcelu mian senda¼on, æar mi ne
+eæ proksimume estas preta pri mia oficeja instala¼o, sed li vidu mian leteran
+paperon.
+
+\a{8.34}Mia edzino vidas plaæate, ke mi tiel multokupiøas. Þi mem
+æiam laboradas, æar þi ne povas elteni senenergiecon.
+
+\a{8.35}Mi vidas ke þi estas feliæa.
+
+\a{8.36}Se mi estas en mia oficejo, tiam þi neniam venas al la banæambro sen
+ekskuza vorto, æar þi tiam devas iri tra mia departemento. Þi diras
+ekzemple: `Tiu sapo jam denove estas elæerpita.' Aý: `Mi devas havi iom da
+varma akvo por lavi puloveron.'
+
+\a{8.37}Mi ridas al þi agrable kaj diras: `Faru nur.' Sed mi diru ke mi
+respektas þian kuirejon same bone kiel þi mian oficejon.
+
+\a{8.38}Mi volus pinæi þiajn gambojn kiam þi preteriras, sed mia oficejo
+estas por mi sanktejo.
+
+\a{8.39}Þi nun ankaý telefonas, al la buæisto kaj tia. Postulis penon lerni
+al þi tion, æar þi neniam estis farinta kaj ade\rim{maar} ne povis
+kompreni ke estas sufiæe turni tiujn numeretojn por ekhavi interparoladon kun
+la bakisto. Sed þi estas obstina kaj nun þi telefonas kiel veterano. Þi nur
+kun tio iom gestas, kvazaý la bakisto povas vidi þin.
+
+\a{8.40}Kiam mi vidas þin tiel faranta, jen en la kuirejo, jen ree supre, aý en
+la kelo, pene trenante lavota¼on aý sitelojn, tiam mi opinias tion mutiga, ke
+tia simpla homo tiel rapide malkovris tiun tedan klaýzon en mia kontrakto kun
+Hornstra.
+
+\a{8.41}Kaj mi trovas ke estas terure domaøe ke mia bona patrino ne plu povas
+partopreni en æi æio. Mi tiun volus vidi telefonanta.
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{IX}
+
+\ax{Klaæfesto - Alveno de la fromaøo}{9.1}Mi kunportis ekzempleron de mia
+letera papero al la klaæfesto de mia amiko Van Schoonbeke kaj montris øin al li
+malsupre en la koridoro, æar li venis renkonte al mi.
+
+\a{9.2}`Plej bonajn gratulojn,' ankoraý diris li kaj post tio li enpoþigis øin.
+
+\a{9.3}Mi, kvazaý per si mem, rericevis mian lastefojan lokon kaj mi firme
+kredas ke neniu el tiuj herooj kuraøus entrepreni okupi mian seøon.
+
+\a{9.4}Tiun vesperon, ili parolis pri Rusujo.
+
+\a{9.5}En la fundo de mia koro mi admiras tiujn nudpiedulojn, kiuj provas el
+ruina¼o konstrui novan templon. Kaj tio onidire estas io tre alia ol debiti
+dudek tunojn da fromaøo. Sed kiel Gafpaisto mi ne konas sentimenton kaj mi
+estas firme decidinta distreti æion, kio øenas mian fromaøon.
+
+\a{9.6}Unu el ili asertis ke tie po milionoj homoj pereas pro malsato, kiel
+muþoj en neloøata domo. Kaj tiun momenton tiu amuza Van Schoonbeke donis
+mian leteran paperon al sia plej proksima najbaro, kiu interesite demandis,
+kion tio signifas.
+
+\a{9.7}`Tio estas la letera papero de la plej nova entrepreno de nia amiko
+Laarmans,' klarigis li. `Æu vi ankoraý ne\rim{nog} vidis øin?'
+
+\a{9.8}La malkuraøulo diris ke li ne vidis øin, sed ja sciiøis kaj siavice
+transdonis øin al sia najbaro. Kaj tiel øi triomfe rondiris la tablon.
+
+\a{9.9}`Tre interesa,'`Øi aspektas unuakvalita,'`Ja kompreneble, nenio
+superas la nutrajn varojn,' sonis antaý kaj apud mi. La mumio de
+Tut-Ank-Amono ne kaýzus pli da interesiøo.
+
+\a{9.10}`Granda\rim{flinke} Gafpa, tion bezonas la Rusoj,' diris Van
+Schoonbeke.
+
+\a{9.11}`Mi trinkas je la feliæego de la Gafpa,' deklaris maljuna advokato kiu,
+mi kredas, havas malpli da mono ol li pretekstas posedi. Li nun estas la plej
+malinda el la kunularo, depost mia forskuo de mia suspekta `inspektoreco de la
+æarpentaj þipkonstruejoj', kaj uzas æiun favoran okazon por malplenigi sian
+glason. Li celas, mi kredas, nur la vinon.
+
+\a{9.12}Mi mem transdonis la paperon eæ sen rigardi\rim{zonder het een blik
+te gunnen} øin kaj tiel øi denove alvenis æe la gastiganto, kiu metis øin
+antaý si sur la tablon.
+
+\a{9.13}`Diabla Frans,' diris Van Schoonbeke, kiam mi adiaýis.
+
+\a{9.14}`Parenteze,' konfidis li al mi, `notario Van der Zijpen petis min
+rekomendi lian plej junan filon por eventuala asocio. Ja mono, multe da mono
+kaj estas honestaj homoj,' finis li.
+
+\a{9.15}Æu {\em mi} partoprenigos en la fruktoj de mia laboro la unuan ajn?
+Mi eæ ne prikonsideras. Rekomendi tiun junulon æe la General Marine por
+anstataýi min, tio estas io alia.
+
+\a{9.16}`La fromaøo alvenis, Paæjo,' kriis mia filo Jan, kiu staris en la
+pordo kiam mi rehejmiøis.
+
+\a{9.17}La nova¼on konfirmis mia filineto.
+
+\a{9.18}Iu estis telefoninta por demandi, kion ili devas fari pri øi. Sed Ida
+ne estis memorinta la nomon, aý eble ne bone aýdinta. Kial þi ne estis
+vokinta patrinon? Sed tiu estis elirinta por fari aæeton.
+
+\a{9.19}Æu ne estas senekzemple ke estas dudek tunoj da fromaøo por mi en la
+urbo kaj ke neniu povas diri al mi kie ili estas? Kalkulu do je siaj infanoj.
+
+\a{9.20}Æu efektive ja estas vere? Æu eble estas þerco de Van Schoonbeke?
+Æu aý þi estis miskompreninta?
+
+\a{9.21}Sed Ida insistis kaj ne permesis la konfuzadon de þi. Þi ja similis
+azenæevalon. Ili estis dirinta ke alvenis por mi dudek tunoj da fromaøo
+kaj demandis pri instrukcioj. Ankaý ili estis dirinta ion pri æapeloj.
+
+\a{9.22}Nun mi petas vin\rim{Nu vraag ik je toch}. Unue estis fromaøoj kaj
+nun estis æapeloj. Æu vi ne vangofrapus tian knabinon?
+
+\a{9.23}Kaj tio vizitas gimnazion, kvaraklase.
+
+\a{9.24}Mi ne povis manøi pro nervozeco kaj iris al mia oficejo. Se nun mia
+edzino alportus sapon aý `havi iom da varma akvo', mi akvumus þin.
+
+\a{9.25}`Nun ne pianludu,' malpermesantan aýdis mi malsupre. Kaj tio bonigis
+min kiel pruvo pri respekto.
+
+\a{9.26}`Þajnas ke vi bedaýras,' diris mia edzino akratone. `Vi ja atendas
+tiun fromaøon. Øi {\em devas} veni.'
+
+\a{9.27}`Kiel mi bedaýras? Kion mi bedaýras?' mi akre diris al þi. `Sed æu vi
+iam aýdis ion tian? La vaporigitaj Edamaj aý la fromaøo kiu troviøas en
+æapeloj. Ja similas al sensacia filmo.'
+
+\a{9.28}`Sed do nun ne ekscitiøu,' diris mia edzino. `Se la fromaøo ne alvenis
+tiam estas miskompreno. Kaj se øi ja alvenis tiam des pli bone. Tiu fromaøo ja
+ne reiros al Holando, æu? Nun æiuj oficejoj estas fermitaj, sed mi vetas ke
+morgaý vi havos nova¼on de la fervojo. Aý æu la fromaøo venas per boato?'
+
+\a{9.29}Tion mi ne sciis. Kiel mi povis scii tion. Sed tiu azenido, kiu estis
+telefoninta, sciu.
+
+\a{9.30}`Venu, Frans, prefere manøu kaj paciencu øis morgaý frue, æar nun
+nepre estas tro malfrue.'
+
+\a{9.31}Mi do eksidis, post lasta tigra rigardo al la koncerna azenido, kiu tie
+staris kun larmoplenaj okuloj, sed kun decidema trajto æirkaý la buþo.  Þi
+aldone estis kolerega, æar kiam Jan, kiu pli aøas unu jaron, iom post tio metis
+sian æapelon sur þian teleron, kun apude tranæilon, þi frapis la kapveston tiel
+ke øi haltis en la kuirejo sub la fornelo.
+
+\a{9.32}Jes, jes. Tiu fromaøo alvenis. Mi tion sentas.
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{X}
+\ax{Ricevo de la fromaøo}{10.1}La sekvan matenon iomete post la naýa min
+telefonis la staplokompanio Bluæapeloj, kiu demandis kiel ili agu pri la
+fromaøo.
+
+\a{10.2}Nun mi komprenas æion pri tiuj æapeloj. Mi donos platon da æokolado al
+þi.
+
+\a{10.3}Mi demandis returne kiel ili kutime faras pri Edamaj.
+
+\a{10.4}`Transporti al la aæetantoj, sinjoro. Diru do al ni la adresojn.'
+
+\a{10.5}Mi nun diris ke tiuj æi dudek tunoj ankoraý ne estas venditaj.
+
+\a{10.6}`Tiukaze ni povas ilin enmagazenigi en niajn patentajn kelojn,' oni
+respondis al mi.
+
+\a{10.7}Telefonante, oni povas malfacile pripensi, mi opinias. Iras tro rapide
+por mi. Kaj konsulti mian edzinon, tion mi ne volis fari. Mi opinias ke estas
+normale ke mi donas al þi decidpovon koncerne la retapetadon de mia oficejo,
+sed se temas pri la sorto de la fromaøo mem, tiam mi estru. Æu mi ne estas la
+Gafpa?
+
+\a{10.8}`Eble estas plej bone se vi venas momenton æe nin al oficejo,' nun
+estis konsilata.
+
+\a{10.9}Tiu patra invito efikis incitante miajn nervojn æar estis kvazaý
+ili min, kun miaj fromaøoj, ekgardis. Kaj mi bezonas nenies protektadon, ne
+pli ol mi bezonas tiun notariidon kun æiu lia mono.
+
+\a{10.10}Malgraý tio mi akceptis la proponon, ne nur æar tiel la telefonado
+finiøas, sed ankaý æar mi opinias ke mi al miaj fromaøoj, æe ilia alveno en
+Antverpeno, kvazaý iru renkonte. Æi tiu unua senda¼o estas la antaýgvardio de
+armeo, kun kiu mi persone konatiøu. Kaj mi ne volus, ke poste Hornstra sciiøu
+ke liaj Edamaj, elfaris sian unuan etapon nevekante interesiøon de iu ajn.
+
+\a{10.11}Antaý mi alvenis al la staplokompanio Bluæapeloj, la afero pri miaj
+fromaøoj jam decidiøis, æar æiutage mi fariøas pli decidema.
+
+\a{10.12}Ili eniru en la kelon. Kion alian mi povas fari?
+
+\a{10.13}Mi supozas ke Van Schoonbeke ne sciigis al Hornstra ke mi estis
+skribisto æe la General Marine kaj ke sekve mi ne nur devas min tute orienti
+pri la fromaøfako, sed ankaý unue devas aranøi mian oficejon. Æiaokaze mi
+ankoraý ne povis okupiøi pri la vera vendo. Mi eæ ankoraý ne trovis
+skribotablon kaj ankaý ne skribmaþinon.
+
+\a{10.14}Tio denove estas la kulpo de mia edzino, kiu asertas ke mi povas
+aæeti por kelkaj centoj da frankoj brokantan skribotablon. En la butikoj pri
+kontormebloj tia skribotablo kostas proksimume dumil frankojn, sed tiam oni
+havas øin hejme samposttagmeze kaj la afero estas finita. Kaj mi opinias ke tia
+aæeto ne rajtas okupi pli ol duonan horon, æar la tempo ne haltas kaj tagoj
+fariøas semajnoj. Kaj ankaý la debitado de la fromaøo devas ekhavi vicon.
+
+\a{10.15}Do en la kelon.
+
+\a{10.16}Sed se tiuj homoj de la staplokompanio Bluæapeloj eble pensis ke ilia
+nomo `patentaj keloj' impresis min, tiam ili tute malpravas. Nu, nu. Per tio mi
+ne lasas hoki min, sinjoroj!
+
+\a{10.17}Mi volas vidi tiujn kelojn per propraj okuloj. Mi volas konviki min
+ke mia fromaøo tie povos ripozi sekure, freþe kaj neøenate, libera de pluvo
+kaj ratoj, kvazaý en familia tombo.
+
+\a{10.18}Mi do inspektis iliajn kelojn kaj mi devas konfesi ke ili estas kiaj
+ili estu. Ili estas volbitaj, la planko estas seka kaj la muroj ne sonis kiam
+mi frapis ilin per bastono.
+
+\a{10.19}El æi tiuj mia fromaøo ne eskapos, pri tio mi povas esti trankvila.
+Kaj pli da fromaøo restadis en øi, tion mi ja povas flari. Se Hornstra vidus
+tiun kelon, tiam li gratulus min.
+
+\a{10.20}Miaj dudek tunoj estis sur kvar þarøveturiloj sur ilia korto, æar
+ili estis ankoraý rapide elvagoniginta la fromaøon hieraý vespere,
+alimaniere la fervojo enkontigus lumonon. Kaj tiel mi ankoraý povas
+æeesti la enmagazenigadon en mian fajreltenan æambron. Mi staradis meze en
+la kelo, kiel konduklerneja inspektoro kaj atentis æion øis la lasta kesto
+estis alportita.
+
+\a{10.21}La specimena senda¼o de Hornstra konsistas el dekmil fromaøoj, æiu
+de proksimume du kilogramoj, enpakitaj en tricent sepdek patentitaj kestoj.
+`Plej ofte Edama estas sendata nepakite,' diris la viro, `sed æi tio estas
+bonega krema fromaøo, kiu valoras esti pakata.' La lasta kesto estis perforte
+malfermita. `De la dogano,' diris la viro de l' Staplokompanio. Kaj tiu unu el
+miaj fromaøoj tratranæis en du egalajn partojn. Unu duono mankis kaj mi
+demandis kie tiu estas.
+
+\a{10.22}Post tio tiu viro demandis siavice æu mi antaýe havis okupojn en la
+haveno. Li havis impreson ke mi estas tute nova en la fako, alimaniere mi do
+scius ke pri la dogano estas afero de doni kaj preni.
+
+\a{10.23}`Æu vi ne scias, sinjoro, ke ili rajtis rompmalfermi tiujn tricent
+sepdek kestojn unu post la alia? Ni povus esti insistintaj ke la dogano
+kompensis la valoron de tiu tratranæita bulo, sinjoro, sed mi donacis la
+duonon al la limgardistoj kaj per tio þparis al Hornstra tri mil frankojn da
+imposto, sinjoro, æar la fromaøo estis deklarita kiel duone krema, dum øi
+ja estas krema, kiu estas taksata pli alta. Æu vi komprenas, sinjoro?'
+
+\a{10.24}Tiu redirado de 'sinjoro' estis iom minaca.
+
+\a{10.25}Post tio li demandis al mi æu li povas transdoni unu keston al mia
+hejmo, æar mi supozeble bezonas specimenojn.
+
+\a{10.26}Mi sentis ke ja estas pli bone ne kun tiuj homoj de l' staplokompanio
+Bluæapeloj ekdisputi kaj aprobis la liveradon de tiu kesto, kvankam mi ne tiom
+tuje bezonas specimojn. Æar unue mia oficejo devas esti perfekte aranøita. Kaj
+post tio mi ekvendados.
+
+\a{10.27}Doninte al tiu viro la resta¼on de la bulo plus malavaran trinkmonon,
+æar nenio, mi opinias, estas tiel agrabla kiel la vido de radianta vizaøo,
+mi ankoraý unufoje rekomendis miajn fromaøojn kaj post tio la pordego estis
+fermita, pordego kiel de kastelo tempe de la krucmilitiroj.
+
+\a{10.28}Mi povas hejmeniri trankvile. El tio miaj Edamaj ne venos, almenaý
+ne perforte. Ili restos æi tie øis ilia resurekta tago, kiam ili estos
+eligitaj triomfe por paradi antaý montrofenestroj kiel tiu antaý kiu mi
+staris æe mia reveno el Amsterdamo.
+
+%-------------------------------------------------------------------------- %
+                          \cxapitro{XI}
+
+\ax{La fromaøo gustumita}{11.1}Kiam mi venis hejme la kesto staris jam en mia oficejo. Peza kesto kun
+dudek ses fromaøoj, æiu de du kilogramoj, plus la pakumo. Kune sesdek
+kilogramoj.
+
+\a{11.2}Kial li ne estis portinta tiun keston al la kelo? Æi tie øi øenas
+kaj tiu fromaøodoro jam penetras tra la tabuloj. Mi provis transloki øin,
+sed tio ne estis ebla.
+
+\a{11.3}Tiam do prenis rompilon.
+
+\a{11.4}Kaj post tio mi ekmarteladis tiel ke la domo vibrosonis per tio kaj ke
+mia edzino supreniris por vidi æu þi povus helpi. Þi rakontis ke sinjorino
+Peeters, kiu loøas apud ni kaj estas galfebrulo, staris en la pordo elrigardi
+øis la kesto estis interne kaj la viro de l' Staplokompanio kun sia æareto
+estis irinta el la strato. Mi diris, ke rilate al mi sinjorino Peeters povas
+tuj krevi kaj ripozinte iomete, mi sukcesis malligi tabulon.  En kio estas la
+patento mi ne scias, sed estas certe fortikaj kestoj. Cetere estis bagatelo,
+æar post lasta klopodo ili aperis. Fromaøo post fromaøo pakita en staniolo,
+similis al grandaj paskaj ovoj. Mi mem estis vidinta ilin æe l'
+Staplokompanio, sed tamen øi min atentokaptis.
+
+\a{11.5}La fromaøromano fariøis realeco.
+
+\a{11.6}Mi deklaris decideme ke ili iru en la kelon kaj pri tio mia edzino min
+pravigas, æar fromaøo sekiøas.
+
+\a{11.7}Þi vokis Jan-on kaj Ida-n kaj kvarope ni malsupreniris la þtuparon,
+æiu kun du fromaøoj en la brakoj, tiel ke per tri vojaøoj ni pretiøis pri
+la transportado. La du lastajn bulojn irprenis la infanoj. La grandan
+malplenan keston mi mem volis malsuprenigi, sed Jan, kiu eniras sian dek-sesan
+jaron kaj estas sportema, øin prenis el miaj manoj, metis øin sur sian kapon
+kaj tiel portis øin al la kelo. Dumvoje li multefoje maltenis siajn manojn,
+kiel ekvilibristo.
+
+\a{11.8}Malsupre mia edzino metis la dudek ses Edamajn ree en øin kaj mi ilin
+subkovris per meti la tabulojn de la kovrilo libere super øin.
+
+\a{11.9}`Kaj nun do vi unufoje gustumu la fromaøon,' mi diris, æar mi
+definitive estis estriginta min.
+
+\a{11.10}Post tio Jan ektenis unu el tiuj arøentaj buloj, ¼etis øin en la
+altecon, ruligis øin de el sia mano al sia mentono kaj nur tiam donis øin al
+mia edzino kiam li ekrimarkis mian rigardon. Ida, kiu ankaý volas kontribui
+la sian, senigis de øi øian arøentan veston kaj tiam efektive aperis ruøa
+fromaøo tiel ke mi ilin konis de l' infanaøo kaj tiel ke ili æie en la urbo
+estas haveblaj.
+
+\a{11.11}Post kiam ni estis rigardinta øin momenton, mi bronzofrunte komandis
+tratranæi øin en du egalajn partojn.
+
+\a{11.12}Unue mia edzino provis, tiam Ida øisigis la tranæilon øis en la
+duono kaj Jan faris la reston.
+
+\a{11.13}Mia edzino unue flaris øin, tiam detranæis tranæa¼on, gustumis
+kaj donis parton al ambaý infanoj. Mi mem oficistagis.
+
+\a{11.14}`Æu vi ne gustumu,' demandis finfine mia edzino, kiu jam estis
+glutinta kelkfoje. `Øi estas vere bongusta.'
+
+\a{11.15}Mi ne þatas fromaøon, sed kion alian mi povis fari? Æu mi ne devas
+ekzempliøi estonte? Æu mi ne devas iri antaýe en la armeo de la
+fromaømanøantoj? Mi do enigis pecon kaj tiam mia frato sonorigis.
+
+\a{11.16}Li metis sian biciklon en la koridoro, kiel li faris æiutage, kaj post
+tio lia gajhumora paþado vibrosonis tra la domo.
+
+\a{11.17}`Æu ne malhelpon?' li demandis, kiam li jam estis en la kuirejo.
+`Æu tio do estas via fromaøo, virego?'
+
+\a{11.18}Kaj sen ceremonio li detranæis parton kaj mordegis.
+
+\a{11.19}Mi sekvis la impreson sur liaj viglaj trajtoj. Unue li kuntiris la
+brovojn, kvazaý li gustumis ion suspektan kaj rigardis mian edzinon, kiu
+ankoraý lekis siajn lipojn.
+
+\a{11.20}`Belega!' subite deklaris li. `Neniam en mia vivo mi gustumis tian
+bongustegan fromaøon.'
+
+\a{11.21}Se tio veras mi povas trankvili, æar li havas sesdek du jarojn kaj
+æiam manøis fromaøon.
+
+\a{11.22}Mi deziras ke mia oficejo estu aranøita.
+
+\a{11.23}`Kaj æu vi jam vendis multe?' informiøis li. Kaj li ree detranæis
+parton.
+
+\a{11.24}Mi diris, ke mi nur komencos, kiam mia organizado estas perfekta.
+
+\a{11.25}`Tiuokaze hastu do pri tiu organizado,' konsilis li. `Æar se tiuj
+dudek tunoj intenciøas kiel specimeno, tiam tiuj homoj eble atendas ke vi
+æiusemajne vendas proksimume dek tunojn. Ne forgesu ke vi estas agento por la
+tuta lando. Kaj ankaý la Grandduklandon vi havas. Se mi estus en via situacio,
+mi kolektas mian kuraøon kaj tuj iras.
+
+\a{11.26}Kaj tuj li estis elirinta, lasinte min sola kun mia edzino kaj
+infanoj, kaj kun tiu fromaøo.
+
+\a{11.27}Vespere mi iris al Van Schoonbeke por tie tajpi leteron al Hornstra,
+sur papero de Gafpa, æar mi ankoraý ne havas skribmaþinon kaj mi do devas
+sciigi pri la bona ricevo de lia senda¼o. Mi uzis la okazon por kunporti duonan
+Edaman por Van Schoonbeke, æar li estas tre sentiva pri afabla¼oj. Gustuminte,
+li ja denove gratulis min kaj diris ke li konservos mian fromaøon por prezenti
+øin al siaj amikoj æe la plej proksima festo. Se mi konsentas li zorgos ke mi
+estos kandidato æe la venonta elekto de prezidanto de la Sindikato de la Belgaj
+Fromaøkomercistoj. Kaj nun eklaboru.
+
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{XII}
+\ax{Brokantejoj}{12.1}Mi la tutan semajnon okupite seræis brokantan
+skribotablon kaj saman\rim{dito (M)} skrib\-maþ\-in\-on. Kaj mi vin asertas ke
+irado de brokantejo al brokantejo en la malnova urbo ne estas plezura laboro.
+
+\a{12.2}Ordinare estas tiel plena ke mi de sur la strato tute ne povas distingi
+æu ili havas en stoko tion kion mi seræas kaj mi do estas devigata eniri por
+demandi. Mi ne timetas tiun malgrandan penon, sed mi ne kuraøas forlasi butikon
+sen esti aæetinta ion, kaj ne kafejon sen esti trinkinta ion.
+
+\a{12.3}Tiel mi aæetis en la komenco karafon, poþtranæilon kaj gipsan Sanktan
+Jozefon. La tranæilo utilas al mi, kvankam mi iomete sentas naýzon pro øi, kaj
+la karafon mi kunportis al hejmo, kie øi kaýzis sensacion. La Sankt-Jozefan
+statuon mi metis kelkajn stratojn poste, kiam neniu spektis, sur fenestrobreton
+kaj post tio mi forkuris. Æar post tiu karafo mi ¼uris ke mi nenion kunportos
+al hejmo kaj mi ja ne povis resti sencele promenanta kun tiu gipsa statuo.
+
+\a{12.4}Nun tamen mi restas staranta en la butika pordo kaj demandas de el tie
+æu ili havas aæeteblajn skribotablon kaj skribmaþinon. Tiel longe kiel mi tenas
+la pordanson mi øustedire ne staras en la butiko kaj do havas neniun moralan
+devon, æar min tedas tiu aæetado. Sed se la pordo ne estas ferma, la sonorilo
+tintadas kaj se tio daýras tro longe, oni staras tie simile al þtelisto kiu
+pripensas æu li profitos la okazon aý ne.
+
+\a{12.5}Æe tio aldoniøis ke mi neniam tute trankvile iras tra la urbo.  Hamer
+ja havas mian ateston, sed iu kiu estas grave malsana restas hejme kaj ne iras
+de butiko al butiko. Mi æiam timas renkonti homojn de la General Marine, æar mi
+ne scias kiel vera nervomalsanulo agas. Se mi faligus min tiam ili ekakvumus
+mian vizaøon, igus min snufi volatila¼on aý kondukus min al kuracisto aý
+apotekisto, kiu deklarus ke mi hipokritas. Ne, tion mi rifuzas.  Estus pli bone
+ke ili min ne vidu. Do mi bone æirkaýrigardas kaj tenas min preta por subite
+returni aý eniri branæostraton. Konsiderante æion, estas dezirinde ke mia tuta
+foresto estu findecidita sen tro multe da pribabilado.
+
+\a{12.6}Mi cetere ja volus scii kiel marþis la aliaj sur la Þipkonstruejo.
+
+\a{12.7}Estas nun kvarono post la naýa. Mi scias ke miaj kvar
+kunkorespondistoj nun staras kun siaj suraj kontraý la tubo de la hejtado,
+æiu antaý sia tajpmaþino, kiel kanonistoj antaý sia artilerio. Unu el la
+kvar rakontas þerca¼on. Jes, tiu unua duona horo estis plezuriga. Hamer
+malfermis sian æeflibron sen unue varmigi sin kaj la fraýlino de la telefono
+delikate tuþetas siajn blondajn harojn, kiuj ¼us antaý mia foriro estis
+ondoformigitaj. La knarado de la pneýmatikaj nitmarteloj penetras de
+sur la þipkonstruejo øis en nia æambrego kaj ekstere antaý la fenestroj
+nia multokupita nana lokomotivo preterveturas. Ni turnas po kapon kaj
+tra la fenestro ni salutas la maljunan Piet kun lia blua kitelo kaj naztuko
+æirkaý la kolo, kiu øin kondukas tiel trankvile kiel fiakristo sian
+maljunan æevalaæon. Kiel retrosaluton li momenton funkciigas la
+vaporfajfilegon\rim{(M) geeft sireno}. Kaj tie malproksimume nia alta fumtubo
+flugetigadas sian nigran rubandon.
+
+\a{12.8}Tiel ili tie nun staras, tiuj stultuloj, dum mi estas faranta trabati
+al mi vojon tra la praarbaro de la biznismondo.
+
+\a{12.9}Kiu seræas, tiu trovas, tion mi spertis ¼us.
+
+\a{12.10}Æar fine mi malkovris taýgan skribotablon, kun nur kelkaj
+malgrandaj tine\-truoj en la verda tapiþo. Øi kostas tricent frankojn kaj
+kvankam øi ne estas nova, tamen øi servos same bone kiel iu de dumil. Mia
+edzino do pravis. Sed per tio denove unu tuta semajno perdiøis kaj mia
+fromaøo senpacience atendas la malfermon de la kelo.
+
+\a{12.11}La problemo pri la skribmaþino ankaý estas findecidita. Mi
+malkovris ke oni tiujn povas lui kaj morgaý unu staros hejme kiun mi bone
+konas, nome øemela maþino de la Underwood per kiu mi gajnis mian vivpanon
+dum tridek jaroj.
+
+\a{12.12}Je la antaýa merkredo la vendociklo komenciøas, estante æe Van
+Schoonbeke, kiu mem þatas, ke marþas tiel bone.
+
+\a{12.13}Kiam æiuj liaj amikoj sidis sur sia loko li malfermis þrankon kaj
+metis la resta¼on de la duona Edama sur la tablon. Mi vidis ke li mem jam
+estis manøinta grandan parton.
+
+\a{12.14}`Unu el la speciala¼oj de nia amiko Laarmans,' prezentis li.
+
+\a{12.15}`Pardonu, de la Gafpa,' diris tiu maljuna advokato. `Æu gustumado
+estas permesata?'\rim{PIV (Z): ..la infanoj ludadis, k tio estis permesata al
+ili}
+
+\a{12.16}Kaj tuj li detranæis pecon kaj transdonis la teleron.
+
+\a{12.17}Mi opiniis ke estas afabla de tiu viro ke li ne toleras mankojn pri
+la Gafpa. Kiam æio marþas, li donace ricevos Edaman.
+
+\a{12.18}Iom post tio la tuta orkestro estis maæanta kaj mi certe kredas ke
+neniam ia fromaøspeco estis honorata per tiom da entuziasmo kiel æi tiu
+krema Edama fromaøo. De el æiuj flankoj estis kriata bongustega, belega,
+kolosa kaj tiu þikulo demandis al Van Schoonbeke kie tiu fromaøo estas
+havebla.
+
+\a{12.19}Do tiel granda mia prestiøo jam estis ke ili eæ ne plu al mi
+kuraøas demandi.
+
+\a{12.20}`La parolon havas sinjoro Laarmans,' deklaris mia amiko, dum li
+denove enbuþigis pecon.
+
+\a{12.21}`Kompreneble,' diris alia, `Nur sinjoro Laarmans mem povas informi
+nin.'
+
+\a{12.22}`Æu vi vere pensas ke sinjoro Laarmans persone sin okupas pri tiaj
+bagatela¼oj,' diris la maljuna sinjoro. `Tion oni povas kompreni. Se mi volas
+havi tiun fromaøon, mi do ja telefonos la Gafpa-n.'
+
+\a{12.23}`Kaj vi diros ke ili liveru kvindek gramojn æe vi hejme,'
+kompletigis lia najbaro.
+
+\a{12.24}Mi nun deklaris preterfluge ke la Gafpa nur vendas po dek du kestoj
+de dudek sep buloj, sed ke mi malgraý tio komplezas liveri detale al ili æi
+tiun kreman por la prezo de la pogranda komerco.
+
+\a{12.25}`Trioblan soræinfluon\rim{??} por nia amiko Laarmans,' kriis la
+maljuna. Kaj li malplenigis sian glason jam denove.
+
+\a{12.26}Ili nun mian nomon ja konas.
+
+\a{12.27}Mi tiam prenis mian novan fontoplumon kaj notis la mendojn. Æiu
+havos bulon de du kiloj. Tiu maljuna sinjoro demandis, dum la forirado, kiam
+ni kune surmetis nian palton, æu esceptokaze li povas ekhavi duonan bulon,
+æar li loøas sola kun lia fratino kaj servistino. Kaj tion mi do promesis,
+por tio ke li estis la unua kiu pensis pri la Gafpa.
+
+\a{12.28}Unu demandis kiuj estas la aliaj speciala¼oj de la Gafpa.
+
+\a{12.29}`Æu vi certe ne volas kredigi ke la Gafpa vendas nenion escepte
+fromaøon? Nu, nu, ne þercu.'
+
+\a{12.30}Mi konfesis ke fromaøo estas nur flankafero, sed diris ke la aliaj
+artikloj nun nur povas esti liverataj al butikoj.
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{XIII}
+\ax{La liverado de la unuaj buloj - Anonco - Vizito de kolegoj}{13.1}Ke temp'
+estas mono, mi nur nun ekspertas, æar la liverado de tiuj sep buloj kaj duona
+perdigis tutan matenon.
+
+\a{13.2}Mi malkovris sur subtegmento kanan valizon, en kiu povas tri Edamaj,
+kaj mi mem ekliveris, æar miaj infanoj postlecione havas multe da lernejaj
+taskoj kaj tiu knabo dumvoje gimnastus per miaj fromaøoj.
+
+\a{13.3}Kiam mia edzino vidis min migranta al la kelo, mi ja devas rakonti pri
+kio okazas. Mi preferis elfini tion sekrete, æar mi timis ke þi opinias ke tio
+komikas. Ja tial, ke tiu pena trenado kun tiuj fromaøoj verdire ne estas laboro
+por gvidanto de entrepreno, tion mi efektive scias, sed mi ne povas liverigi
+miajn dekmil Edamajn ja ne unu post la alian per la staplokompanio
+Bluæapeloj. Tion tiuj homoj ne faras. Sed mia edzino opiniis tion tre ordinara.
+
+\a{13.4}`Tio jam estas komenco,' kredis þi. `Kaj tiel oni almenaý ekkonas
+nian fromaøon.'
+
+\a{13.5}Tiu `nian' bonigis min. Þi do interesiøas pri la sorto kaj prenas
+sur sin parton de la prirespondeco.
+
+\a{13.6}Mi nur esperas ke ili ne due mendos, æar la liverado estis malpli
+facila ol mi atendis. Unue mi devas bronzofrunte preteriri sinjorinon Peeters,
+nia najbarino, kiu staras æiam en la pordo, aý antaý la fenestro. Post tio
+en la tramon, kie onia valizo øenas. Finfine tiam oni alvenas. Oni sonorigas,
+por oni malfermis servistino kaj tiam oni staras en la koridoro kun onia korbo
+æar øi pli similas al korbo ol al valizo. Oni diru ke oni kunportas la
+fromaøon, post kio la servistino iras averti la sinjorinon, kiu kelfoje
+ankoraý kuþas en lito. Æe du el ok oni nenion sciis pri la fromaøo kaj mi
+nur plej pene povis liberiøi de tiuj pezaj buloj, kio nur sukcesis tial ke mi
+diris ke nenio estas pagenda. Mi estas aranøonta tion kun la sinjoro.
+
+\a{13.7}Kaj nun mi sidas en mia oficejo, post tiu lacegiganta forportado kaj
+post nova vizito de mia frato, kiu æiutage demandas pri la statistiko pri la
+vendita kaj nevendita fromaøo. Kiel vera kuracisto li æiufoje pikas la
+tranæilon en la vundon.
+
+\a{13.8}Mi rakontis lin pri la fromaøo kiu estas vendita æe Van Schoonbeke.
+Li plezuriøis ke æiuj tiel þatis øin. Sed post tio li iom kalkulis kaj
+diris: `Tio estas sep kaj duona de viaj dekmil buloj. Se vi æiusemajne faras
+tian negocon, tiam viaj lastaj fromaøoj vendiøos post tridek jaroj. Laboru
+virego, labori, alie finiøos malbone.'
+
+\a{13.9}Sed kiel mi liberiøas de tiu fromaøo? Tio estas la demando.
+
+\a{13.10}Mi momenton intencis viziti kun kelkaj fromaøoj en mia valizo æiujn
+butikojn en la urbo kiuj vendas fromaøon. Sed kun tiu sistemo mia oficejo
+estus izola kaj fariøus superflua. Kaj mi mem estas æi tie tamen
+nemalhavebla por korespondado kaj librotenado al mi þajnas. Ankaý mi ne
+povas lasi al mia edzino respondi al la homoj, kiuj telefonus. Þi sen tio jam
+havas sufiæe da laboro.
+
+\a{13.11}Ne, por mia fromaøo devos esti aro da viglaj agentoj kiuj trovos
+aæetantojn. Viregoj kiuj penetras øis en la plej malgrandan butikon, kiuj
+bone parolas kaj æiusemajne, aý eæ dufoje en semajno, transdonas siajn
+mendojn. Jes, dufoje en semajno estas pli bona kaj mi ordonos je lundo kaj je
+¼aýdo, tiel ankaý mia laboro estas iomete dividita. Mi mem orde registras
+æion, instruas la staplokompanion pri la livero, redaktas fakturojn, zorgas
+pri la enkasigado, subtrahas miajn kvin procentojn kaj sendas æiusemajne la
+saldon al Hornstra. Kaj mem mi eæ ne kontaktiøas kun la fromaøo.
+
+\a{13.12}Mi do enpresigis anoncon: `Granda Edama-fromaøo-importisto seræas
+en æiuj urboj de la lando kaj de la Grandduklando Luksemburgio kapablajn
+reprezentantojn, prefere kun klientaro inter fromaøbutikoj. Skribu al Gafpa,
+Verdussenstraat 170, Antverpeno, deklarante referencojn kaj lastan postenon.'
+
+\a{13.13}La rezulto ne forrestadis.
+
+\a{13.14}Post du tagoj mi trovis sur la kafotablo cent sesdek kvar leterojn de
+æia grandeco kaj koloro. La leterportisto estis devinta sonorigi, æar li
+ilin ne estis kapablinta enleterkestigi.
+
+\a{13.15}Mi do estas sur bona vojo kaj almenaý povos uzi mian skribmaþinon.
+Unue mi malfermis æiujn leterojn kaj specigis laý provinco.
+
+\a{13.16}Mi aæetos geografian karton de Belgujo kaj pinglos flageton sur
+æiun urbon kie mi enoficigis agenton. Tio donas belegan superrigardon. Kaj
+tiuj, kiuj ne vendas sufiæe, devas eliøi.
+
+\a{13.17}Bruselo estras pro sepdek leteroj. Tiam Antverpeno sekvas pro tridek
+du kaj la resto dividiøas sur la tuta lando. Nur la Grandduklando ne skribis,
+sed tio estas negrava¼o.
+
+\a{13.18}Kiam æio estis malfermita kaj klasigita, ankoraý kvindekopo venis,
+kiuj certe enpoþtiøis tro malfrue. Tio prosperas. Mi komencis kun Bruselo.
+Estas homoj, kiuj rakontas ilian tutan biografion, de l'infanaøo. Multaj
+komencas rakonti ke ili travivis la grandan militon kaj portas sep frontajn
+ranggalonojn. Mi ne komprenas kiel tio rilatas al la vendado de fromaøo.  Aliaj
+parolas pri sia granda familio kaj suferita mizero kaj apelacias al mia
+kompatema koro. Æe la legado de iuj leteroj mi larmis. Mi enfermos tiujn aparte
+æar mi ne volas ke ilin rimarkas miaj infanoj, alie tiuj ekripetadas tede øis
+mi preferas tiujn homojn. Kaj mi trairu tion malpurpiede\rim{En ik moet er met
+vuile voeten door???}. Se mi respondas al æiuj tiuj leteroj tiam estas nur pro
+gentileco kaj ankaý por ebli frapeti mian skribmaþinon, æar multaj el tiuj
+homoj neniam laboris en la komerco, antaýe vendis cigaredojn aý nur þajnas esti
+skribintaj senserioze. Ili kiuj plenumas la faritajn kondiæojn, skribas
+decideme kaj pliinformiøas pri kurtaøo kaj daýra salajro. Tiuj þajnas voli
+ankoraý bone pripensi æu ili ja faros komplezon al mi per akcepti unu el miaj
+agentecoj.
+
+\a{13.19}Kompreneble mi ne konsideras doni salajron al tiuj viregoj. Kien tio
+venos? Ili ricevos tri procentojn kaj ne dekonon pli. Mi konservas du
+procentojn, plus miajn tricent guldenojn pomonate.
+
+\a{13.20}Kiam mi sidis agrable antaý mia Underwood, iu sonorigis. Mi aýdas
+tion øis æi tie, sed mi ne atentas tion, æar mi neniam iras malfermi la
+pordon se mi sidas en oficejo. Sed iom post tio mia edzino supreniris por diri
+ke tri sinoroj kaj sinjorino estas, kiuj deziras paroli kun mi. Ili kunportas
+pakon.
+
+\a{13.21}`Surmetu vian kolumon kaj vian kravaton,' konsilis þi.
+
+\a{13.22}Kiuj tiuj povas esti? Supozeble kandidatoj kiuj preferas veni mem
+anstataý skri\-bi leteron.
+
+\a{13.23}Kiam mi malfermis la pordon de nia saloneto, kvar etenditaj manoj
+venis renkonte min. Estis Tuil, Erfurt, Bartherotte kaj fraýlino Van der Tak,
+miaj kvar kunkorespondistoj æe la General Marine.
+
+\a{13.24}Mi sentis mian sangon foriøanta el mia vizaøo kaj ili devis esti
+rimarkinta ion, æar Anna van der Tak þovis al mi seøon kaj ordonis min
+eksidi.
+
+\a{13.25}`Nepre ne lacigu vin. Ni forestos tuj,' certigis þi.
+
+\a{13.26}Ili decidis viziti min por mem vidi kiel mi fartas, æar en oficejo
+la plej idiotaj rakontoj estas rakontataj.
+
+\a{13.27}Tuil ekskuzis pro tio ke ili venis posttagmeze, sed mi sciis ke ili
+ne havas tempon dumtage. Kaj viziti malsanulon vespere, tio ne eblas.
+
+\a{13.28}Ili daýre rigardis min kaj interkonigis interrilatajn rigardojn.
+
+\a{13.29}En oficejo multa estas þanøita dum tiuj kelkaj semajnoj. Ili nun
+sidas kun la dorso al la fenestro, anstataý inverse, æiuj ekhavis novan
+rulon da sorbpapero kaj Hamer surhavas okulvitrojn.
+
+\a{13.30}`Imagu Hamer kun okulvitroj,' diris Erfurt, 'Estas ridegige.'
+
+\a{13.31}Dum ili parolis mi aýdis ke mia frato envenas. Li metis sian biciklion
+kontraý la muro kaj post tio marþis al la kuirejo, kiel li faras æiun
+posttagmezon. Lia matriarka paþo vibrosonis tra la koridoro.
+
+\a{13.32}Mi timis ke li demandos kiel la fromaøvendo marþas, æar li krias
+kiel þipestro, pro pura entuziasmo. Sed mia edzino supozeble per signaloj
+postulis silenton de li, æar iom poste mi aýdis ke li piedfingre foriras.
+
+\a{13.33}Post tio Tuil faris malgrandan alparolon nome de la kompleta
+dungitaro kaj esprimis la esperon ke mi baldaý, sana kiel fiþo\rim{æi tio
+estas stereotipa esprimo en nederlanda, sed æu ankaý tiel en Eo? tre sana?},
+povos okupi mian malnovan lokon inter ili.
+
+\a{13.34}Kaj Bartherotte subite aperigis, kun solena gesto, de malantaý sia
+dorso, grandan pakon kaj emanigis øin al mi, petante min voli malfermi øin.
+
+\a{13.35}Øi estis belege polurita triktrakskatolo, kun dek kvin nigraj kaj
+dek kvin blankaj pecoj\rim{=stukken (M) damschijf=peco}, du ledaj pokaloj kaj
+du ¼etkuboj. Estis sur ekstera¼o arøenta plateto, kun la enskriba¼o:
+
+\a{13.36}
+\begin{center}
+{\sc la dungitaro de la \\
+     general marine and shipbuilding company \\
+      al sia kolego\\[2ex]
+    {\normalsize FRANS LAARMANS}\\[2ex] }
+{\em Antverpeno, la 15an de februaro 1933.}\\[2ex]
+\end{center}
+Ili kolektis kaj eæ la maljuna Piet de la lokomotiveto donis sian
+frankon.
+
+\a{13.37}Kaj post lasta elkora manpreno ili lasis min sola.
+
+\a{13.38}Tiu triktrako devas servi por ludi ludojn kun edzino kaj infanoj øis
+mi resaniøas.
+
+\a{13.39}Mia edzino nenion demandis. Þi kuiras la manøon kun zorgoplena
+vizaøo. Mi sentas ke nura akratona vorto povus igi þin plori.
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{XIV}
+\ax{Enoficigado de la agentoj}{14.1}Antaý dek kvar tagoj mi enoficigis tridek
+agentojn, dividitajn sur la tuta lando, sen daýra salajro sed kun granda
+kurtaøo. Kaj æiam ankoraý ne envenas mendoj. Kion tiuj viregoj faras? Ili
+eæ ne skribas kaj mia frato neþanceleble restas informiøanta pri la
+venditaj kvantoj.
+
+\a{14.2}Tiujn agentojn  mi devis elekti æe vido, kiel oni aæetas buæbrutojn
+sur la foiro.
+
+\a{14.3}En serioj de dek mi estis veniginte ilin en mian oficejon, la unu iom
+pli frue, la alia iom pli malfrue, por eviti øenajn renkontojn inter rivaloj.
+Ne metu malsatajn hundojn kune æe unu pladon.
+
+\a{14.4}Kiel multokupata sinjorino Peeters, mia najborino, estis.
+
+\a{14.5}Estis suprizo de la komenco øis la fino.
+
+\a{14.6}Redaktintoj de belega letero evidentiøis esti veraj vrakoj kaj
+inverse. Estis grandaj, malgrandaj, junaj, maljunaj, kun kaj sen infanoj,
+þike vestintaj kaj en æifonoj, petegantaj kaj minacantaj. Ili parolis pri
+riæa familio, pri eksministroj, kiujn ili konas. Donis strangan percepton
+sidi tie kiel la viro kiu, per unu nura vorto, povis þanøi tian jubelantan
+viregon en æifonon.
+
+\a{14.7}Unu malkaþe diris ke li malsatas kaj estus kontenta kun fromaøa
+bulo, ankaý sen agenteco. Tio tiel kaptis min ke mi donis al li Edaman. Poste
+mi aýdis ke krom tio li forirante ankaý akiris de mia edzino paron da miaj
+malnovaj þuoj.
+
+\a{14.8}Kelkaj ne estas eksterigeblaj æar estas en mia oficeja tiel agrable
+varma. Kaj du deklaris ke ne estas tolerebla\rim{eigenlijk opgaan} venigi iun
+al Antverpeno sen kompensi liajn vojaøkostojn. Mi tiujn pagis do. Mi æiufoje
+notis sur ilia letero: malbona, duba, bona, kalva, drinkas, kun promenbastono
+kaj tiaj, æar post la deka vizito mi ne povis rememorigi la unuajn.
+
+\a{14.9}Mi ankoraý unufoje serioze pripensis æu mi tamen prilaboros
+Antverpenon mem. Æi tie en la urbo Frans Laarmans do estus agento de la
+Gafpa. Sed la imaga¼o de mia izola oficejo ne lasas min trankvilan. Kiel la
+publiko ekpensus pri la Gafpa se tiu eæ ne respondas al la telefono?
+
+\a{14.10}Kaj tiam mia plej juna bofrato venis por demandi æu li povas
+provi\rim{er staat eigenlijk {\em niet} proberen. Maar 't wellicht beter om
+dat niet te vertalen} en Antverpeno. Li verdire estas diamanttajlisto, sed pro
+la granda malvigleco li jam monatojn estas senlabora\rim{zonder werk lopen}.
+
+\a{14.11}`Fine diris ke mi vin alparolu,' deklaris li kun la falsa humileco de
+iu kiu scias ke li estas apogita de superulo.
+
+\a{14.12}Mi vizitis `Fine' en þia kuirejo kaj demandis konfirmon. Kaj tiu
+simple diras ke li tagon post tago venas por tede ripetadi pri tiu fromaøo.
+Þi nun ne plej multe parolas, kiel tiam æe la priparolado de la ja aý ne
+retapeti mian oficejon.
+
+\a{14.13}`Æu mi devas konfidi Antverpenon al Gust, jes aý ne?' mi ankoraý
+unufoje aferece demandis þin kaj krom tio bone rigardis þin.
+
+\a{14.14}Post tio þi murmuris ion, de kio mi komprenis neniun vorton, prenis
+lesivokuvon kaj migris al la kelo.
+
+\a{14.15}Kion alian mi povis fari ol prove akcepti lin? Sed se ne prosperas,
+tiam li estos eksigita, bofrato aý ne bofrato. Kompreneble tio kostos al mi
+minimume unu bulon, de kiu mi nenion revidos.
+
+\a{14.16}Mi komisiis presi mendkuponojn, dividitajn en kolumnojn: mendodato,
+nomo kaj adreso de la aæetanto, nombro da kestoj de 27 fomaøoj de proksimume
+2 kg, prezo por kilogramo, pagtempo. Sur æiu kupono estas spaco por dek kvin
+mendoj. Kiel komenco, æiu agento ricevis dek kuponojn, do sufiæe por kvin
+semajnoj. Æio estas plejeble simpla kaj praktika. Æiun lundon kaj ¼audon
+ili nur devas plenigi sian kuponon kaj perpoþte sendi tiun al mi. La cetero
+tiam sekvas per si mem.
+
+\a{14.17}Pro tio ke tamen mi ne vidas ion veni, mi finfine vizitis miajn du
+Bruselajn agentojn. Noeninckx kaj Delaforge, por scii tion kio mankas kaj por
+se necese helpi tiujn homojn per konsilo kaj faro. Mi nome estis dividinta
+Bruselon en orientan kaj okcidentan duonon, æar mi opinias tiun urbon tro
+vasta por esti prilaborata øisfunde de unu viro.
+
+\a{14.18}Post tramoveturado kiu estas senfina, mi devis sciiøi ke tiu
+Noeninckx estas tute nekonata je la dirita adreso. Sed tiuokaze kiel miaj
+leteroj povis atingi lin? Æar tiuj ne revenis.
+
+\a{14.19}Delaforge loøas en tre alia kvartalo, en subtegmentejo, mi kredas,
+æar pli alte la þtuparo ne iris. Sur la þtuparplata¼o lavita¼oj pendis
+sekiøante kaj odoris kiel fritita haringo. Mi frapadis longtempe lian pordon,
+øis li fine malfermis senjake, kun okuloj ankoraý dikaj pro la dormado. Li
+eæ ne rekonis min kaj kiam mi diris kiu mi estas, li deklaris ke li ne
+interesiøas pri tiu fromaøhistorio. Kaj post tio li batmalfermis la pordon
+antaý mi.
+
+\a{14.20}Mi komprenas nenion pri tio.
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{XV}
+\rim{Æi tiu æapitro aldoniøis en la jaro 1943}
+\ax{Prezidanteco}{15.1}Plene de zorgo, kiel mi estas, mi apatie faris mian
+æiusemajnan viziton al Van Schoonbeke kaj liaj amikoj. Kaj mi nur manpremis
+la duonon el ili kiam li denove gratulis min. Mi rigardis lin riproæe æar mi
+opinias tiujn periodajn gratulojn senbazajn humiligaj kaj mi ne permesas ludi
+per mi. Sed li informis siajn gastojn -- kaj tiel ankaý min -- per kelkaj
+vortoj.
+
+\a{15.2}`Nia amiko Laarmans elektiøis prezidanto de la Sindikato de Belgaj
+Fromaø\-komerc\-istoj. Mi trinkas je tiu granda sukceso,' deklaris li.
+
+\a{15.3}Æiuj malplenigis sian glason, æar ili æiam estas pretaj por
+intertuþi la glasojn kun la vino de Van Schoonbeke je kio ajn.
+
+\a{15.4}`Tiu juna viro multon atingos,' diris tiu kun siaj oraj dentoj.
+
+\a{15.5}Mi protestis, æar æi tio ne povis esti io alia ol malsprita
+sprita¼o de nia gastiganto, sed tiu maljuna advokato kun sia duona bulo
+deklaris ke memfarita homo kiel mi devas sin liberigi de tiu humileco kiel de
+eluzita palto. Tenu alta la fromaønormon, sinjoro!
+
+\a{15.6}Dum la forirado mi demandis al Van Schoonbeke kial li faris tiun
+þercon sed li persistis ke tio estas finaranøita afero kaj ridis al min
+afable, æar li estas plena de bonaj intencoj.
+
+\a{15.7}`Prezidanto!' akcentis li admirante.
+
+\a{15.8}Li kompreneble opinias tion profito de prestiøo, ne nur por mi sed
+pere ankaý por si kaj æiuj siaj amikoj. Mi estus la dua prezidanto, æar tiu
+ ulo\rim{die ene} estas prezidanto de la Unuiøo de Antverpenaj
+Grenimportistoj.
+
+\a{15.9}Mi ne komprenas æar mi petis nenion kaj mi eæ ne konas tiun
+unuiøon, kvankam mi estas membro de øi.
+
+\a{15.10}Je la sekva mateno la poþto alportis klarigon forme letero de la
+Association Professionelle des N\'egociants en Fromage, per kiu mi sciiøis ke
+mi elektiøis anstataýa prezidanto. Eæ anstataýan mi opinias tro multa. Mi
+nenion volas anstataýi. Mi volas ke mia frato silentas, ke mia oficejo
+prosperas, kaj ke miaj agentoj vendas. Kaj ke oni sin ne okupas pri mi. Ankaý
+la motivo estis montrita. Antaý tri jaroj la limimpostoj super fromaøo estis
+faritaj de dek al dudek procentoj {\em ad valorem}\rim{??} kaj ili estis,
+gvidataj de sia malnova prezidanto, de tiam vane peninta denove malfarigi tiun
+plialtigon. Ili estis vendrede, do morgaý, ree aýdicie akceptotaj æe
+la Departemento de Komerco kaj insistis ke mi komandos ilian delegacion.
+
+\a{15.11}Ilia letero treege maltrankviligis min æar oni verþajne iom publikigos
+pri la nomo de prezidanto de tia fakista unuiøo, tiom mi ja scias pri tio. Tio
+ja ne estas malebligebla. Kaj mi æiuokaze\rim{voor geen geld ter wereld} ne
+volas ke Hamer kaj la tuta dungitaro de la General Marine aranøos sin æi tempon
+æirkaý gazeton en kiu estas mia portreto kiel fromaøestro de Belgujo. Tio ne
+povas. Al tio mi ne volas esti elmetita.
+
+\a{15.12}Morgaý mi revenos al Bruselo kaj mi diros al tiuj sinjoroj ke mia
+sanstato ne toleras tion. Kaj se ili ne volas aýskulti tiam mi eksiøos kiel
+membro kaj tiam ilia unuiøo sufokiøu. Mi bedaýras pro Van Schoonbeke, sed
+mi ne kapablas alie.
+
+\a{15.13}Mi renkontis en la Palace Hotelo kvar fromaøhomojn kiuj prezentis
+sin kiel Hellemans el Bruselo, Dupierreux el Lieøo, Bruaene el Bruøo kaj
+kvara el Gento kies nomon mi ne aýdis. Kaj tial ke la tempo urøis ni
+devis foriri.
+
+\a{15.14}`Sinjoroj,' diris mi, `ne ofendiøu, sed mi ne povas akcepti. Elektu
+iun alian,' petegis mi, `mi estos dankema al vi.'
+
+\a{15.15}Sed ili ne cedis kaj ni ne povis reiri, æar la øenerala direktoro,
+aý eble la ministro mem, atendis nin je la deka horo kaj niaj kvin nomoj
+estis diritaj. Ili ne estis antaývidintaj kontraýstaron, kontraýe, æar tiu
+advokato el Antverpeno estis dirinta ke mi ne pli postulas. Jen tio jam estas.
+Denove la laboro de mia terura amiko kiu volas vidi min pli alta.
+
+\a{15.16}`Aýskultu,' diris Dupierreux, kiu fariøis nervoza, `se vi ne volas
+resti pre\-zid\-anto, tiam almenaý faru kun ni tiun unu mision\rim{demarche}. Post
+unu horo vi estos eks\-pre\-zid\-anto.'
+
+\a{15.17}Pri tiu kondiæo mi finfine konsentis kaj mi kuniris.
+
+\a{15.18}Sidinte longan tempon en la atendejo kun delegacio de bierfaristoj,
+la pedelo aperis, kiu laýtvoæe alvokis la Association Professionelle des
+N\'egociants en Fromage kaj antaýiris nin en la kabineto de sinjoro de
+Lovendegem de Pottelsberge, øenerala direktoro de la Departemento, kiu al ni,
+post øentilmaniera bonvenigo, montris kvin seøojn kiuj estis antaý sia
+skribotablo.
+
+\a{15.19}`Prezidanto, mi petas vin,' diris Hellemans. Kaj kiam mi estis
+sidanta ankaý ili sidiøis.
+
+\a{15.20}La øenerala direktoro ordigis siajn okulvitrojn kaj seræis el stako
+difinatan dosieron, kiun li ankoraý momenton trarigardis. Tio faris rapide, kio
+pensigis min ke la æefa¼on jam konis li. Li kapneis ripetfoje kaj þultrotiris
+kvazaý li devis fari neeblan taskon. Fine li ekkuþis dorse en sia seøo kaj
+rigardis nin, precipe min.
+
+\a{15.21}`Sinjoroj,' deklaris li, `mi terure bedaýras, sed æi jaron tio ne
+estas ebla. Tio farus je malkonvena momento truon en la kuranta buøeto, eæ
+sen paroli pri la fortega reakcio æe la  enlandaj fabrikistoj per kampanjo en
+la gazetaro kaj la klasika interpelacio en la parlamento. Sed estontan jaron,
+ni vidos.' Kaj tiam lia telefono sonoris.
+
+\a{15.22}`La kolombobredistoj devas atendi øis mi estas preta kun la
+fromaøkomercistoj,' diris li krude kaj malektelefonis.
+
+\a{15.23}`Sed,' daýrigis li konsolante, `mi promesas al ni ke mi ne denove
+cedos se niaj propraj fabrikistoj insistos novan plialtigon de dek procentoj.'
+Kaj li konsultis sian brakhorloøon.
+
+\a{15.24}Miaj kvar salongardistoj\rim{suppoosten} rigardis al mia direkto kaj
+tial ke mi nenion eligis, Dupierreux deklaris ke ili tion scias jam delonge
+æar æe æiu vizito la samo estis dirita al ili. Kaj post tio sekvis
+implikita diskuto pri indiøenaj kaj eksterlandaj fromaøspecoj, kun
+statistikoj pri kiuj mi nenion komprenis. Iliaj kvar voæoj kunfandiøis øis
+unu zumado kiu iom post iom þajnis foriri de mi. Kaj finfine mi estis
+malantaýe kelkaj paþoj kaj rigardis de supre tiun liberigantan kvaropon. Jen
+sidis Hellemans, multjara viro, griziøinta en la fromaøo, Bruaene,
+korpulenta virego, øuanta bonegan sanon kaj kun peza ora æeno sur la ventro,
+Dupierreux, malgranda nervozo sinjoreto kiu malfacile povas regi sin kaj fine
+tiu viro el Gento kun siaj pustulaj manoj, pendante antaýen, la kubutoj sur
+la genuoj por ne maltrafi silabon. Æiuj kvar homoj de þatateco en la
+fromaøo, homoj kun pasinteco, kun fromaøtradicio, homoj de prestiøo, homoj
+kun mono. Kaj inter tio tiu taýzita Frans Laarmans, kiu sciis ne plu pri
+fromaøo ol pri kemia¼oj. Kion tiu malpuraj fromaøvermoj permisis sin pri
+tiu malluksa viro? Kaj subite mia seøo þoviøis kvazaý per si mem
+malantaýen. Mi staris rekte kaj kun sovaøa rigardo al tiuj kvar
+fromaøigitaj mallertuloj mi deklaris, laýtvoæe, ke mi estas tedegata.
+
+\a{15.25}Ili fikse rigardis min konfuzite, kiel iu kiu observas unuan erupcion
+de senprudenteco.
+
+\a{15.26}Mi vidis de Lovendegem de Pottelsberghe paliøanta. Li sin preparis,
+turniøis æirkaý sia skribotablo, haste venis al mi kaj metis sian blankan
+manon familiare sur mian brakon.
+
+\a{15.27}`Nu, nu, sinjoro Laarmans,' kvietigis li, `tiel mi ne celis. Kiel vi
+opiniis pri malaltigo de kvin procentoj kaj la aliaj kvin sekvontan jaron.
+Estu nun iomete cedema, æar æion subite mi vere ne kuraøas preni sur mi.'
+
+\a{15.28}`Konsentite,' diris tiu viro el Gento. Kaj iom post tio mi estis sur
+la trotuaro, æirkaýita de miaj radiantaj fromaøkamaradoj kiuj manprenis min
+kvarope samtempe.
+
+\a{15.29}`Sinjoro Laarmans,' murmuris Dupierreux kortuþite, `Ni dankas vin.
+Ion tian ni ne kuraøis esperi. Æi tio estas eksterordinara.'
+
+\a{15.30}`Kaj nun pri mia prezidanteco definitive ne plu estas parolo, æu ne,
+sinjoroj?'
+
+\a{15.31}`Certe,' min trankviligis Bruaene. `Ni vin ne plu bezonas.'
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{XVI}
+
+\ax{Boorman}{16.1}Venis letero el Amsterdamo en kiu Hornstra diras ke li marde
+devos iri al Parizo kaj profitos sian trairon tra Belgujo por reguli la kontojn
+pri tiuj unuaj dudek tunoj kun mi. Li estos æi tie je la dek unua.
+
+\a{16.2}Æu estis pro honto aý pro kolerego? Mi ne scias. Sed kiam mi legis
+tiun leteron mi fortege ruøiøis, kvankam mi sidis sola kaj nevidata en mia
+oficejo, kie nun nenio plu mankas.
+
+\a{16.3}Mi enpoþigis la leteron, æar mi ne volas ke mia edzino scias tion,
+alie þi certe rakontas tion al mia frato. Sed unu afero estas certa. Se tiuj
+Edamaj ne estos venditaj post kvin tagoj, tiam la Gafpa
+torpediøos\rim{fiaskigata}. Verdire mi nur havas kvar tagojn, æar por
+aferisto la dimanæo ne prikalkuliøas.
+
+\a{16.4}Kun la morto en la koro mi denove irprenis mian korbovalizon de la
+subtegmento kaj enigis en øin unu el miaj fromaøoj. Mia edzino supozeble
+pensas ke miaj amikoj duafoje mendis.
+
+\a{16.5}Hop\rim{vooruit} nu, Frans. Via kontorbabilaæado finis. Vi mem ekiru,
+kun neniuj aliaj helpantoj krom via lango kaj la kvalito de via krema.
+
+\a{16.6}Mi ja scias kien mi iru. Se ie fromaøo debitiøas, tiam tie estas.
+
+\a{16.7}Sed kion mi rakontos? Senpere demandi æu ili eble volas aæeti iom da
+fromaøo?
+
+\a{16.8}Nun mi konscias ke mankas al mi la praktiko, æar mi neniam vendis
+ion. Kaj nun subite fromaøon. Se estus mimozo. Kaj tamen mi devas fari
+æiutaga¼on. Æar kion tiuj milionoj da aferistoj faras? Ankaý tiuj do
+devas.
+
+\a{16.9}Tiu pruva ekzemplero\rim{numero} de {\em Le soir} ankoraý æiam estas
+sur mia skribotablo. Mi malfermas øin por ankoraý unufoje rigardi mian
+anoncon. Øi aspektas tiel bona ke mi mem ekdiziras skribi pro øi por oferi
+miajn servojn.
+
+\a{16.10}Kaj aýtomate mi rigardis malgrandan enmeton, tuj sur la mia:
+`Skribaj kaj parolaj konsiloj\rim{konsultoj, er {\em staat} raadplegingen} por
+negocistoj kaj agentoj kiuj malmulte sukcesas pri la vendado. Multjara sperto.
+Boorman, Villa des Roses, Bras¶ato\rim{Brasschaet}.'
+
+\a{16.11}Tiu komunumo estas proksima. Kial mi ne konsilus tiun viron antaý ol 
+mi kuraøas entrepreni la unuan paþon?
+
+\a{16.12}Tio do mi faris, kiel malsanulo, sen scio de sia kuracisto, iras al
+æarlatanoj.
+
+\a{16.13}Mi devis atendi øis estis mia vico.
+
+\a{16.14}Boorman estas fortika maljuna sinjoreto, kun granda kapo kaj fiksa
+rigardo, kiu sidas kun la dorso al la fenestro kaj lasis brili la helan
+taglumon sur siajn vizitantojn.
+
+\a{16.15}Li aýskultis mian Gafparakonton\rim{historio} sen interrompi min kaj
+tiam diris ke du aferoj estas grava por mi: Kiel mi envenas kaj kion mi diras.
+Unue kaj antaý æio, kiel oni envenas? Vi povas enveni kiel unu kiu alportas
+ion aý venas peti ion, kiel aferisto aý kiel almozulo. La almoza, diras
+Boorman, estas malpli en la vestaro ol en teniøo kaj tono.
+
+\a{16.16}Vi do venas libere, eæ eble kun cigaro en la buþo, teren¼etas
+vian valizon, kvazaý en tiu estas indiferente kio, sed ne fromaøo, kaj
+demandas æu vi havas la honoron.
+
+\a{16.17}Kompreneble li diras ke jes. Kaj se vi {\em ne} havas la honoron,
+tiam do li havas la honoron.
+
+\a{16.18}Vi eksidas, se necese nepetite.
+
+\a{16.19}Sinjoro, ni venis el Amsterdamo intence por prezenti al vi la
+monopolon por Antverpeno de nia krema Gafpafromaøo, informiøinte pri via
+firmao.
+
+\a{16.20}Ni, signifas, ke øustadire venis plena oficiala komisiono, sed la
+aliaj ankoraý estas en la hotelo. Hieraý vespere iomete diboæis.
+
+\a{16.21}{\em El Amsterdamo intence} apelacias al lia bona koro, diras
+Boorman. Se li ja ne aæetas, la komisiono nur povas reveni al sia gepatra
+urbo kaj tiam la tuta vojaøo perdiøas. Krom tio, la konfido al lia firmao
+tiam estus þoka\rim{?}. Kaj por tio li devas esti senta, æar {\em
+informiøinte pri via firmao} inkluzifas ke vi kribris tutan Antverpenon kaj
+ke nur li restis. Kaj {\em nia} krema signifas ke malantaý vi fikse staras la
+kompleta Nederlanda fromaøindustrio. Li komplezus  praktike instrui
+min, sed tio ne plu eblas, æar Hornstra alproksimiøas.
+
+\a{16.22}Tiu vizito al Boorman estis mia lasta prokrasto. Forlasite de æiu mi
+mem devis ataki la fromaødrakon. Mi sukcesis iri neobservate preter sinjorino
+Peeters kaj uzis la tramon al tiu fromaøbutiko kun øia belega
+montrofenestro, kie tiel fetoras. Unue mi staris dum kelka tempo antaý la
+vitra montrejo, kaj seræis inter æiuj tiuj fromaøspecoj Edaman. Jes, tie
+estas unu, tratranæita en du egalajn partojn. Tiu kompreneble ne estas
+komparebla kun mia krema, tio mi ja tuj povas vidi.
+
+\a{16.23}La butiko ankoraý same odoras kiel tiam tiun vesperon. Estas
+stranga, sed nun mi jam estas delonge en la fako, mi povas elteni tion malpli
+bone ol æe mia hejmenveno el Amsterdamo. Æu mi fariøis pli mola? Æu aý
+estas tio pro mia animstato?
+
+\a{16.24}La butiko bone marþas, tio estas certa.
+
+\a{16.25}Interne staras seso da aæetantoj kaj la komizinoj estas multokupataj
+per tranæi, enpaki kaj redoni. Øis ekstere mi æiufoje aýdas ilin
+demandantaj: `Kaj por vi, sinjorino?'
+
+\a{16.26}Mi do ne povas enveni tiel longe kiel æiuj tiuj aæetantoj estas tie
+kaj æesigi la tutan entreprenon por deklami pri mia krema. Æar ke estos
+deklamado, certas. Se mi ne tuj komencos, tiam ili eble demandos: `Kaj por vi,
+sinjoro?' Kaj tiam la roloj fariøos inversaj.
+
+\a{16.27}La multokupiteco nun iomete malfortiøis. Staris plu nur unuobla
+sinjorino.
+
+\a{16.28}Nun aý neniam.
+
+\a{16.29}Sed du el la komizinoj, kiuj havas nenion por fari, rigardas min,
+diras ion unu al la alia kaj komencas ridi. La plej maljuna momenton
+speguliøas kaj malæifas sian antaýtukon. Æu eble ili pensas ke mi staras
+æi tie por amante konduki fronte al ili?\rim{om ze te komen opvrijen}
+
+\a{16.30}Mi rigardas mian brakhorloøon, turnas la dorson al ili kaj post
+ankoraý iom atendi mi iras vojparton øis apud la Bass Tavern.
+
+\a{16.31}Mi eniras tiun kafejon, æar ankaý tiu policano rigardis min
+kelkfoje, kaj mendas palan elon. Mi trinkas la bieron per unu tiro kaj mi
+igas replenigi mian glason.
+
+\a{16.32}Veni hejmen sen unue klopodi, t\'{\i}o neniel, æar mi ne volas povi
+riproæi min pri io. Ankaý trankvila konscienco indas ion. Kaj krom tio, ne
+estos dirata ke min fortimigis tiuj kvar hundinoj.
+
+\a{16.33}Mia dua glaso estas malplena. Mi rigardas mian korbovalizon, ektenas
+øin kaj iras al la butiko. Sturmatako.
+
+\a{16.34}Dum la preterirado de la vitra montrejo mi momenton fermas miajn
+okulojn por ne vidi kiom da aæetantoj staras. Mi eniras, eæ se starus cent
+kaj mi atendos øis mi trovos eblon por diri tion kion mi volas diri. Se
+bezone mi dume sidiøas sur mian korbon, æar mi ne plu konas honton.
+
+\a{16.35}La butiko estis malplena. Nur tiuj kvar blankaj servistinoj malantaý
+la vendotablo.
+
+\a{16.36}Al kiu el la kvar mi parolu? Rigardi la unu post la alian ne estas
+konsilebla. Tiam mi eble perdas la kapon, æar tiam ili respondas kvarope
+kune.
+
+\a{16.37}Mi turnas min al la plej maljuna kiu ¼us tiel koketis kaj diras ke
+mi venis de Amsterdamo intence por al la sinjoro Platen prezenti la monopolon
+por Antverpeno  de nia krema Edama fromaøo je prezoj pli malaltaj ol æiu
+konkurenco.
+
+\a{16.38}Platen estas sur la montrofenestra vitro. Tio ne eskapis de mi.
+
+\a{16.39}Laý mia propozicio progresas mi vidas þian buþon malfermiøanta
+kaj kiam mi estas finiøanta, þi demandas: `Kion vi diras, sinjoro?'
+
+\a{16.40}Estas stranga, sed se oni venas por vendi, tiam la homoj ne komprenas
+onin.
+
+\a{16.41}Mi nun demandas æu ili volas voki sinjoron, æar per tiu kvarteto mi
+ne progresas. Envenas cetere tri aæetantoj samtempe kaj iom post tio denove
+du. Kaj jen denove komenciøas: `Kion por vi, sinjorino?'
+
+\a{16.42}Ili lasas min staranta, meze de grandaj buloj da butero, korboj
+plenaj de ovoj kaj stakoj de konserva¼oj.
+
+\a{16.43}Jes, la aæetantoj antaýas, nenio estas farebla pri tio.
+
+\a{16.44}Æiufoje tintas la registranta kaso kaj mi aýdas: `dankon,
+sinjorino' þafblekata.
+
+\a{16.45}Mi nun subite demandas æu sinjoro Platen estas hejme, post kio mi
+estas permesate vidi mem en lia oficejo, malantaý la butiko.
+
+\a{16.46}Mi preskaýtuþe pasas preter la butero kaj kaþobservas tra vitra
+pordo. Jes, tie iu sidas. Mi frapas kaj Platen, æar li estis mem, krias:
+`Eniru.'
+
+\a{16.47}Lia oficejo neniel kompareblas kun\rim{kan niet ruiken aan} la mia. Øi
+estas duone oficejo, duone loøoæambro. Eæ estas gaskuirilo. Kiel tiu viro povas
+labori æi tie mi ne komprenas. Æu do tio estas medio por aferisto? Sed estas
+sufiæe da paperoj kaj li þajnas esti multokupata. Li sidas telefonante senjake,
+sen kolumo aý kravato.
+
+\a{16.48}Per rigardo li demandas kion mi deziras, sen malektelefoni. Mi
+signalas ke li povas trankvile daýrigi la telefonadon. kaj post tio li
+demandas pri la celo de mia vizito, æar li devas iri en la urbon kaj ne havas
+tempon.
+
+\a{16.49}Mi rediras tion kion mi diris interne, trankvile kaj kun io
+kviettemperamenta en teniøo kaj voæo. Mi krucigis miajn gambojn.
+
+\a{16.50}Li rigardas min kaj diras: `kvin tunojn.'
+
+\a{16.51}Mi estis konsternita kaj prenis mian fontoplumon, kiam li en la
+telefonon rediris: `Kvin tunojn vi povas akiri por dek kvar frankoj por
+kilogramo.' Nun li malektelefonis, ekstaris kaj komencis surmeti sian kolumon.
+
+\a{16.52}`Por kies konto vi laboras?' demandis Platen, post kio mi diris
+Hornstra.
+
+\a{16.53}`Mi mem estas pograndisto pri fromaøo. Hornstra-n mi bone konas. Mi
+multjare estis lia agento por Belgujo kaj la Grandduklando Luksemburgio, sed
+finfine mi opiniis lin tro multekosta.  Do ne malþparu vian tempon, sinjoro.'
+
+\a{16.54}Do ankaý li æehavis tiun Grandduklandon.
+
+\a{16.55}`Æu vi kuniras?' li aldone\rim{nog??} demandis. `Se vi devas iri al
+la urbo tiam vi povas profiti mian aýton.'
+
+\a{16.56}Kaj tion mi faris, nur tial ke tio estas la plej bona maniero por
+trairi la butikon rigardate de tiuj kvar servistinoj.
+
+\a{16.57}Mi restis sidante en lia veturilo øis li haltis antaý pli malgranda
+fromaøbutiko kaj mem elaýtiøis. Se li estus veturinta al Berlino, mi estus
+kunirinta.
+
+\a{16.58}Mi dankis lin, prenis mian korbovalizon kaj eniris tramon, al hejmo.
+
+\a{16.59}Mia akumulatoro malpleniøis. Mi finsangis.
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{XVII}
+
+\ax{La kesto de Jan}{17.1}Hejme tamen atendis suprizo, æar kiam Jan revenis
+de la lecionoj, li kriis ke li vendis fromaøon.
+
+\a{17.2}`Tutan keston,' asertis li.
+
+\a{17.3}Kaj kiam mi prenis la gazeton, kvazaý mi aýdis nenion, li iris al la
+telefono, formis numeron kaj ekkonversaciis kun unu al siaj kamaradoj. Unue li
+iom þercis angle kaj tiam mi aýdis ke li petis sian amikon voki sian patron
+al la telefono.
+
+\a{17.4}`Kaj iomete rapide, alie morgaý vi ricevos aporkaton per mia
+maldekstra.'
+
+\a{17.5}Kaj iom post tio li kriis: `Paæjo! Paæjo!'
+
+\a{17.6}Li pravis.
+
+\a{17.7}Mi ekinterparolis kun afabla nekonato, kiu diris ke faras al si
+plezuron konatiøi kun la patro de Jan kaj konfirmis ke mi povas liveri tian
+keston de dudek sep.
+
+\a{17.8}`Mi vendis keston, onklo,' kriis Jan kiam mia frato eniris.
+
+\a{17.9}`Bone farinta, knabo. Sed vi antaý æio studegu Grekan kaj Latinon.
+Pri la fromaøo via patro ja zorgas.'
+
+\a{17.10}Tiun keston mi tamen do liveris, por plezurigi tiun patron de la
+amiko de Jan. Mi mem alportis øin per taksio.
+
+\a{17.11}Vespere Jan kaj Ida kverelis.
+
+\a{17.12}Li mokridas pri þi tial ke þi ankoraý nenion vendis. Li kantas:
+`fromaø', fromaø' ' laý la suprenirantaj tonoj de do, sol, mi, do kaj kiam
+þi fine atakas lin, tiam li þin tenas al distanco per siaj longaj brakoj por
+ne esti piedbatata. Øis finfine þi ekploras kaj konfesas ke þi en la
+lernejo ne plu kuraøas paroli pri fromaøo æar oni þin eknomis
+fromaøkampulino.
+
+\a{17.13}Ankaý þi do estis provinta.
+
+\a{17.14}Mi sendas Jan-on en la øardenon kaj kisas þin.
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{XVIII}
+\ax{Rezignado}{18.1}Mi nekapablas labori kaj travivas tiujn lastajn tagojn
+kvazaý en sonøo. Æu mi nun vere ekmalsaniøas?
+
+\a{18.2}¬us min vizitis tiu filo de notario Van der Zijpen, pri kiu Van
+Schoonbeke parolis.
+
+\a{18.3}Tiu estas distingiøa junulo kiu havas proksimume dudek kvin jaron, kiu
+forte odoras kiel cigaredoj kaj ne povas resti starante aý sidante dum minuto
+sen piedfrapetadi danctakton.
+
+\a{18.4}`Sinjoro Laarmans,' parolis li, `mi scias ke vi estas amiko de Albert
+Van Schoonbeke, do øentlemano\rim{øentilhomo}. Mi atendas vian diskretecon.'
+
+\a{18.5}Kion mi povus respondi al tio, precipe en animstato kiel la mia. Mi do
+kapjesetis.
+
+\a{18.6}`Mia patro komplezas fariøi nurpermona kompaniano de via
+Gafpa-entrepreno. Mi kredas ke estas eble eldreni\rim{aftappen} el li ducent
+mil kunportreteta¼ojn\rim{pop}, eble eæ pli.'
+
+\a{18.7}Li dum momento haltis por prezenti al mi cigaredon, mem ekbruligis unu
+kaj rigardis min kvazaý por vidi kiel lia enkonduko impresis min
+
+\a{18.8}`Pluu, sinjoro,' petis mi malvarmete, æar kunportreteta¼oj kaj eldreni
+naýzis min.
+
+\a{18.9}`Nu, {\em plue} æi tio estas tre simpla,' diris li impertinente.
+`Tiam mi fariøos via kompaniano kontraý æiumonata fiksa sumo de kvarmil
+frankoj.  Vi ankaý æiumonate prunteprenas kvarmil, tio estas komprenebla per
+si mem.  Sed mi absolute ne havas talenton por la komerco kaj mi certe ne
+intencas pasigi mian vivon æi tie. Mi do proponas al vi ke vi donos al mi
+æiumonate nur trimil kaj mi subskribos ricevatestojn pri kvarmil, kondiæe ke
+mi ne devu eniri vian oficejon, eæ ne por akiri mian monon.  Mi diros al vi
+kie vi povas alporti øin al mi. Per tiuj ducent mil ni æiuokaze havos sufiæe
+dum du jaroj kaj kiam ili estos elspezitaj, tiam ni plu vidos. Eble ni decidos
+plialtigi la kapitalon. Koncerne mian profitparton, tiun vi donace
+ricevos. Belega propono, æu ne?
+
+\a{18.10}Mi respondis ke mi devas pripensi øin kaj ke mi sciigos mian decidon
+al li tra Van Schoonbeke.
+
+\a{18.11}Kiam li forestis, mi mian feste flagitan geografian karton de
+Belgujo sur kiu æirkaý æiu flageto estis desegnita la fromaøregiono de la
+tie ekloøinta agento, demurigis kaj formetis øin.
+
+\a{18.12}Æu ankoraý unufoje alskribi miajn agentojn?
+
+\a{18.13}Nu, nu, malaperigu tion. Estas tempo ke tiu fromaømizero finiøas.
+
+\a{18.14}Mi havis mil foliojn da letera papero kun Gafpasurskribo. Mi detondis
+la nesurpresitan parton. Tiu povas bone servi al Jan kaj Ida. Kaj la alia
+parteto estas por la necesejo.
+
+\a{18.15}Post tio mi iris al la kelo.
+
+\a{18.16}En la kesto ankoraý estas dek kvin fromaøoj kaj duona.
+Kontrolnombrante: unu restis æe la dogano kaj la Staplokompanio, dua estis
+dividita inter Van Schoonbeke kaj mi; sep buloj kaj duona iris al la amikoj de
+Van Schoonbeke, unu mi donis al tiu almozagento kaj unu al mia bofrato. Dudek
+sep minus dek unu kaj duona. Tio estas øusta. Pri mia akurateco Hornstra ne
+povos plendi.
+
+\a{18.17}Tiu duona bulo tedas\rim{øenas} min. Kial ajn tiu maljuna ulo volis mendi nur
+duonan bulon? Mi prenas la parton en la manon kaj restas þanceliøema.
+Kompletajn bulojn mi povas transdoni, sed ne duonajn. For¼eti estus domaøa.
+
+\a{18.18}Mi aýdas ke mia edzino supreniras sur la þtuparo, supozeble por
+ordigi la litojn. Mi atendas øis þi estas supere, tiam kaþiras senbrue en
+la kuirejon kaj metas la rondan duonan lunon en la þrankon sur teleron, kun
+la kurba¼o supren, kontraý la sekiøado. Poste mi denove iras al la kelo, rapide
+renombras la Edamajn kaj najlfermas la keston. Mi martelas plejeble singarde por
+ne ektimigi mian edzinon. Þi povus pensi pri pendumado.
+
+\a{18.19}Jen, tio ordiøis. Nun oficejen. Portelefonita taksio iom poste
+antaýpordiøas.
+
+\a{18.20}Kun la kesto tiu resta¼o de dek kvin fromaøoj ankoraý pezas pli ol
+tridek kilogramojn. Kaj tamen mi levas de la fundo la monstron, portas øin sur
+la kelan þtuparon kaj tiam tra la koridoro al la strata pordo. Mi malfermas
+kaj la þoforo transprenas la keston. Li penegas por plimalproksimigi øin je
+kvar paþoj, øis en sia veturo.
+
+\a{18.21}Mi iras surmeti mian mantelon, prenas mian æapelon kaj min turnas al
+mia kesto. Sinjorino Peeters, nia najbarino, staras malantaý la fenestro kaj
+sekvas la tutan operacon kun interesiøego. Supere mi vidas mian edzinon
+aperanta malantaý la fenestro.
+
+\a{18.22}Mi deponis la keston en la patentan kelon kaj forsendis la taksion.
+
+\a{18.23}Mia fromaøtestamento fariøis.
+
+\a{18.24}Kio kaýzis, tion mi ne komprenas, sed mia edzino, kiu vidis la
+taksion alveturanta, nenion demandis kaj mia frato þajnas absolute ne plu
+interesiøi pri la venditaj kaj nevenditaj kvantoj. Li parolas pri siaj
+malsanuloj, pri miaj infanoj, pri politiko. Æu eble li interkonsiliøis kun
+mia edzino?
+
+\a{18.25}Kaj tielstate Hornstra venos morgaý.
+
+\a{18.26}La valoro de la kesto de Jan kaj de tiuj dek unu buloj estas preta en
+mia oficejo en koverto.
+
+\a{18.27}Æu mi tamen prefere diru al mia edzino pri kio al ni morgaý okazos? Ne,
+þi havas sen tion jam sufiæon de zorgoj.
+
+\a{18.28}Kiel ajn tiu interparolado kun Hornstra estas naýza al mi, tamen mi
+komencas sopiri øin kiel martiro la liberigantan morton, æar mi imagas ke
+æiutage mia prestiøo de edzo kaj patro plimalgrandiøas. Sed nu, kia
+situacio.\rim{maar wat is dat nu ook voor toestand} Jen mia edzino estas kun
+edzo kiu oficiale estas komizo æe la General Marine sed kiu ludas la rulon de
+Gafpaestro, sekurigita per kuracista atesto. Nervomalsanulo kiu devas sekrete
+kaj nevidate debiti fromaøon, kvazaý tio estus krimo.
+
+\a{18.29}Kaj jen tiuj infanoj. Ili manifestas neniun el la okaza¼oj de ilia
+animo, sed mi certe scias ke ili unu inter la alia priparolas tiun
+senekzemplan fromaøfantazion kiel patologian kazon. Patro devas ja esti
+unuparta io. Æu li estas urbestro, vetperisto, skribisto aý okaza laboristo,
+tio malpli gravas. Sed iu kiu komencas multjare fari sian devon, kio ajn tiu
+devo estas, kaj kiu tiam subite kaj nepetate ekludas opereton kiel mi kun tiu
+fromaøo, æu tiu ankoraý ja estas patro?
+
+\a{18.30}Normala tio certe ne estas. En tia kazo ministro eksiøas kaj
+malaperas el la cirko. Sed edzo kaj patro nur povas eksiøi per sinmortigo.
+Kaj mia frato, kiu tiel subite kaj okulfrape haltis informi pri la irmaniero de
+la debitado. Tiu ekde la komenco sciis kiel øi iros. Kial ajn li tiam ne
+rifuzis doni al mi tiun ateston? Tio estus pli prudenta ol tagon post tagon
+kunporti specimenojn de medikamentoj kiujn neniu bezonas. Tiu kanajlo.  Þajnas
+al mi ke mi aýdas lin diskrete demandanta al mia edzino æu ankoraý ne tio
+finiøis, kiel oni informiøas pri la situacio de mortanto. Kaj þi respondas ke
+mi anticipe forprenis tiun keston el la kelo.
+
+\a{18.31}Timiganta sento de forlasiteco uzurpas min. Kiel ankoraý utilas mia
+familio al mi? Inter ili kaj mi ja estas tiu fromaømuro? Se mi ne estus
+bedaýrinda liberpensulo, mi sendus preøon. Sed æu mi povas nun, en mia
+kvindeka jaro, subite ekpreøadi pro fromaødemando?
+
+\a{18.32}Mi subite pensas pri mia patrino. Kia bonþanco ke þi ne æeestas
+tiun fromaøkatastrofon. Iam, antaý þi disfibrigis kapokon, þi pagus tiujn
+dumil fromaøojn por evitigi æi tiun suferadon al mi.
+
+\a{18.33}Kaj nun mi demandas min æu mi meritas æion. Kial øustadire mi
+jungis min antaý la fromaøveturilo? Æu estas pro tio ke mi estis agitita de
+la deziro plibonigi la sorton de edzino kaj infanoj? Tiu estus nobla, sed tia
+Jesuo Kristo mi ne estas.
+
+\a{18.34}Æu estas por fari pli favoran impreson en tiuj klaæfestoj? Ne pli,
+æar tiu malmulto de vanteco, kiun mi posedas, ne en tiuj festoj povus trovi
+kontenton.
+
+\a{18.35}Sed tiam kial mi faris øin? Mi sentas naýzon pri fromaøo. Mi
+neniam sopiris vendi fromaøon. Eæ jam aæeto de fromaøon malplaæas al mi.
+Sed vagi kun fromaøþarøo kaj petegi øis kristana vivanto malþultrigis de
+oni tiun þarøon, tion mi ne povas. Tiam prefere morta.
+
+\a{18.36}Tiam kial mi faris øin? Æar øi ne estas inkubsonøo sed maldolæa
+realeco. Mi esperis eterne entombigi la fromaøojn en tiun patentan kelon, sed
+ili rompliberigis sin, fantomas antaý miaj okuloj, premas mian animon kaj
+fetoras.
+
+\a{18.37}Mi kredas ke æi æio okazis al mi pro tio ke mi estas tro
+cedema. Kiam Van Schoonbeke demandis al mi æu mi volas fari øin, mi ne
+kuraøis forpuþi lin kaj lian fromaøon for min, kiel mi devis fari.  Kaj pro
+tiu malkuraøeco mi pentofaras. Mia fromaøaflikto estas meritita.
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{XIX}
+\ax{La Vizito de Hornstra}{19.1}La lasta tago komenciøis.
+
+\a{19.2}Mi restis en lito øis la naýa kaj duono kaj malrapide trinkante
+kafon mi fariøis øis la deka kaj duono. Legi la gazeton mi ne povas. Mi do
+migras al mia oficejo kiel hundo, kiu ne scias kion fari, migras al sia ejo.
+Kaj subite mi ekhavas inspira¼on.
+
+\a{19.3}Æu cetere estas ja necese ke mi akceptas Hornstra-n? Tiun malmultan
+monon mi povus sambone sendi perpoþte kaj lia fromaøo estas nedifektita
+en tiu kelo. Kial ne evitigi tiun embarasan scenon al mia edzino?
+
+\a{19.4}Je dek minutoj antaý la dek unua mi sidiøas en nia saloneto apud nia
+strata pordo.
+
+\a{19.5}Eble li tute ne venos. Eblas ke li mortis. Eblas ke li daýrigis sian
+vojaøon al Parizo. Sed tiaokaze oni estus avertinta min, æar tiom frivolaj
+tiuj Holandanoj ne estas.  Li venos pli malfrue, sed li venos.
+
+\a{19.6}Kiel ombro, tiel senbrue subite antaýglitas belega sinjora aýto kaj
+jen la sonorilo sonas.
+
+\a{19.7}Mi tordas mian vizaøon, æar la tintado doloras min, kaj mi
+stariøas.
+
+\a{19.8}Mi aýdas ke mia edzino en la kuirejo metas sitelon kaj iras tra la
+koridoro por malfermi.
+
+\a{19.9}Kiam þi estas ne malproksima de la salona pordo, mi saltas en la
+koridoron kaj baras þian iron. Þi volas preteriri, sed mi forpuþas þin.
+Tiel mi estu  forpuþinta tiun fromaøon.
+
+\a{19.10}`Ne malfermu,' diris mi siblante.
+
+\a{19.11}Þi sovaøiøinte fikse rigardas min, kiel iu kiu senhelpe vidas
+mortigadon. Unuafoje, depost mi renkontis þin antaý tridek jaroj, þi timas.
+
+\a{19.12}Mi vidas nenion plu. Mi ne bezonas diri ion æar þi paliøas kaj
+retirøas en la kuirejon.  Mi iras stari en angulo de l' salono, de kie mi
+povas klare vidi la straton. Kiu rigardas de ekstere al interne nur vidas
+krepuskon. Ankaý mia najbarino kompreneble staras en sia salono, je distanco
+de kelkaj paþoj, tion mi scias.
+
+\a{19.13}La sonorilo nun duafoje sonas. Øia komandanta voæo vibrosonas tra
+mia silenta domo.
+
+\a{19.14}Post iom da atendado mi vidas la þoforon aliranta al la aýto. Li
+diras ion, malfermas la pordon kaj Hornstra eliras sian veturilon. Li surmetas
+kvadratitan vojaøkostumon kun kuloto kaj Angla kaskedo\rim{æapo} kaj
+kondukas hundeton per kondukþnuro.
+
+\a{19.15}Li rigardas mirigite supren mian silentan fasadon, venas al niaj
+fenestroj kaj provas distingi ion interne. Mi aýdas ke li diras ion, sed mi
+komprenas nenion pri tio.
+
+\a{19.16}Jen subite estas sinjorino Peeters.
+
+\a{19.17}Þi mem venas prezenti siajn servojn, æar æe þi Hornstra ne
+sonorigis, alikaze mi tion estus aýdinta.
+
+\a{19.18}Siavice þi premas sian buþaæon kontraý niaj fenestroj, kvazaý
+þi povus malkovri ion, de kio Hornstra vidis nenion. Mi tremas pro abomeno de
+þi. Kaj tamen þi ne meritas tion. Æar kion alian tiu maljuna kompatindulo
+povus fari, dum la tuta longa tago. Þi ne eliras kaj nia strato estas þia
+kinejo, æiufoje kun la sama filmo.
+
+\a{19.19}Nun sinjorino Peeters mem sonorigas. Kaj post ankoraý iom da gestado
+Hornstra havas sian monujon kaj volas donis al þi trinkmonon kiun þi pasie
+rifuzas. Tio evidentiøis per la gestado.
+
+\a{19.20}Þi ne vendis sian animon al Hornstra, sed volis por propra konto
+scii æu mi nun vere ne estas hejme.
+
+\a{19.21}Bone farinta, sinjorino Peeters!
+
+\a{19.22}Se tiu duona bulo ne estas formanøita, tiam mi sendos Ida-n por
+donace doni tiun al þi.
+
+\a{19.23}Nun Hornstra rampas en sian veturilon, kuntrenante sian hundeton. Li
+brufermas la pordon kaj la aýto forekrapidegas same silente kiel kiam øi
+alvenis.
+
+\a{19.24}Mi ankoraý dum momento restas startanta kaj granda rezignacio plenigas
+mian tutan esta¼on. Estas kvazaý mi en lito estas subkovrata per amplena mano.
+
+\a{19.25}Sed mi iru kuirejen.
+
+\a{19.26}Mia edzino staras tie sen fari ion kaj rigardas en nian øardeneton.
+
+\a{19.27}Mi iras al þi kaj æirkaýbrakas þin. Kaj kiam miaj unuaj larmoj
+falas sur þian vetersignitan vizaøon, mi vidas ke þi kontraýploras min.
+
+\a{19.28}Kaj subite la kuirejo estas foririnta. Estas nokto, kaj ni denove
+staras solaj, sen infanoj, en dezerta loko, kiel antaý tridek jaroj, kiam ni
+seræis kvietan loketon por povi pace plori.
+
+\a{19.29}La fromaøturo disfalis.
+
+%--------------------------------------------------------------------------- %
+                       \cxapitro{XX}
+
+\ax{Denove æe la General Marine}{20.1}El la plej profunda profunda¼o mi venas
+al la surfaco kaj spirante faciliøe mi reforøis la malnovan æenon æirkaý mian
+maleolon. Hodiaý mi revenis al la General Marine.
+
+\a{20.2}Post tia malagnosko oni sentas kulpa kaj por ne perdi simpatiojn mi,
+laýcirkonstance, ludis rulon de iu kiu verdire reeklaboris tro frue.
+
+\a{20.3}Sed tio estis superflue. Mi laýlitere estis sturmita kaj fraýlino
+Van der Tak diris ke mi malpravas kaj ke mi prefere restu hejme. Þi
+kompreneble ne scias ke mia salajro ne pagiøas.
+
+\a{20.4}`Nun jen, vi ja rimarkas ke nenio estas same bona por nervomalsanulo
+kiel triktrako,' diris Tuil, kun singarda puþo en miajn lumbojn.
+
+\a{20.5}Ili demandis kiel mi opinias pri la sidado kun la dorso al la
+fenestroj, montris la novajn rulojn de sorbpapero kaj igis min rigardi
+Hamer-on, æar tiu nun surhavas okulvitrojn.
+
+\a{20.6}La maljuna Piet de sia lokomotivo svingsalutis min per sia kaskedo kiel
+frenezulo. Mi iris eksteren, kaj pasie prenis lian nigran manon, kiun æiam
+kovras lubrikoleo. Li kliniøas el sia fera æevalo, skuas mian brakon tiel kiel
+mi iras supren kaj malsupren kaj entuziasme forþovas sian tabakmaæa¼o de la unu
+vango al la alia.
+
+\a{20.7}`Kaj æu la cigaroj estis bonaj?'
+
+\a{20.8}Li eæ ne sciis kion ili donis al mi.
+
+\a{20.9}`Bonegaj Piet. Mi kunportos kelkajn.' Li faras honorante min tri
+kriegojn per sia sireno kaj bonhumore daýrigas sian kvindek milan veturadon
+æirkaý la þipkonstruejo.  Post tio mi denove okupis mian malnovan lokon kaj
+eklaboris.
+
+\a{20.10}Miaj kolegoj donas al mi nur trivialajn mendleteretojn por tajpi kaj
+frapetas mem la longajn konstruplanojn\rim{bestekken prezoprojektojn} kiuj
+estas plenaj de teknikaj terminoj kaj estas iom lacigaj. De fraýlino Van der
+Tak mi ricevas æokoladeton, æiufoje kiam þi mem prenas unu.
+
+\a{20.11}Strange, dum æiuj tiuj jaroj mi ne sciis ke en oficejo povas esti tiel
+intima. Kaj en tiu fromaøo mi devis sufokiøi, dum mi æi tie, inter du
+leteretoj, momenton povas aýskulti internajn voæojn.
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{XXI} 
+
+\ax{La letero al Hornstra}{21.1}Ankoraý\rim{?} la saman vesperon mi skribis al
+Hornstra, ke mi, pro sanaj motivoj, deviøas rezigni pri lia reprezentado por
+Belgujo kaj la Grandduklando Luksemburgio. Mi aldonis ke lia fromaøo estas en
+unu el la patentaj keloj de l' staplokompanio Bluæapeloj kaj ke mi per
+poþtmandato sendis al li la valoron de la forestantaj buloj.  Per tiu letereto
+mi baris mian vojon, æar oni ne povas scii æu mi ne denove ekhavos
+fromaøimpulson.
+
+\a{21.2}Post tri tagoj mi cetere eæ ricevis kuponon de Ren\'e Viaene, mia
+agento en Bruøo, kiu al dek kvar aæetantoj vendis tuton de kvarmil ducent
+kilogramoj.  Æio estis plenigita perfekte: mendodato, nomo kaj adreso de æiu
+aæetanto kaj \'ankaý æiuj aliaj kolumnoj.
+
+\a{21.3}Mi ne povis ne nenial seræi lian peton en mia leterpinæilo. Øi tekstis
+jene: `Mi do provos vendi iomete da fromaøo. Sindone al vi Ren\'e Viaene,
+Rozenhoedkaai 17, Bruøo.' Nenio estis notita sur øi æar mi lin ne venigis pro
+tio ke li estis la sola Bruøano kiu pretis doni siajn servojn.  Bonespere mi estis
+sendinta al li dek kuponojn kiel al la dudek naý aliaj. Mi do neniam scios æu
+li estas maljuna aý juna, þika aý æifona, kun aý sen promenbastono.
+
+\a{21.4}Lian mendon mi transsendis al Hornstra sen iu komentario. Eble mi ja
+ricevos miajn kvin procentojn.  Jes, la sistemo kun tiuj kuponoj bonis, tion
+mi sciis.
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{XXII}
+
+\ax{Klaæfesto}{22.1}Van Schoonbeke telefonis, ja la telefonon mi konservis pro
+tio ke øi ja pagiøis por unu jaro. Li demandis kial mi ne plu venas.  Hornstra
+vizitis lin kaj diris ke li bedaýras ne povi daýrigi kun mi. Li elverþis sian
+kontentecon pro tio ke li retrovis sian fromaøon en tiel bonega kondiæo.
+
+\a{22.2}Æu eble li pensis ke mi manøaæus tiujn dudek tunojn?
+
+\a{22.3}`Ni antverpenanoj almenaý kapablas konservi fromaøon,' diris Van
+Schoonbeke. `Kaj æu vi venos merkredon?'
+
+\a{22.4}Mi do revenis kaj li gratulis min.
+
+\a{22.5}Jen ili denove sidis kune. La sama klaæado, la samaj vizaøoj, sed sen
+tiu maljuna advokato kun sia duona bulo, æar tiu estas mortinta. Anstataý lin
+mi vidas la junan Van der Zijpen sidanta, kiu ankoraý ne scias æu mi estas
+preta eldreni tiujn ducent mil kunportreteta¼ojn.
+
+\a{22.6}Van Schoonbeke kompreneble aýdis de mia frato ke mi reestas sur la
+Þipkonstruejo, sed li nenion diris al siaj amikoj kaj ili daýrigas trakti
+min kiel Gafpaestron.
+
+\a{22.7}La gastiganto prezentas nin unu al la alia: `Sinjoro Van der Zijpen,
+sinjoro Laarmans.'
+
+\a{22.8}Kaj ambaý ni diras: `Agrabla konatiøo.'\rim{is vast een
+standaarduitdrukking voor}
+
+\a{22.9}Post tio Van der Zijpen daýrigas aparta¼on kun sia najbaro kiu
+æiufoje devas ridesplodi.
+
+\a{22.10}`Ne forgesu averti min tuj kiam vi havas sardinojn,' diras tiu viro
+kun siaj dentoj.
+
+\a{22.11}Van der Zijpen rigardas min subridante kaj demandas æu li notu la
+mendon.
+
+%--------------------------------------------------------------------------- %
+                          \cxapitro{XXIII}
+
+\ax{La tombejo}{23.1}Hodiaý mi vizitis la tombon de mia patrino, aý pli øuste
+de miaj gepatroj. Æiujare mi venas sed nun mi plifruigas mian viziton por
+akceli la resaniøadon de mia fromaøvundo.
+
+\a{23.2}La aæetado de tiuj floroj estis same malfacila kiel provizi min per mia
+brokanta skribotablo, æar la floristo havis tri specojn de krisantemoj:
+malgrandaj, mezgrandaj kaj tre, tre grandaj, kiel panoj tiel grandaj. Kaj
+kvankam mi kaþobservis la malgrandajn, tamen li vendis al mi la grandajn,
+estante dek du. Li turnigis æirkaý tion neøblankan paperon kaj tiam metis min
+apud la pordon kun tiu giganta kirlego kiu estas videbla de distanco de
+kilometroj. Kun tiu a¼o tra la urbo, tio ne eblas. Ne, vere, mi ne kapablas
+tion, eæ se tombejovizito estas tiel respektinda.  Tiu troigita florgarbo pli
+ridindigas min ol tiu gipsa Sankta Jozefo. Tian pakon da floroj neniu aæetas,
+kaj oni povas vidi ke mi trompiøis. Do en taksion.
+
+\a{23.3}La tombejo estas senlima afero, dividita en sennuancajn aleojn kiuj nur
+pro la tomboj estas distingeblaj unu de la alia kaj tiam nur per ekzercinta
+okulo. Æefaleo, tria branæaleo al la dekstra, la dua aleeto al la maldekstra.
+
+\a{23.4}Ie æi tie øi estu. Mi iras pli malrapide, en la direkto al nigra fosto
+kiu staras pli malproksime.
+
+\a{23.5}Kien pro la æielo iris tiu tombo? Estas je la maldekstra flanko, tion
+mi certe scias. Familio Jacobs-De Preter. Fraýlino Johanna Maria Vandevelde.
+Al nia amata filineto Gis\`ele.
+
+\a{23.6}Mi ekþvitas pro timego. Kion tiu homo pensu, æar mi nun vidas ke tiu
+fosto estas preøanta virino. Mi vere ne povas demandi al þi æu þi scias
+kie miaj gepatroj kuþas. Kaj kion mi faros se mi subite renkontas æi tie unu
+el miaj fratinoj? Tiu supozeble rimarkos ke mi seræas nian tombon, æar kial
+alie mi iras æi tie kun tiuj floroj? Nu, se tio okazas al mi tiam mi metas
+ilin sur la unuan ajn tombon kaj forkuras. Aý mi diras, `Jen, ankaý vi
+unufoje venis?' Mi kuniras þin modeste kaj tiel alvenos per si mem.
+
+\a{23.7}Kun zumantaj oreloj mi revenas al la æefaleo kaj renombras. La tria
+al la dekstra, la dua al la maldekstra. Mi estas denove en la sama aleeto.
+
+\a{23.8}Tiam plue iri kvazaý mi devas esti al la alia fino de la tombejo. La
+pedunklojn de miaj krizamtemoj mi devas premi al mia brusto, alimaniere la
+floroj trenas preter la tero.
+
+\a{23.9}Mi piedfingre iras malantaý tiu virino kaj subite mi vidas mian
+tombon. Øi kvazaý saltas renkonte al mi. Jen precize apud tiu preøanta
+homo. Kristaan Laarmans kaj Adela van Elst. Dank' al Dio!  Miaj fratinoj nun
+povas veni.
+
+\a{23.10}Estas æi tie nekredeble trankvila. De tempo al tempo guto falas el
+senfolia arbo.
+
+\a{23.11}Forprenu æapelon. Silentu minuton.
+
+\a{23.12}Mi povas esti trankvila. Tiuj kiuj kuþas æi tie nenion aýdis pri
+mia fromaøhistorio, alie cetere patrino  venus al la Gafpa por konsoli
+kaj asisti min.
+
+\a{23.13}Mi singarde metas mian kolosan garbon sur la marmoran tablon, dum
+momento rigardas oblikve al la nigra figuro apud mi, faras ion similan al
+riverenci, resurmetas mian æapelon kaj retiriøas. Pli malproksime kvin
+tombojn mi rigardas malantaýen.
+
+\a{23.14}Mi haltas, kvazaý najlite al la fundo. Kion faras tiu malinda virino
+æe nia tombo? Æu þi volas þteli miajn krizantemojn kaj meti ilin sur sian
+tombon? Tio estus miriga.
+
+\a{23.15}Mi nun vidas ke þi forigas la blankan pakmaterialon kaj la brunruøa
+flora superabundo aperas. Þi disetendas miajn krizantemojn kaj metas ilin
+fronte sur la þtona plato, tiel kiel la nomoj de patro kaj patrino restas
+videbla. Nun þi faras la krucosignon kaj komencas preøi æe {\em mia} tombo.
+
+\a{23.16}Mi kliniøas kaj nevidate mi kaþiras øis en la æefaleo kaj el la
+tombejo.
+
+\a{23.17}Mian taksion mi igas halti sur la angulo de la strato, alimaniere
+mia edzino demandus eksplikon. Mi ja ne plu estas negocisto. Kaj tiu
+tombejovizito eblis facile per la tramo.
+
+%--------------------------------------------------------------------------- %
+                         \cxapitro{XXIV}
+
+\ax{La fino}{24.1}Hejme oni neniam plu parolas pri fromaøo. Eæ Jan menciis
+neniun vorton pri la kesto kiun li tiel brile vendis kaj Ida estas muta kiel
+fiþo. Eble la kompatindulo ankoraý æiam nomiøas fromaøkampulino en la gimnazio.
+
+\a{24.2}Koncerne mian edzinon, tiu zorgas ke neniu fromaøo venu sur la
+tablon. Nur post monataj þi antaýmetis al mi Petit Suisse-on, tia blanka plata
+fromaøo, kiu ne pli similas al Edama ol papilio al serpento.
+
+\a{24.3}Virtaj, karaj infanoj.
+
+\a{24.4}Æarma, amata edzino. \\[3ex]
+
+\begin{center}
+{\em Antverpeno, 1933}
+\end{center}
+
+%---------------------------------------------------------------------------
+\rim{
+literaturo:
+%
+\begin{itemize}
+%
+\item Willem Elsschot -- {\em Verzameld Werk} -- Em. Querido -- Amsterdam 1957
+%
+\item (M) Middelkoop, drs. A.J. -- {\em Nederlands-Esperanto-Nederlands
+prisma woordenboek}  -- Het spectrum -- Utrecht/Antwerpen 1986
+%
+\item (PMEG) Bertilo Wennergren -- {\em Plena Manlibro de Esperanta Gramatiko} --
+\htmladdnormallink{http://purl.oclc.org/NET/pmeg}
+                  {http://purl.oclc.org/NET/pmeg} 1998
+%
+\item (PIV) Waringhien, Prof. G. -- {\em Plena Ilustrita Vortaro de Esperanto}
+   -- Sennacieca Asocio Tutmonda -- Parizo 1987
+%
+\end{itemize}
+}
+%\end{document}
+\newpage
+ \cxapitro{Kelkaj uzitaj neesperanta¼oj}
+{\em Proksimata elparolo de nomoj}:\\[0.2ex]
+\def\pron#1{$[$#1$]$}
+{\scriptsize
+\a{nomoj}\noindent 
+ Adela van Elst: \pron{adela van elst},
+ Anna van der Tak: \pron{ana vandrtak'},
+ Bartherotte: \pron{bartrot},	
+ Bass Tavern: (angla) \pron{bas tevrn} `Baso/Perko/Tilia Basto Drinkejo,'
+ Boorman: \pron{borman},
+ Bruaene: \pron{brian'},
+ Buffon: \pron{bifon}
+ Delaforge: \pron{dlaforø'},,
+ de Lovendegem de Pottelsberghe: \pron{d lovn degm d potlsber¶'},
+ Dupierreux: \pron{dipjerej},
+ Erfurt: \pron{erfurt},
+ Fine: \pron{fin},
+ Frans Laarmans: \pron{frans larmans},
+ Gaffels kaj Parels: \pron{gafls, parls}
+ Gaspard: \pron{gaspa},
+ Gis\`ele: \pron{gizel'}
+ Hamer: \pron{hamr},
+ Hellemans: \pron{helmans},
+ Henri: \pron{henri} ,
+ Hornstra: \pron{hornstra},
+ Ida: \pron{ida},
+ Jacobs-De Preter: \pron{jakops-dpretr},
+ Johanna Maria Vandevelde: \pron{johana marija vandeveld'}
+ Jan Greshoff: \pron{jan ¶reshof/greshof},
+ Jan: \pron{jan}
+ Kristiaan Laarmans: \pron{kristjan larmans},
+ Le soir: (franca) \pron{l svar} `La vespero',
+ Lijmen/Het been: (ned.) \pron{lejmn/'t ben} `Insidekapti/La gambo',
+ Michiel Meeuwissen: \pron{mi¶il' meývisn}
+ Noeninckx: \pron{nuninks},
+ Oscar: \pron{oskar},
+ Peeters: \pron{petrs},
+ Petit Suisse: (franca) \pron{pti svis} `malgranda svisa',
+ Piet; \pron{pit},
+ Platen: \pron{platn},
+ Ren\'e Viaene, Rozenhoedkaai: \pron{rene vian'}\pron{rozn hudkaj},
+ Tuil: \pron{Tajl},
+ Underwood: (angla) \pron{andr ýud},
+ Van der Zijpen: \pron{vanderzejpn},
+ Van Schoonbeke: \pron{vans¶onbek},
+ Verdussenstraat: \pron{verdesnstrat},
+ Villa des Rozes: (franca) \pron{vila de rozs} `Vilao de la rozoj',
+ Willem Elsschot (Alfons de Ridder): \pron{vilm els¶ot}(\pron{alfons d' ridr})
+% Association Professionnelle des Fabricants d'Automobiles
+}
+\\[1.5ex]
+{\em uzitaj neesperantaj esprimoj}:\\[0.2ex]
+{\scriptsize
+\a{neesp.}\noindent
+ ad valorem: (latino) laývalore\\
+ Heýreka!: (greka) Mi trovis! (Ar¶imedo) 
+}
+ \\[1.5ex]
+ {\em novaj neologismoj:}\\[0.2ex]
+ {\scriptsize
+\a{neol.}\noindent aporkato: (anglismo, el `uppercut' \pron{aprkat})
+bokstermino,  suprenpugnofrapo\\
+ biznis-: (anglismo, el `business' \pron{biznis}) komerc-\\
+}
+% Por ambaý, aporkato kaj biznis-, validas ke en la nederlanda la originala
+% angla esprimo utiliøis kaj mi preferis traduki tiujn per æi tiuj novaj
+% neologismoj anstataý la anglaj, æar tio þajnus tro tre neesperante, aý
+% per la ekzistantaj esperantaj esprimoj, æar se tiuj estus bonaj, tiam ankaý
+% la nederlanda uzus nederlandajn esprimojn. }
+
+\newpage
+%----------------------------------------------------------------------------------
+                        \cxapitro{Kelkaj vortoj de Greshoff}
+
+\a{G.}\noindent J. Greshoff: `Oni demandis sin kion Elsschot povus skribi post
+{\em Insidekapti}, se li restus en la sama atmosfero. Kaj jen, post dek jaroj
+li aperigis, plej neatendite, {\em Fromaøo}-n, novan romanon el la
+komercistaro. En tiu nun precipe evidentiøas la valoro de Elsschot kiel homo
+kaj romanverkisto: li restis sama al si mem, lojala al la leøoj de sia naturo,
+kaj tamen kreis libron, kiu estas tute alia ol {\em Insidekapti} kaj preskaý
+æiurilate pli bona. Artisto kiel li ne ripetas sin, æar li, kun sia abomeno de
+æiu profesia verkado, nur devigate de neevitebla interna neceseco povas decidi
+eldiri. {\em Fromaøo} denove estas la simpla rakonto pri afero kiu fariøas
+tragedio, sed kiu æifoje okazas en tute alia nivelo.  La okaza¼oj fariøis multe
+pli intimaj kaj pro tio la tendeco estas pli øenerale homa. Ankaý la rakonto
+mem estas pli konciza ol {\em Insidekapti} kaj pro tio pli rapide kaj pli
+profunde enpenetras la internajn tavolojn de nia animo.'

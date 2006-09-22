@@ -1,0 +1,6 @@
+echo Kreante iksan version...
+espilo iso px < fromagxo.tks > fromtks.fun 
+echo latex2html
+latex2html -split 0 -dir unu_dosiero -address '<a href="mailto:mihxil@esperanto.nu">Michiel Meeuwissen</a>' fromagxo.tex
+rm fromtks.fun
+rm unu_dosiero/index.html
