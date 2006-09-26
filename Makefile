@@ -1,7 +1,7 @@
 
 
 
-fromtex.dvi: fromagxo.tks
+fromtex.dvi: fromagxo.tks fromtex.tex titolpag.tex
 	latehx
 
 fromagxo2.ps:  fromtex.dvi
