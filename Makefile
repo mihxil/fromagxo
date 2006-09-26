@@ -24,21 +24,23 @@ fromagxo-a4.ps:  fromtex-a4.dvi
 	dvips -f fromtex-a4.dvi > fromagxo-a4.ps
 
 fromagxo-a4.ps.gz: fromagxo-a4.ps
-	gzip fromagxo-a4.ps
+	gzip -f fromagxo-a4.ps
 
 fromagxo.ps.gz: fromagxo.ps
-	gzip fromagxo.ps
+	gzip -f fromagxo.ps
 
 fromagxo.pdf:  fromagxotex.tks fromtex-a4.tex titolpag.tex
 	pdflatex fromtex-a4.tex
 	mv fromtex-a4.pdf fromagxo.pdf
 
-fromagxo.html:  fromagxo.tex fromagxox.tks
+fromagxo.html:  fromagxo.tex fromagxox.tks	
 	latex2html -split 4 -no_subdir -address '<a href="mailto:mihxil@gmail.com">Michiel Meeuwissen &lt;mihxil@gmail.com&gt;</a>' fromagxo.tex
+	cp fromagxostyle.css fromagxo.css
 
 unu_dosiero/index.html: fromagxox.tks fromagxo.tex
 	mkdir -p unu_dosiero
 	latex2html -split 0 -dir unu_dosiero -address '<a href="mailto:mihxil@gmail.com">Michiel Meeuwissen</a>' fromagxo.tex
+	cp fromagxostyle.css unu_dosiero/fromagxo.css	
 
 .PHONY: clean
 clean:
