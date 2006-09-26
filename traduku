@@ -1,0 +1,30 @@
+cat $1 | sed '#
+s|</BODY>|<!--#geoguide--></BODY>|g
+s|"previous"|"antauxen"|g
+s|<B> Previous:</|<B> Antauxen:</|g
+s|"next"|"sekven"|g
+s|<B> Next:</|<B> Sekven:</|g
+s|"up"|"cxefpagxen"|g
+s|<B> Up:</|<B> Cxefpagxen:</|g
+s|<B>Up:</|<B> Cxefpagxen:</|g
+s|/usr/share/latex2html/icons/next.png|./next.gif|g
+s|/usr/share/latex2html/icons/up.png|./toc.gif|g
+s|/usr/share/latex2html/icons/previous.png|./prev.gif|g
+s|/usr/share/latex2html/icons/next_gr.png|./next.gif|g
+s|/usr/share/latex2html/icons/up_gr.png|./toc.gif|g
+s|/usr/share/latex2html/icons/previous_gr.png|./prev.gif|g
+s|WIDTH="37"|WIDTH="30"|g
+s|WIDTH="26"|WIDTH="30"|g
+s|WIDTH="63"|WIDTH="30"|g
+s|<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-3">|<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">|g
+s|<ADDRESS>|<hr><ADDRESS>|g
+s|</ADDRESS>|</ADDRESS><hr>\
+Cxu vi trovis erarojn? Sciigu min! (Kaj ne forgesu retadreson se vi volas ke mi povu reagi):<br>\
+<FORM METHOD=POST ACTION="/cgi-bin/homestead/mail.pl?mihxil">\
+<TEXTAREA NAME="teksto:" ROWS=3 COLS=50></TEXTAREA><BR><INPUT TYPE="SUBMIT" VALUE="Sendu">\
+<INPUT TYPE="hidden" NAME="subject" VALUE="FROMAGXO">\
+<INPUT TYPE="hidden" NAME="next-url" VALUE="">\
+</FORM>\
+<hr>|g
+s|About this document|Pri tiu cxi dokumento (angle)|g' > $1.e
+mv $1.e $1
