@@ -6,15 +6,16 @@ s|<B> Next:</|<B> Sekven:</|g
 s|"up"|"cxefpagxen"|g
 s|<B> Up:</|<B> Cxefpagxen:</|g
 s|<B>Up:</|<B> Cxefpagxen:</|g
-s|/usr/share/latex2html/icons/next.png|./next.gif|g
-s|/usr/share/latex2html/icons/up.png|./toc.gif|g
-s|/usr/share/latex2html/icons/previous.png|./prev.gif|g
-s|/usr/share/latex2html/icons/next_gr.png|./next.gif|g
-s|/usr/share/latex2html/icons/up_gr.png|./toc.gif|g
-s|/usr/share/latex2html/icons/previous_gr.png|./prev.gif|g
-s|WIDTH="37"|WIDTH="30"|g
-s|WIDTH="26"|WIDTH="30"|g
-s|WIDTH="63"|WIDTH="30"|g
+s|/usr/share/latex2html/icons/next.png|./next.png|g
+s|/usr/share/latex2html/icons/up.png|./toc.png|g
+s|/usr/share/latex2html/icons/prev.png|./prev.png|g
+s|/usr/share/latex2html/icons/next_gr.png|./next.png|g
+s|/usr/share/latex2html/icons/up_gr.png|./toc.png|g
+s|/usr/share/latex2html/icons/previous_gr.png|./prev.png|g
+s|WIDTH="37"|WIDTH="20"|g
+s|WIDTH="26"|WIDTH="20"|g
+s|WIDTH="63"|WIDTH="20"|g
+s|HEIGHT="24"|WIDTH="21"|g
 s|<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-3">||g
 s|About this document|Pri tiu cxi dokumento (angle)|g' > $1.e
 mv $1.e $1
