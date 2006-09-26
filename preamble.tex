@@ -1,0 +1,24 @@
+\usepackage[esperanto]{babel}
+\usepackage{/usr/local/latex/dotlessj}
+\usepackage{charter}
+\usepackage{/usr/local/latex/sectsty}
+
+\allsectionsfont{\centering}
+\def\cxapitro#1{\section*{#1}}
+
+\def\rrim#1{}
+
+%\def\a#1{(#1)}
+
+\def\rim#1{}  % `rimarko'
+\def\a#1{
+  {\normalsize
+    \hspace*{-5em}\vspace*{-2.5ex}
+    {\tiny \parbox{5em}{\raggedleft\noindent #1}}
+    }
+    \vspace*{2.5ex}
+    }   
+
+\def\ax#1#2{\a{#2}\noindent}
+\title{Fromagxo} 
+\date{ 29a de julio 1999 (provizora versio) }

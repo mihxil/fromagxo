@@ -10,9 +10,6 @@
 %
 %  Bv. sendi al mi ĉiun vian komentarion, pri ĉi tiu teksto.
 %  Michiel Meeuwissen
-%  Warande 39
-%  NL-3705 ZC  ZEIST
-%  +31/30/6952370
 %  mihxil@gmail.com
 %
 %  versio: 25a de aŭgusto 1999
@@ -122,6 +119,7 @@ De via irejo forviŝu la brutojn\\                        %   .-..-..-..-.
 \cleardoublepage
 %-----------------------------------------------------------------------
 \pagestyle{plain}
+
               \cxapitro{Enkonduko}
 
 \a{E.1}\noindent Buffon diris ke la stilo estas la homo mem. Pli koncize kaj
@@ -3426,7 +3424,3 @@ pli intimaj kaj pro tio la tendeco estas pli ĝenerale homa. Ankaŭ la rakonto
 mem estas pli konciza ol {\em Insidekapti} kaj pro tio pli rapide kaj pli
 profunde enpenetras la internajn tavolojn de nia animo.'
 
-%Keep this comment at the end of the file
-%Local variables:
-
-%End:
