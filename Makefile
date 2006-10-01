@@ -9,10 +9,10 @@ fromagxotex.tks: fromagxo.tks
 fromagxox.tks: fromagxo.tks
 	cat fromagxo.tks | konwert utf8-xmetodo > fromagxox.tks	
 
-fromtex.dvi: fromagxotex.tks fromtex.tex titolpag.tex
+fromtex.dvi: fromagxotex.tks fromtex.tex titolpag.tex preamble.tex
 	latex fromtex.tex
 
-fromtex-a4.dvi: fromagxotex.tks fromtex.tex titolpag.tex
+fromtex-a4.dvi: fromagxotex.tks fromtex.tex titolpag.tex preamble.tex
 	latex fromtex-a4.tex
 
 
