@@ -36,7 +36,7 @@ fromagxo.pdf:  fromagxotex.tks fromtex-a4.tex titolpag.tex
 fromagxo.html:  fromagxo.tex fromagxox.tks	
 	latex2html -split 4 -no_subdir -address '<a href="mailto:mihxil@gmail.com">Michiel Meeuwissen &lt;mihxil@gmail.com&gt;</a>' fromagxo.tex
 	cp fromagxostyle.css fromagxo.css
-	traduku.cxiun
+	./traduku.cxiun
 
 unu_dosiero/index.html: fromagxox.tks fromagxo.tex
 	mkdir -p unu_dosiero
