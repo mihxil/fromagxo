@@ -1,11 +1,11 @@
 cat $1 | sed '#
-s|"previous"|"antauxen"|g
-s|<B> Previous:</|<B> Antauxen:</|g
+s|"previous"|"anta^uen"|g
+s|<B> Previous:</|<B> Anta^uen:</|g
 s|"next"|"sekven"|g
 s|<B> Next:</|<B> Sekven:</|g
-s|"up"|"cxefpagxen"|g
-s|<B> Up:</|<B> Cxefpagxen:</|g
-s|<B>Up:</|<B> Cxefpagxen:</|g
+s|"up"|"^cefpa^gen"|g
+s|<B> Up:</|<B> ^Cefpa^gen:</|g
+s|<B>Up:</|<B> ^Cefpa^gen:</|g
 s|/usr/share/latex2html/icons/next.png|./next.png|g
 s|/usr/share/latex2html/icons/up.png|./toc.png|g
 s|/usr/share/latex2html/icons/prev.png|./prev.png|g
@@ -17,5 +17,6 @@ s|WIDTH="26"|WIDTH="20"|g
 s|WIDTH="63"|WIDTH="20"|g
 s|HEIGHT="24"|WIDTH="21"|g
 s|<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-3">||g
-s|About this document|Pri tiu cxi dokumento (angle)|g' > $1.e
-mv $1.e $1
+s|About this document|Pri tiu ^ci dokumento (angle)|g' > $1.e
+konwert antauxcxap-utf8 $1.e  > $1
+rm $1.e
