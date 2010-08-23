@@ -9,9 +9,9 @@ s|<B>Up:</|<B> ^Cefpa^gen:</|g
 s|/usr/share/latex2html/icons/next.png|./next.png|g
 s|/usr/share/latex2html/icons/up.png|./toc.png|g
 s|/usr/share/latex2html/icons/prev.png|./prev.png|g
-s|/usr/share/latex2html/icons/next_gr.png|./next.png|g
-s|/usr/share/latex2html/icons/up_gr.png|./toc.png|g
-s|/usr/share/latex2html/icons/previous_gr.png|./prev.png|g
+s|/usr/share/latex2html/icons/next_g.png|./next_g.png|g
+s|/usr/share/latex2html/icons/up_g.png|./toc.png|g
+s|/usr/share/latex2html/icons/prev_g.png|./prev_g.png|g
 s|WIDTH="37"|WIDTH="20"|g
 s|WIDTH="26"|WIDTH="20"|g
 s|WIDTH="63"|WIDTH="20"|g
