@@ -17,6 +17,8 @@ s|WIDTH="26"|WIDTH="20"|g
 s|WIDTH="63"|WIDTH="20"|g
 s|HEIGHT="24"|WIDTH="21"|g
 s|<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-3">||g
+s|</BODY>|<script src="http://www.google-analytics.com/urchin.js" type="text/javascript"></script><script type="text/javascript">_uacct = "UA-1306697-1";urchinTracker();</script></BODY>|g
 s|About this document|Pri tiu ^ci dokumento (angle)|g' > $1.e
+
 konwert antauxcxap-utf8 $1.e  > $1
 rm $1.e
