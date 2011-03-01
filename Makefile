@@ -1,6 +1,6 @@
 
 .PHONY: all
-all: fromagxo-libreto.ps fromagxo.ps.gz fromagxo.html unu_dosiero/index.html fromagxo-a4.ps fromagxo-a4.ps.gz fromagxo.pdf
+all: fromagxo-libreto.pdf  fromagxo.html unu_dosiero/index.html fromagxo-a4.pdf fromagxo-a5.pdf
 
 
 fromagxotex.tks: fromagxo.tks
@@ -22,22 +22,24 @@ fromagxo-a5-signature.ps: fromagxo-a5.ps
 	psbook -s20 fromagxo-a5.ps fromagxo-a5-signature.ps
 
 fromagxo-libreto.ps:  fromagxo-a5-signature.ps
-	psnup -l -pa4 -2 -s1 fromagxo-a5-signature.ps > fromagxo.ps
+	psnup -d -l -pa4 -Pa5 -2  fromagxo-a5-signature.ps fromagxo-libreto.ps
 #	pstops -pa3 '8:-7(0,0)+0(0,21cm)+-5(14.85cm,0)+2(14.85cm,21cm),1(0,0)+-6(0,21cm)+3(14.85cm,0)+-4(14.85cm,21cm)' fromagxo_.ps fromagxo.ps
 #	pstops "4:-3L@1(29.2cm,0)+0L@1(29.2cm,14.85cm),1R@1(0cm,29.7cm)+-2R@1(0cm,14.85cm)" fromagxo_.ps fromagxo.ps
+
+fromagxo-a5.pdf: fromagxo-a5.ps
+	ps2pdf fromagxo-a5.ps
+
+
+fromagxo-libreto.pdf: fromagxo-libreto.ps
+	ps2pdf fromagxo-libreto.ps
 
 fromagxo-a4.ps:  fromtex-a4.dvi
 	dvips -f fromtex-a4.dvi > fromagxo-a4.ps
 
-fromagxo-a4.ps.gz: fromagxo-a4.ps
-	gzip -c fromagxo-a4.ps  > fromagxo-a4.ps.gz
 
-fromagxo.ps.gz: fromagxo.ps
-	gzip -c fromagxo.ps > fromagxo.ps.gz
-
-fromagxo.pdf:  fromagxotex.tks fromtex-a4.tex titolpag.tex
+fromagxo-a4.pdf:  fromagxotex.tks fromtex-a4.tex titolpag.tex
 	pdflatex fromtex-a4.tex
-	mv fromtex-a4.pdf fromagxo.pdf
+	mv fromtex-a4.pdf fromagxo-a4.pdf
 
 fromagxo.html:  fromtex.tex fromagxox.tks traduku fromagxo.tex Makefile
 	latex2html -split 4 -no_subdir -address '<a href="mailto:michiel.meeuwissen+from@gmail.com">Michiel Meeuwissen &lt;michiel.meeuwissen@gmail.com&gt;</a>' fromagxo.tex

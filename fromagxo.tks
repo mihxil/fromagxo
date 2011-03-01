@@ -18,7 +18,8 @@
 
 %--------------------------------------------------------------------
                    \cxapitro{Antaŭparolo}
-\a{A.1}\noindent La flandro Willem Elsschot (1882-1960) -- pseŭdonimo de
+\pagestyle{empty}
+\a{A.1}La flandro Willem Elsschot (1882-1960) -- pseŭdonimo de
 Alfons de Ridder -- estas unu el la plej konataj Nederlandlingvaj
 antaŭmilitaj verkistoj. Lia verkista stilo estas renoma pro sia koncizeco kaj
 observemo. Sed tamen ĝi estas ofte emocia, kortuŝa aŭ cinika.
@@ -34,11 +35,11 @@ kaj ankaŭ poemojn.
 pri la Nederlanda kritikisto kaj poeto Jan Greshoff, kiu kaŭzis ke Elsschot
 skribis ĉi tiun libron. Due la enkonduko kiu verdire estas eseo pri stilo.  Kaj
 trie la vera rakonto kiu pli malpli estas verkita kiel leteroj de Frans
-Laarmans, kiu ne nur en cxi tiu novelo estas ĉefpersono kaj `alter ego' de la
+Laarmans, kiu ne nur en ĉi tiu novelo estas ĉefpersono kaj `alter ego' de la
 aŭtoro. Tiuj leteroj estas kvazaŭ direktitaj al la leganto kaj temas pri la
 travivaĵoj de Frans Laarmans kiel fromaĝkomercisto.
 
-\a{A.4}Pri la traduko mi volas rimarkigi ke mi nur estas komencanta esperantisto
+\a{A.4}Pri la traduko mi volas rimarkigi ke mi nur estis komencanta esperantisto
 kaj pro tio ĝi certe estas plibonigebla. Tio veras ne nur pri la tradukado
 sed ankaŭ pri la esperanta lingvouzo mem.
 %Mi ne esperantigis la plej multajn nomojn nek akuzativigis ilin. Se franca
@@ -48,9 +49,11 @@ sed ankaŭ pri la esperanta lingvouzo mem.
 %solvo}
 \\[2ex]
 Michiel Meeuwissen $<$mihxil@gmail.com$>$
-\cleardoublepage
+\clearpage
 %-------------------------------------------------------------------------
+\pagenumbering{arabic}
                    \cxapitro{Dediĉo}
+
 \begin{center}
 AL JAN GRESHOFF\\[3ex]
 \rim{Jan Greshoff (1888-1971) estis Nederlanda poeto kaj kritikisto kiu
@@ -122,7 +125,7 @@ De via irejo forviŝu la brutojn\\                        %   .-..-..-..-.
 
               \cxapitro{Enkonduko}
 
-\a{E.1}\noindent Buffon diris ke la stilo estas la homo mem. Pli koncize kaj
+\a{E.1}Buffon diris ke la stilo estas la homo mem. Pli koncize kaj
 pli ĝuste ne eblas diri. Sed sentemulon malmulte helpas tiu slogano, kiu tie
 staras kiel modelo eternigota de ŝtonhakisto. Ĉu tamen oni entute per vortoj
 povas iom komprenigi tion, kio stilo fakte estas?
@@ -551,7 +554,7 @@ en tiu malgranda kuirejo, tiel ke mi ekŝvitis.
 \a{2.29}Por fari ion, mi ekstaris. `Nu, iru do rigardi,' diris mia frato, kiu
 estis kuracisto.
 
-\a{2.30}Li tre normale parolis, ne tro laŭte, sed tamen t\'{\i}el laŭtvoĉe ke
+\a{2.30}Li tre normale parolis, ne tro laŭte, sed tamen {\em  tiel} laŭtvoĉe ke
 mi nun certe sciis ke mia vesperpromenado ne maltrafos sian celon. Mi obeis
 lian konsilon, ĉar mi timis naŭziĝi pro tiu biero, pro la varmego kaj pro la
 etoso en tiu kuirejo. Ili atribuus tion al la emocio, sed imagu ke mi
@@ -1102,7 +1105,7 @@ kuŝis, ĉiuspece formaj kaj de ĉiuj originoj, unu apud kaj unu sur la alia. El
 niaj naj\-bar\-ŝtatoj ili ĉi tie amasiĝis.
 
 \a{5.22}Gigantaj grujeroj, kiel muelŝtonoj, servis kiel fundamento kaj sur tio
-kuŝis Ĉesteraj, Gaŭdaj, Edamaj kaj granda nombro da fromaĝspecoj, kiujn mi tute
+kuŝis Ĉesteraj, Gaŭdaj, Edamaj kaj granda nombro da fro\-maĝ\-specoj, kiujn mi tute
 ne konis, kelkaj el la plej grandaj kun malfermegita ventro kaj nekovritaj
 intestoj. La Rokfortoj kaj Gorgonzoloj diboĉe paradis sian verdan ŝimon kaj
 eskadrono da Kamembertoj libere fluigis sian puson.
@@ -1152,7 +1155,7 @@ lastan servon al la homaro.
 
 \a{5.34}Inter la regulaj manĝogastoj de Van Schoonbeke estis kelkaj
 komercistoj, anticipe du pri grenoj, ĉar pri tio ili jam parolis. Kial fromaĝo
-estu malpreferata al greno? Mi forsorĉos de ili tiun antaŭjuĝon. Tiu, kiu
+estu malpreferata al greno? Mi forsorĉos de ili tiun antaŭ\-juĝon. Tiu, kiu
 perlaboras plejmulte, ja estras, la estonteco alireblas por mi kaj mi firme
 decidis meti mian tutan animon en tiun fromaĝon.
 
@@ -1350,7 +1353,7 @@ trankvila, kun certa salajro.'
                           \cxapitro{VII}
 
 \ax{La atesto}{7.1}La konkludo de nia lasta litkoncilio estis ke estu
-persistata la fromaĝentrepreno sen eksiĝi ĉe la ŝipkonstruejo. Mia edzino diras
+persistata la fromaĝ\-entre\-preno sen eksiĝi ĉe la ŝipkonstruejo. Mia edzino diras
 ke mia frato, la kuracisto, povas aranĝi tion. Tiu organizu\rim{zorgen} ateston
 per kiu mi akiras tri monatojn da forpermeso por satripozi kaj rebonfartiĝi de
 iu ajn malsano, kiun mia frato trovos. Ŝi mem elpenis ĉi tiun solvon.
@@ -1385,7 +1388,7 @@ donas al ni specimenojn de medikamentoj por ĉiuspecaj afekcioj, eltrinkas sian
 glason kaj ree rapide eliras, ĉio en unu spiro.
 
 \a{7.8}Postulis penon igi lin aŭskulti la unuan parton de la
-fromaĝlegendo, ĉar li estas senpacienca, daŭre interrompas kaj nur volas
+fromaĝ\-leg\-endo, ĉar li estas senpacienca, daŭre interrompas kaj nur volas
 scii, kiajn servojn li povas servi pri ĉi ĉio.
 
 \a{7.9}Kiam li aŭdis, ke mia ofico ĉe la General Marine and Shipbuilding
@@ -1442,7 +1445,7 @@ tiuj minacantaj fromaĝoj ĉaspelas min kiel hundon kiu devas naĝi, ĉu ĝi vol
 aŭ ne.
 
 \a{7.27}Ĉi matenon mi turnis min al Hamer\rim{aŭ eble Martelo estus pli
-bona}. Oficiale li estas nia ĉeflibrotenisto, sed realece vera ĉiofaranto
+bona}. Oficiale li estas nia ĉef\-libro\-tenisto, sed realece vera ĉiofaranto
 kiu tre\rim{duoble dubbel en dwars} meritas la konfidon de sinjoro Henri.
 Honeste\rim{Eerlijk gezegd}, viro kun kiu oni povas paroli. Li ekkuŝas sur
 sian kubuton, kondukas la manon al sia dekstra orelo, aŭskultas sen rigardi
@@ -1525,7 +1528,7 @@ ke miaj dosieroj ne estu tuŝataj, ĉar tion mi ne toleros.
 \a{8.8}La ĉambreton tapetis pejzaĝoj, kiuj figuras ĉas- kaj fiŝkaptfestojn
 kaj unue mi intencis gluigi novan paperon. Rigora unutona fundo, sen floroj
 aŭ io ajn, kaj tiam pendigi nenion krom blokkalendaron kaj ekzemple mapon de
-la nederlanda fromaĝregiono. Mi antaŭnelonge vidis rimarkinde koloritan
+la nederlanda fromaĝregiono. Mi antaŭ\-nelonge vidis rimarkinde koloritan
 mapon de la vinregiono ĉirkaŭ Bordozo. Eble io tia ekzistas por la
 fromaĝproduktado. Sed mia edzino opinias ke la tapetado povas atendi ĝis
 miaj aferoj plivastiĝas. `Ĝis bone iras,' diris ŝi ĝustadire. Kaj tial do
@@ -2014,7 +2017,7 @@ Edaman por Van Schoonbeke, ĉar li estas tre sentiva pri afablaĵoj. Gustuminte,
 li ja denove gratulis min kaj diris ke li konservos mian fromaĝon por prezenti
 ĝin al siaj amikoj ĉe la plej proksima festo. Se mi konsentas li zorgos ke mi
 estos kandidato ĉe la venonta elekto de prezidanto de la Sindikato de la Belgaj
-Fromaĝkomercistoj. Kaj nun eklaboru.
+Fromaĝ\-komerc\-istoj. Kaj nun eklaboru.
 
 
 %--------------------------------------------------------------------------- %
@@ -2213,7 +2216,7 @@ saldon al Hornstra. Kaj mem mi eĉ ne kontaktiĝas kun la fromaĝo.
 
 \a{13.12}Mi do enpresigis anoncon: `Granda Edama-fromaĝo-importisto serĉas
 en ĉiuj urboj de la lando kaj de la Grandduklando Luksemburgio kapablajn
-reprezentantojn, prefere kun klientaro inter fromaĝbutikoj. Skribu al Gafpa,
+reprezentantojn, prefere kun klientaro inter fromaĝ\-bu\-tikoj. Skribu al Gafpa,
 Verdussenstraat 170, Antverpeno, deklarante referencojn kaj lastan postenon.'
 
 \a{13.13}La rezulto ne forrestadis.
@@ -2524,7 +2527,7 @@ la gazetaro kaj la klasika interpelacio en la parlamento. Sed estontan jaron,
 ni vidos.' Kaj tiam lia telefono sonoris.
 
 \a{15.22}`La kolombobredistoj devas atendi ĝis mi estas preta kun la
-fromaĝkomercistoj,' diris li krude kaj malektelefonis.
+fromaĝ\-komerc\-istoj,' diris li krude kaj malektelefonis.
 
 \a{15.23}`Sed,' daŭrigis li konsolante, `mi promesas al ni ke mi ne denove
 cedos se niaj propraj fabrikistoj insistos novan plialtigon de dek procentoj.'
@@ -2561,7 +2564,7 @@ opiniis pri malaltigo de kvin procentoj kaj la aliaj kvin sekvontan jaron.
 Estu nun iomete cedema, ĉar ĉion subite mi vere ne kuraĝas preni sur mi.'
 
 \a{15.28}`Konsentite,' diris tiu viro el Gento. Kaj iom post tio mi estis sur
-la trotuaro, ĉirkaŭita de miaj radiantaj fromaĝkamaradoj kiuj manprenis min
+la trotuaro, ĉirkaŭita de miaj radiantaj fromaĝ\-kamaradoj kiuj manprenis min
 kvarope samtempe.
 
 \a{15.29}`Sinjoro Laarmans,' murmuris Dupierreux kortuŝite, `Ni dankas vin.
@@ -2859,7 +2862,7 @@ kapjesetis.
 
 \a{18.6}`Mia patro komplezas fariĝi nurpermona kompaniano de via
 Gafpa-entrepreno. Mi kredas ke estas eble eldreni\rim{aftappen} el li ducent
-mil kunportretetaĵojn\rim{pop}, eble eĉ pli.'
+mil kun\-portret\-et\-aĵojn\rim{pop}, eble eĉ pli.'
 
 \a{18.7}Li dum momento haltis por prezenti al mi cigaredon, mem ekbruligis unu
 kaj rigardis min kvazaŭ por vidi kiel lia enkonduko impresis min
@@ -3282,7 +3285,7 @@ tombojn mi rigardas malantaŭen.
 ĉe nia tombo? Ĉu ŝi volas ŝteli miajn krizantemojn kaj meti ilin sur sian
 tombon? Tio estus miriga.
 
-\a{23.15}Mi nun vidas ke ŝi forigas la blankan pakmaterialon kaj la brunruĝa
+\a{23.15}Mi nun vidas ke ŝi forigas la blankan pakmaterialon kaj la brun\-ruĝa
 flora superabundo aperas. Ŝi disetendas miajn krizantemojn kaj metas ilin
 fronte sur la ŝtona plato, tiel kiel la nomoj de patro kaj patrino restas
 videbla. Nun ŝi faras la krucosignon kaj komencas preĝi ĉe {\em mia} tombo.
@@ -3389,6 +3392,7 @@ prisma woordenboek}  -- Het spectrum -- Utrecht/Antwerpen 1986
 {\scriptsize
 \a{neesp.}\noindent
  ad valorem: (latino) laŭvalore\\
+ journal parl\'e: (franca) novaĵoj (en radio)\\
  Heŭreka!: (greka) Mi trovis! (Arĥimedo)
 }
  \\[1.5ex]
@@ -3408,7 +3412,7 @@ bokstermino,  suprenpugnofrapo\\
 %----------------------------------------------------------------------------------
                         \cxapitro{Kelkaj vortoj de Greshoff}
 
-\a{G.}\noindent J. Greshoff: `Oni demandis sin kion Elsschot povus skribi post
+\a{G.} J. Greshoff: `Oni demandis sin kion Elsschot povus skribi post
 {\em Insidekapti}, se li restus en la sama atmosfero. Kaj jen, post dek jaroj
 li aperigis, plej neatendite, {\em Fromaĝo}-n, novan romanon el la
 komercistaro. En tiu nun precipe evidentiĝas la valoro de Elsschot kiel homo
