@@ -1,7 +1,6 @@
 \usepackage[esperanto]{babel}
 \usepackage{dotlessj}
 \usepackage{charter}
-\usepackage{sectsty}
 
 \usepackage{thumbpdf}
 \usepackage[pdftex]{hyperref}
@@ -19,8 +18,7 @@
   urlcolor=blue,
 }
 
-\allsectionsfont{\centering}
-\def\cxapitro#1{\section*{#1}}
+\def\cxapitro#1{\section*{\centering #1}}
 
 \def\rrim#1{}
 
