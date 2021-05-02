@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 for dosiero in *html
 do
   source "${BASH_SOURCE%/*}"/traduku $dosiero

@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 cat $1 | sed '#
 s|"previous"|"anta^uen"|g
 s|<B> Previous:</|<B> Anta^uen:</|g
