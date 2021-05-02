@@ -48,9 +48,9 @@ fromagxo.html:  fromtex.tex fromagxox.tks traduku fromagxo.tex Makefile
 
 unu_dosiero/index.html: fromagxox.tks fromagxo.tex
 	mkdir -p unu_dosiero
-	latex2html -split 0 -dir unu_dosiero -address '<a href="mailto:michiel.meeuwissen@gmail.com">Michiel Meeuwissen</a>' fromagxo.tex
+	latex2html -split 0 -dir unu_dosiero -address '<a href="mailto:michiel.meeuwissen+from@gmail.com">Michiel Meeuwissen</a>' fromagxo.tex
 	cp fromagxostyle.css unu_dosiero/fromagxo.css
 
 .PHONY: clean
 clean:
-	rm -fr *.dvi *.ps fromtks.fun fromagxotex.tks *.aux node*.html *.log fromagxo_.ps WARNINGS fromagxo.html fromagxo.css *.pl images.tex index.html fromagxox.tks *.gz unu_dosiero *.pdf
+	rm -fr *.dvi *.ps fromtks.fun fromagxotex.tks *.aux node*.html *.log fromagxo_.ps WARNINGS fromagxo.html  *.pl images.tex index.html fromagxox.tks *.gz unu_dosiero *.pdf

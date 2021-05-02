@@ -1,0 +1,16 @@
+= Traduko de 'Kaas'
+
+Jen estas la fonto-kodo de la traduko, kies URL estas http://purl.org/net/mihxil/fromagxo
+
+Ĝia plej grava dosiero estas 'fromagxo.tks', kiu enhavas plejparton de la verdira teksto de la traduko. Ĝi estas en latex-formato, sed uzas unikodon por niaj literoj.
+
+Ĝi estas inkluzivita en diversaj aliaj dosieroj celitaj al publikigatado al diversaj aliaj formatoj, kiaj pdf, html.
+
+== Necesa por tiu konvertado
+
+'make' (brew/apt-get install make)
+'konwert' (https://github.com/taw/konwert, apt-get install konwert)
+'latex' (brew install mactex, apt-get install ?)
+`latex2html (brew/apt-get install latex2html)
+'ghostscript' (brew/apt-get install ghostscripte)
+
