@@ -1,4 +1,0 @@
-for dosiero in *html 
-do 
-  ./8igu $dosiero
-done
