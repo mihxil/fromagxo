@@ -1,4 +1,4 @@
-for dosiero in *html 
-do 
-  ./traduku $dosiero
+for dosiero in *html
+do
+  source "${BASH_SOURCE%/*}"/traduku $dosiero
 done

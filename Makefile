@@ -1,6 +1,6 @@
 
 .PHONY: all
-all: fromagxo-libreto.pdf  fromagxo.html unu_dosiero/index.html fromagxo-a4.pdf fromagxo-a5.pdf
+all: fromagxo-libreto.pdf  fromagxo.html unu_dosiero/index.html fromagxo-a4.pdf fromagxo-a5.pdf fromagxo.epub
 
 
 fromagxotex.tks: fromagxo.tks
@@ -50,6 +50,12 @@ unu_dosiero/index.html: fromagxox.tks fromagxo.tex
 	mkdir -p unu_dosiero
 	latex2html -split 0 -dir unu_dosiero -address '<a href="mailto:michiel.meeuwissen+from@gmail.com">Michiel Meeuwissen</a>' fromagxo.tex
 	cp fromagxostyle.css unu_dosiero/fromagxo.css
+	(cd unu_dosiero ; ../traduku.cxiun )
+
+fromagxo.epub: fromepub.tex
+	pandoc $< -o $@
+
+
 
 .PHONY: clean
 clean:
