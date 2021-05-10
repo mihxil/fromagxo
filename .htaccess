@@ -13,3 +13,5 @@ RewriteCond %{HTTP_HOST} ^mihxil\.komputilo\.org [NC]
 RewriteRule ^(.*) https://meeuw.org/fromagxo/$1 [R=301,L]
 
 RewriteRule   ^fromagxo\.html$  /fromagxo/ [R=301,L]
+
+AddType 'application/epub+zip' epub
