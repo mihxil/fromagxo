@@ -4,9 +4,11 @@ Jen estas la fonto-kodo de la traduko, kies URL estas http://purl.org/net/mihxil
 
 Ĝia plej grava dosiero estas 'fromagxo.tks', kiu enhavas plejparton de la verdira teksto de la traduko. Ĝi estas en latex-formato, sed uzas unikodon por niaj literoj.
 
-Ĝi estas inkluzivita en diversaj aliaj dosieroj celitaj al publikigatado al diversaj aliaj formatoj, kiaj pdf, html.
+Ĝi estas inkluzivita en diversaj aliaj dosieroj celitaj al publikigatado al diversaj aliaj formatoj, kiaj pdf, html, kaj epub.
 
 == Necesa por tiu konvertado
+
+La sekvaj iloj estas uzataj (kaj kiel instali en osx/debianecaj mastrumiloj)
 
 - 'make' (`brew/apt-get install make`)
 - 'konwert' (https://github.com/taw/konwert, `apt-get install konwert`)
@@ -14,4 +16,3 @@ Jen estas la fonto-kodo de la traduko, kies URL estas http://purl.org/net/mihxil
 - `latex2html (`brew/apt-get install latex2html`)
 - 'ghostscript' (`brew/apt-get install ghostscript`)
 - 'pandoc' (`brew/apt-get install pandoc`)
-
