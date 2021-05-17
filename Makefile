@@ -52,6 +52,9 @@ unu_dosiero/index.html: fromagxo_teksto_tex.tex fromagxo.tex
 fromagxo.epub: fromepub.tex fromagxo_teksto_tex.tex
 	pandoc $< -o $@
 
+per-docker:
+	docker run --rm -v `pwd`/..:/laboro mihxil/latex2html:latest make -C /laboro/$(notdir $(CURDIR))
+
 
 .PHONY: clean
 clean:
