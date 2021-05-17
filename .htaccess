@@ -5,6 +5,8 @@ RewriteBase /
 RewriteCond %{HTTP_HOST} ^www\.meeuw\.org [NC]
 RewriteRule ^(.*) https://meeuw.org/fromagxo/$1 [R=301,L]
 
+RewriteCond %{HTTP_HOST} ^.*\michielmeeuwissen\.nl [NC]
+RewriteRule ^(.*) https://meeuw.org/fromagxo/$1 [R=301,L]
 
 RewriteCond %{HTTP_HOST} ^www\.vek\.komputilo\.org [NC]
 RewriteRule ^(.*) https://meeuw.org/fromagxo/$1 [R=301,L]

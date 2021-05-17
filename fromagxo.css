@@ -1,5 +1,5 @@
-@import url(../stilo.css);
-body { 
+@import url(/stilo.css);
+body {
   font-family: sans-serif;
   max-width: 900px;
   margin-left: auto;
