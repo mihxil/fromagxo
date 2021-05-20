@@ -16,3 +16,11 @@ La sekvaj iloj estas uzataj (kaj kiel instali en osx/debianecaj mastrumiloj)
 - `latex2html (`brew/apt-get install latex2html`)
 - 'ghostscript' (`brew/apt-get install ghostscript`)
 - 'pandoc' (`brew/apt-get install pandoc`)
+
+
+Alia eblo estas:
+
+- 'make'
+- 'docker' 
+
+kaj tiam ``make per-docker``
